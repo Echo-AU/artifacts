@@ -50,4 +50,13 @@
 - GUI analyse er et punkt for sig efter risiko analyse, hvor man får review af sin gui. Må godt være mock i starten
 - Mere begrundelse i teknisk analyse
 - Det rige billede i begyndelsen må gerne være for ambitiøst, og så være mindre senere i rapporten efter en moscow analyse
-- Precision må gerne 
+- Precision må gerne
+
+- **A1 - US4:** Flyt over til acceptkriterier for US1
+- **A2 - A/B User stories:** Vi må gerne bruge US-xA og US-xB til og opdele den samme US med forskellige Users + forskellige prioritering
+
+# Feedback
+
+- Evt tilføj en Note! til US omkring oprettelse af Bruger (omhandler Passwork krav)
+- Lav en forklaring på hvad de enkelte Epics gør/ansvar (overordnet)
+- IFK2.1 - gør den mere præcis
