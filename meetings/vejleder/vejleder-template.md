@@ -42,3 +42,12 @@
 2. **Bør user stories med samme scenarie, men forskellige kriterier for succes, gruperes som ex: US-8a og US-8b?**
    - Kontekst: User story 8a og 8b handler begge om at kunne se tilgengælige opgaver, bare fra forskellige udbydere. Så for samhørighedsskyld, har vi kaldt dem 8a og 8b. Men bør de være hver sin user story, så den springer fra 8 til 9?
 
+## Notater fra møde:
+
+- Analyse eksempel (Som Torben viste) forholdte sig meget kort. Styrker, svagheder, relevant for projekt for hvert komponent, og til sidst et resultat. En god pointe fra Torben kan være at lave en lille test på komponenter man er i tvivl om. Hellere en test på lille skala tidligt, end at gå i stå senere fordi det ikke virker som tiltænkt.
+
+- Risikoanalyse har en fin overskuelig risikomatrix med endelige resultater
+- GUI analyse er et punkt for sig efter risiko analyse, hvor man får review af sin gui. Må godt være mock i starten
+- Mere begrundelse i teknisk analyse
+- Det rige billede i begyndelsen må gerne være for ambitiøst, og så være mindre senere i rapporten efter en moscow analyse
+- Precision må gerne 
