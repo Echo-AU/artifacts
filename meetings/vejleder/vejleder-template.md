@@ -1,111 +1,62 @@
 # Mødeagenda med vejleder
 
-**Dato:** [dd-mm-åååå]  
-**Tid:** [xx.xx-xx.xx]  
-**Sted eller mødelink:** [Lokale eller URL]  
-**Deltagere:** [Gruppemedlemmer og vejleder]  
-**Mødeleder:** [Navn]  
-**Referent:** [Navn]
-
-## Formål med mødet
-
-[Beskriv kort mødets primære formål.]
-
-**Efter mødet ønsker vi at være afklaret om:**
-
-- [Ønsket beslutning eller afklaring]
-- [Ønsket faglig feedback]
-- [Næste skridt]
-
-## Kort status siden sidste møde
-
-- **Produkt og krav:** [Kort status]
-- **Teknik og implementation:** [Kort status]
-- **Rapport og metode:** [Kort status]
-- **Blokeringer eller risici:** [Kort status]
+**Dato:** 4-09-2026  
+**Tid:** 12:15  
+**Sted eller mødelink:** Nygaard kælderen  
+**Deltagere:** Rene, Lasse, Torben (vejleder)  
+**Mødeleder:** Rene  
+**Referent:** Lasse
 
 ## Agenda
 
-1. **Status og opfølgning** - [5 min.]
-   - Ansvarlig: [Navn]
-   - Ønsket resultat: [Orientering eller afklaring]
+1. **Status og opfølgning** 
 
-2. **[Prioriteret emne]** - [15 min.]
-   - Ansvarlig: [Navn]
-   - Baggrund: [Kort kontekst]
-   - Ønsket resultat: [Beslutning, feedback eller sparring]
+2. **Review af kravsspec** 
 
-3. **[Prioriteret emne]** - [15 min.]
-   - Ansvarlig: [Navn]
-   - Baggrund: [Kort kontekst]
-   - Ønsket resultat: [Beslutning, feedback eller sparring]
+3. **Opsamling og næste skridt** 
 
-4. **Dokumentreview** - [10 min.]
+## Kort status siden sidste møde
 
-5. **Opsamling og næste skridt** - [5 min.]
+- Foretaget ændringer i kravsspec 
+  - Nedjusteret antal user stories, og ændret epics
+  - Ny aktør kontekst diagram
+  - Lavet ikke funktionelle krav
+  - Lavet FURPS
+  - Lavet Moscow
 
 ## Dokumenter til review
 
-### [Dokumentets titel]
+### "B-Kravspec"
 
-- **Link:** [URL]
-- **Version, afsnit eller sider:** [Angiv præcist]
-- **Reviewfokus:** [Hvad ønsker gruppen feedback på?]
-- **Ønsket feedback senest:** [Dato eller på mødet]
+- **6 sider** 
+- **Reviewfokus:** ændringer i user stories samt epics 
 
-### [Dokumentets titel]
+## Spørgsmål til Torben
 
-- **Link:** [URL]
-- **Version, afsnit eller sider:** [Angiv præcist]
-- **Reviewfokus:** [Hvad ønsker gruppen feedback på?]
-- **Ønsket feedback senest:** [Dato eller på mødet]
+1. **Bør US-04 være et ikke funktionelt krav, eller andet?**
+   - Kontekst: Vi ser der ikke helt som et reelt user krav, da det ikke er i brugerens interesse at blive begrænset i sine handlinger - det er i vores interesse. 
+   - Kunne det være et acceptkritierie til US-01 måske?
+      - "Acceptkriterie: Valget af kontotype definerer brugerens rettigheder på platformen. Systemet skal blokere adgang til endpoints og UI-elementer, der tilhører andre kontotyper"
+      - Må vi i det hele taget anvende "acceptkriterier" 
 
-## Spørgsmål til vejlederen
+2. **Bør user stories med samme scenarie, men forskellige kriterier for succes, gruperes som ex: US-8a og US-8b?**
+   - Kontekst: User story 8a og 8b handler begge om at kunne se tilgengælige opgaver, bare fra forskellige udbydere. Så for samhørighedsskyld, har vi kaldt dem 8a og 8b. Men bør de være hver sin user story, så den springer fra 8 til 9?
 
-1. **[Konkret spørgsmål]**
-   - Kontekst: [Kort nødvendig baggrund]
-   - Vi har brug for: [Beslutning, anbefaling eller validering]
+## Notater fra møde:
 
-2. **[Konkret spørgsmål]**
-   - Kontekst: [Kort nødvendig baggrund]
-   - Vi har brug for: [Beslutning, anbefaling eller validering]
+- Analyse eksempel (Som Torben viste) forholdte sig meget kort. Styrker, svagheder, relevant for projekt for hvert komponent, og til sidst et resultat. En god pointe fra Torben kan være at lave en lille test på komponenter man er i tvivl om. Hellere en test på lille skala tidligt, end at gå i stå senere fordi det ikke virker som tiltænkt.
 
-## Ønskede handlinger fra vejlederen
+- Risikoanalyse har en fin overskuelig risikomatrix med endelige resultater
+- GUI analyse er et punkt for sig efter risiko analyse, hvor man får review af sin gui. Må godt være mock i starten
+- Mere begrundelse i teknisk analyse
+- Det rige billede i begyndelsen må gerne være for ambitiøst, og så være mindre senere i rapporten efter en moscow analyse
+- Precision må gerne
 
-- [ ] [Handling, fx review af et bestemt afsnit] - **Ønsket frist:** [Dato]
-- [ ] [Handling, fx afklaring med en ekstern part] - **Ønsket frist:** [Dato]
+- **A1 - US4:** Flyt over til acceptkriterier for US1
+- **A2 - A/B User stories:** Vi må gerne bruge US-xA og US-xB til og opdele den samme US med forskellige Users + forskellige prioritering
 
----
+# Feedback
 
-## Referat
-
-### Beslutninger
-
-- **[Beslutning]** - [Begrundelse og betydning for projektet]
-- **[Beslutning]** - [Begrundelse og betydning for projektet]
-
-### Opfølgning
-
-- [ ] [Handling] - **Ejer:** [Navn] - **Frist:** [Dato]
-- [ ] [Handling] - **Ejer:** [Navn] - **Frist:** [Dato]
-- [ ] [Handling] - **Ejer:** [Navn] - **Frist:** [Dato]
-
-### Næste møde
-
-- **Forslag til dato:** [dd-mm-åååå]
-- **Foreløbigt fokus:** [Emne eller milepæl]
-
----
-
-## Tekst til mødeindkaldelsen
-
-Hej [vejleders navn]
-
-Vi vil gerne invitere dig til vejledermøde **[dato] kl. [tid]** på **[sted/mødelink]**.
-
-Mødets primære formål er at **[ønsket hovedresultat]**. Ovenfor fremgår agendaen, de dokumenter vi ønsker review på samt de spørgsmål og handlinger, hvor vi gerne vil have dit input.
-
-Materialet er vedlagt eller linket og bedes så vidt muligt gennemgået inden mødet.
-
-Venlig hilsen  
-[Gruppens navne]
+- Evt tilføj en Note! til US omkring oprettelse af Bruger (omhandler Passwork krav)
+- Lav en forklaring på hvad de enkelte Epics gør/ansvar (overordnet)
+- IFK2.1 - gør den mere præcis
