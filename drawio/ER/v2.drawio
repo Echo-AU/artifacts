@@ -1,6 +1,308 @@
 <mxfile host="65bd71144e">
+    <diagram id="relation-audit" name="Relationsoversigt">
+        <mxGraphModel dx="1616" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1180" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="text99" value="Relationsoversigt · 14 forbindelser" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=32;fontColor=#172B4D;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="35" width="1510" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="text100" value="A → B: antal B pr. A. B → A: antal A pr. B. Denne fane bruger min..maks.-tekst.&#xa;Hoveddiagrammet viser de samme krav med Chen-tal og enkelt-/dobbeltlinjer." style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=18;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="97" width="1510" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="rect101" value="" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;fillColor=#E6F0FF;strokeColor=#C6D3E4;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="185" width="1500" height="47" as="geometry"/>
+                </mxCell>
+                <mxCell id="text102" value="ID" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="198" width="50" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="text103" value="A → B" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="130" y="198" width="420" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="text104" value="B pr. A" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="570" y="198" width="100" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="text105" value="A pr. B" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="690" y="198" width="100" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="text106" value="FK-felt → nøgle" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=15;fontColor=#172B4D;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="810" y="198" width="730" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="rect107" value="" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;fillColor=#FFFFFF;strokeColor=#C6D3E4;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="232" width="1500" height="47" as="geometry"/>
+                </mxCell>
+                <mxCell id="text108" value="R01" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="245" width="50" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="text109" value="User → IndividualUser" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="130" y="245" width="420" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="text110" value="0..1" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="570" y="245" width="100" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="text111" value="1" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="690" y="245" width="100" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="text112" value="IndividualUser.user_id → User.id" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=15;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="810" y="245" width="730" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="rect113" value="" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;fillColor=#F5F7FB;strokeColor=#C6D3E4;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="279" width="1500" height="47" as="geometry"/>
+                </mxCell>
+                <mxCell id="text114" value="R02" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="292" width="50" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="text115" value="User → OrganizationUser" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="130" y="292" width="420" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="text116" value="0..1" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="570" y="292" width="100" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="text117" value="1" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="690" y="292" width="100" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="text118" value="OrganizationUser.user_id → User.id" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=15;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="810" y="292" width="730" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="rect119" value="" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;fillColor=#FFFFFF;strokeColor=#C6D3E4;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="326" width="1500" height="47" as="geometry"/>
+                </mxCell>
+                <mxCell id="text120" value="R03" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="339" width="50" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="text121" value="User → UserProfile" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="130" y="339" width="420" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="text122" value="0..1" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="570" y="339" width="100" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="text123" value="1" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="690" y="339" width="100" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="text124" value="UserProfile.user_id → User.id" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=15;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="810" y="339" width="730" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="rect125" value="" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;fillColor=#F5F7FB;strokeColor=#C6D3E4;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="373" width="1500" height="47" as="geometry"/>
+                </mxCell>
+                <mxCell id="text126" value="R04" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="386" width="50" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="text127" value="User → Task" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="130" y="386" width="420" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="text128" value="0..N" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="570" y="386" width="100" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="text129" value="1" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="690" y="386" width="100" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="text130" value="Task.created_by → User.id" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=15;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="810" y="386" width="730" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="rect131" value="" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;fillColor=#FFFFFF;strokeColor=#C6D3E4;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="420" width="1500" height="47" as="geometry"/>
+                </mxCell>
+                <mxCell id="text132" value="R05" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="433" width="50" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="text133" value="Task → PaidTask" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="130" y="433" width="420" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="text134" value="0..1" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="570" y="433" width="100" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="text135" value="1" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="690" y="433" width="100" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="text136" value="PaidTask.task_id → Task.id" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=15;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="810" y="433" width="730" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="rect137" value="" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;fillColor=#F5F7FB;strokeColor=#C6D3E4;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="467" width="1500" height="47" as="geometry"/>
+                </mxCell>
+                <mxCell id="text138" value="R06" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="480" width="50" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="text139" value="Task → OrganizationTask" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="130" y="480" width="420" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="text140" value="0..1" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="570" y="480" width="100" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="text141" value="1" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="690" y="480" width="100" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="text142" value="OrganizationTask.task_id → Task.id" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=15;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="810" y="480" width="730" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="rect143" value="" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;fillColor=#FFFFFF;strokeColor=#C6D3E4;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="514" width="1500" height="47" as="geometry"/>
+                </mxCell>
+                <mxCell id="text144" value="R07" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="527" width="50" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="text145" value="OrganizationUser → OrganizationTask" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="130" y="527" width="420" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="text146" value="0..N" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="570" y="527" width="100" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="text147" value="1" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="690" y="527" width="100" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="text148" value="OrganizationTask.organization_id → OrganizationUser.user_id" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=15;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="810" y="527" width="730" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="rect149" value="" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;fillColor=#F5F7FB;strokeColor=#C6D3E4;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="561" width="1500" height="47" as="geometry"/>
+                </mxCell>
+                <mxCell id="text150" value="R08" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="574" width="50" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="text151" value="Task → TaskApplication" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="130" y="574" width="420" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="text152" value="0..N" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="570" y="574" width="100" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="text153" value="1" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="690" y="574" width="100" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="text154" value="TaskApplication.task_id → Task.id" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=15;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="810" y="574" width="730" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="rect155" value="" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;fillColor=#FFFFFF;strokeColor=#C6D3E4;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="608" width="1500" height="47" as="geometry"/>
+                </mxCell>
+                <mxCell id="text156" value="R09" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="621" width="50" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="text157" value="IndividualUser → TaskApplication" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="130" y="621" width="420" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="text158" value="0..N" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="570" y="621" width="100" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="text159" value="1" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="690" y="621" width="100" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="text160" value="TaskApplication.user_id → IndividualUser.user_id" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=15;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="810" y="621" width="730" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="rect161" value="" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;fillColor=#F5F7FB;strokeColor=#C6D3E4;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="655" width="1500" height="47" as="geometry"/>
+                </mxCell>
+                <mxCell id="text162" value="R10" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="668" width="50" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="text163" value="TaskApplication → TaskParticipant" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="130" y="668" width="420" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="text164" value="0..1" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="570" y="668" width="100" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="text165" value="0..1" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="690" y="668" width="100" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="text166" value="TaskParticipant.application_id → TaskApplication.id [UQ, nullable]" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=15;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="810" y="668" width="730" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="rect167" value="" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;fillColor=#FFFFFF;strokeColor=#C6D3E4;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="702" width="1500" height="47" as="geometry"/>
+                </mxCell>
+                <mxCell id="text168" value="R11" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="715" width="50" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="text169" value="Task → TaskParticipant" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="130" y="715" width="420" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="text170" value="0..N" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="570" y="715" width="100" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="text171" value="1" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="690" y="715" width="100" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="text172" value="TaskParticipant.task_id → Task.id" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=15;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="810" y="715" width="730" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="rect173" value="" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;fillColor=#F5F7FB;strokeColor=#C6D3E4;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="749" width="1500" height="47" as="geometry"/>
+                </mxCell>
+                <mxCell id="text174" value="R12" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="762" width="50" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="text175" value="User → TaskParticipant" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="130" y="762" width="420" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="text176" value="0..N" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="570" y="762" width="100" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="text177" value="1" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="690" y="762" width="100" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="text178" value="TaskParticipant.user_id → User.id" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=15;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="810" y="762" width="730" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="rect179" value="" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;fillColor=#FFFFFF;strokeColor=#C6D3E4;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="796" width="1500" height="47" as="geometry"/>
+                </mxCell>
+                <mxCell id="text180" value="R13" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="809" width="50" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="text181" value="TaskCategory → Task" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="130" y="809" width="420" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="text182" value="0..N" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="570" y="809" width="100" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="text183" value="1" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="690" y="809" width="100" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="text184" value="Task.category_id → TaskCategory.id" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=15;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="810" y="809" width="730" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="rect185" value="" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;fillColor=#F4F7FC;strokeColor=#C6D3E4;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="929" width="735" height="182" as="geometry"/>
+                </mxCell>
+                <mxCell id="text186" value="R10 · sådan fastholdes 0..1 ↔ 0..1" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=20;fontColor=#172B4D;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="944" width="695" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="text187" value="application_id må være NULL; udfyldte værdier skal være unikke.&#xa;FK peger på TaskApplication.id. Derudover kræves ACCEPTED-status&#xa;og samme task_id/user_id på ansøgning og deltager.&#xa;Disse tværgående regler skal håndhæves særskilt i implementeringen." style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=17;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="984" width="695" height="117" as="geometry"/>
+                </mxCell>
+                <mxCell id="rect188" value="" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;fillColor=#F4F7FC;strokeColor=#C6D3E4;" parent="1" vertex="1">
+                    <mxGeometry x="815" y="929" width="735" height="182" as="geometry"/>
+                </mxCell>
+                <mxCell id="text189" value="Afgrænsning" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=20;fontColor=#172B4D;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="835" y="944" width="695" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="text190" value="Der er ikke tilføjet UNIQUE(task_id, user_id) på deltagere eller&#xa;ansøgninger: dette var ikke et angivet krav. PK er id.&#xa;Enum-navne følger eksemplet; PART_ROLE er angivet på hovedfanen.&#xa;Skemaet er en model, ikke en færdig SQL-migration." style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=17;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="835" y="984" width="695" height="117" as="geometry"/>
+                </mxCell>
+                <mxCell id="rect5001" value="" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;fillColor=#F5F7FB;strokeColor=#C6D3E4;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="843" width="1500" height="47" as="geometry"/>
+                </mxCell>
+                <mxCell id="text5002" value="R14" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="856" width="50" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="text5003" value="User → RewardPartner" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="130" y="856" width="420" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="text5004" value="0..1" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="570" y="856" width="100" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="text5005" value="1" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="690" y="856" width="100" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="text5006" value="RewardPartner.user_id → User.id" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=15;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
+                    <mxGeometry x="810" y="856" width="730" height="31" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
     <diagram id="task-platform" name="ER diagram">
-        <mxGraphModel dx="3167" dy="2233" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="3100" pageHeight="2240" math="0" shadow="0">
+        <mxGraphModel dx="1347" dy="642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="3100" pageHeight="2240" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -1132,310 +1434,8 @@
             </root>
         </mxGraphModel>
     </diagram>
-    <diagram id="relation-audit" name="Relationsoversigt">
-        <mxGraphModel dx="950" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1180" math="0" shadow="0">
-            <root>
-                <mxCell id="0"/>
-                <mxCell id="1" parent="0"/>
-                <mxCell id="text99" value="Relationsoversigt · 14 forbindelser" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=32;fontColor=#172B4D;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="50" y="35" width="1510" height="50" as="geometry"/>
-                </mxCell>
-                <mxCell id="text100" value="A → B: antal B pr. A. B → A: antal A pr. B. Denne fane bruger min..maks.-tekst.&#xa;Hoveddiagrammet viser de samme krav med Chen-tal og enkelt-/dobbeltlinjer." style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=18;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="50" y="97" width="1510" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="rect101" value="" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;fillColor=#E6F0FF;strokeColor=#C6D3E4;" parent="1" vertex="1">
-                    <mxGeometry x="50" y="185" width="1500" height="47" as="geometry"/>
-                </mxCell>
-                <mxCell id="text102" value="ID" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="60" y="198" width="50" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="text103" value="A → B" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="130" y="198" width="420" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="text104" value="B pr. A" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="570" y="198" width="100" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="text105" value="A pr. B" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="690" y="198" width="100" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="text106" value="FK-felt → nøgle" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=15;fontColor=#172B4D;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="810" y="198" width="730" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="rect107" value="" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;fillColor=#FFFFFF;strokeColor=#C6D3E4;" parent="1" vertex="1">
-                    <mxGeometry x="50" y="232" width="1500" height="47" as="geometry"/>
-                </mxCell>
-                <mxCell id="text108" value="R01" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="60" y="245" width="50" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="text109" value="User → IndividualUser" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="130" y="245" width="420" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="text110" value="0..1" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="570" y="245" width="100" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="text111" value="1" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="690" y="245" width="100" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="text112" value="IndividualUser.user_id → User.id" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=15;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="810" y="245" width="730" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="rect113" value="" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;fillColor=#F5F7FB;strokeColor=#C6D3E4;" parent="1" vertex="1">
-                    <mxGeometry x="50" y="279" width="1500" height="47" as="geometry"/>
-                </mxCell>
-                <mxCell id="text114" value="R02" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="60" y="292" width="50" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="text115" value="User → OrganizationUser" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="130" y="292" width="420" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="text116" value="0..1" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="570" y="292" width="100" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="text117" value="1" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="690" y="292" width="100" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="text118" value="OrganizationUser.user_id → User.id" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=15;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="810" y="292" width="730" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="rect119" value="" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;fillColor=#FFFFFF;strokeColor=#C6D3E4;" parent="1" vertex="1">
-                    <mxGeometry x="50" y="326" width="1500" height="47" as="geometry"/>
-                </mxCell>
-                <mxCell id="text120" value="R03" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="60" y="339" width="50" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="text121" value="User → UserProfile" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="130" y="339" width="420" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="text122" value="0..1" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="570" y="339" width="100" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="text123" value="1" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="690" y="339" width="100" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="text124" value="UserProfile.user_id → User.id" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=15;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="810" y="339" width="730" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="rect125" value="" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;fillColor=#F5F7FB;strokeColor=#C6D3E4;" parent="1" vertex="1">
-                    <mxGeometry x="50" y="373" width="1500" height="47" as="geometry"/>
-                </mxCell>
-                <mxCell id="text126" value="R04" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="60" y="386" width="50" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="text127" value="User → Task" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="130" y="386" width="420" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="text128" value="0..N" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="570" y="386" width="100" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="text129" value="1" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="690" y="386" width="100" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="text130" value="Task.created_by → User.id" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=15;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="810" y="386" width="730" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="rect131" value="" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;fillColor=#FFFFFF;strokeColor=#C6D3E4;" parent="1" vertex="1">
-                    <mxGeometry x="50" y="420" width="1500" height="47" as="geometry"/>
-                </mxCell>
-                <mxCell id="text132" value="R05" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="60" y="433" width="50" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="text133" value="Task → PaidTask" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="130" y="433" width="420" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="text134" value="0..1" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="570" y="433" width="100" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="text135" value="1" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="690" y="433" width="100" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="text136" value="PaidTask.task_id → Task.id" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=15;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="810" y="433" width="730" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="rect137" value="" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;fillColor=#F5F7FB;strokeColor=#C6D3E4;" parent="1" vertex="1">
-                    <mxGeometry x="50" y="467" width="1500" height="47" as="geometry"/>
-                </mxCell>
-                <mxCell id="text138" value="R06" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="60" y="480" width="50" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="text139" value="Task → OrganizationTask" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="130" y="480" width="420" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="text140" value="0..1" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="570" y="480" width="100" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="text141" value="1" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="690" y="480" width="100" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="text142" value="OrganizationTask.task_id → Task.id" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=15;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="810" y="480" width="730" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="rect143" value="" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;fillColor=#FFFFFF;strokeColor=#C6D3E4;" parent="1" vertex="1">
-                    <mxGeometry x="50" y="514" width="1500" height="47" as="geometry"/>
-                </mxCell>
-                <mxCell id="text144" value="R07" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="60" y="527" width="50" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="text145" value="OrganizationUser → OrganizationTask" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="130" y="527" width="420" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="text146" value="0..N" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="570" y="527" width="100" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="text147" value="1" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="690" y="527" width="100" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="text148" value="OrganizationTask.organization_id → OrganizationUser.user_id" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=15;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="810" y="527" width="730" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="rect149" value="" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;fillColor=#F5F7FB;strokeColor=#C6D3E4;" parent="1" vertex="1">
-                    <mxGeometry x="50" y="561" width="1500" height="47" as="geometry"/>
-                </mxCell>
-                <mxCell id="text150" value="R08" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="60" y="574" width="50" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="text151" value="Task → TaskApplication" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="130" y="574" width="420" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="text152" value="0..N" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="570" y="574" width="100" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="text153" value="1" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="690" y="574" width="100" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="text154" value="TaskApplication.task_id → Task.id" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=15;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="810" y="574" width="730" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="rect155" value="" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;fillColor=#FFFFFF;strokeColor=#C6D3E4;" parent="1" vertex="1">
-                    <mxGeometry x="50" y="608" width="1500" height="47" as="geometry"/>
-                </mxCell>
-                <mxCell id="text156" value="R09" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="60" y="621" width="50" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="text157" value="IndividualUser → TaskApplication" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="130" y="621" width="420" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="text158" value="0..N" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="570" y="621" width="100" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="text159" value="1" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="690" y="621" width="100" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="text160" value="TaskApplication.user_id → IndividualUser.user_id" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=15;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="810" y="621" width="730" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="rect161" value="" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;fillColor=#F5F7FB;strokeColor=#C6D3E4;" parent="1" vertex="1">
-                    <mxGeometry x="50" y="655" width="1500" height="47" as="geometry"/>
-                </mxCell>
-                <mxCell id="text162" value="R10" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="60" y="668" width="50" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="text163" value="TaskApplication → TaskParticipant" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="130" y="668" width="420" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="text164" value="0..1" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="570" y="668" width="100" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="text165" value="0..1" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="690" y="668" width="100" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="text166" value="TaskParticipant.application_id → TaskApplication.id [UQ, nullable]" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=15;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="810" y="668" width="730" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="rect167" value="" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;fillColor=#FFFFFF;strokeColor=#C6D3E4;" parent="1" vertex="1">
-                    <mxGeometry x="50" y="702" width="1500" height="47" as="geometry"/>
-                </mxCell>
-                <mxCell id="text168" value="R11" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="60" y="715" width="50" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="text169" value="Task → TaskParticipant" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="130" y="715" width="420" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="text170" value="0..N" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="570" y="715" width="100" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="text171" value="1" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="690" y="715" width="100" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="text172" value="TaskParticipant.task_id → Task.id" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=15;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="810" y="715" width="730" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="rect173" value="" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;fillColor=#F5F7FB;strokeColor=#C6D3E4;" parent="1" vertex="1">
-                    <mxGeometry x="50" y="749" width="1500" height="47" as="geometry"/>
-                </mxCell>
-                <mxCell id="text174" value="R12" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="60" y="762" width="50" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="text175" value="User → TaskParticipant" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="130" y="762" width="420" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="text176" value="0..N" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="570" y="762" width="100" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="text177" value="1" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="690" y="762" width="100" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="text178" value="TaskParticipant.user_id → User.id" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=15;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="810" y="762" width="730" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="rect179" value="" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;fillColor=#FFFFFF;strokeColor=#C6D3E4;" parent="1" vertex="1">
-                    <mxGeometry x="50" y="796" width="1500" height="47" as="geometry"/>
-                </mxCell>
-                <mxCell id="text180" value="R13" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="60" y="809" width="50" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="text181" value="TaskCategory → Task" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="130" y="809" width="420" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="text182" value="0..N" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="570" y="809" width="100" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="text183" value="1" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="690" y="809" width="100" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="text184" value="Task.category_id → TaskCategory.id" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=15;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="810" y="809" width="730" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="rect185" value="" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;fillColor=#F4F7FC;strokeColor=#C6D3E4;" parent="1" vertex="1">
-                    <mxGeometry x="50" y="929" width="735" height="182" as="geometry"/>
-                </mxCell>
-                <mxCell id="text186" value="R10 · sådan fastholdes 0..1 ↔ 0..1" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=20;fontColor=#172B4D;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="70" y="944" width="695" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="text187" value="application_id må være NULL; udfyldte værdier skal være unikke.&#xa;FK peger på TaskApplication.id. Derudover kræves ACCEPTED-status&#xa;og samme task_id/user_id på ansøgning og deltager.&#xa;Disse tværgående regler skal håndhæves særskilt i implementeringen." style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=17;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="70" y="984" width="695" height="117" as="geometry"/>
-                </mxCell>
-                <mxCell id="rect188" value="" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;fillColor=#F4F7FC;strokeColor=#C6D3E4;" parent="1" vertex="1">
-                    <mxGeometry x="815" y="929" width="735" height="182" as="geometry"/>
-                </mxCell>
-                <mxCell id="text189" value="Afgrænsning" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=20;fontColor=#172B4D;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="835" y="944" width="695" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="text190" value="Der er ikke tilføjet UNIQUE(task_id, user_id) på deltagere eller&#xa;ansøgninger: dette var ikke et angivet krav. PK er id.&#xa;Enum-navne følger eksemplet; PART_ROLE er angivet på hovedfanen.&#xa;Skemaet er en model, ikke en færdig SQL-migration." style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=17;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="835" y="984" width="695" height="117" as="geometry"/>
-                </mxCell>
-                <mxCell id="rect5001" value="" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;fillColor=#F5F7FB;strokeColor=#C6D3E4;" parent="1" vertex="1">
-                    <mxGeometry x="50" y="843" width="1500" height="47" as="geometry"/>
-                </mxCell>
-                <mxCell id="text5002" value="R14" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="60" y="856" width="50" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="text5003" value="User → RewardPartner" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="130" y="856" width="420" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="text5004" value="0..1" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="570" y="856" width="100" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="text5005" value="1" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=16;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="690" y="856" width="100" height="31" as="geometry"/>
-                </mxCell>
-                <mxCell id="text5006" value="RewardPartner.user_id → User.id" style="html=0;fontFamily=Arial;fontColor=#172B4D;fontSize=16;whiteSpace=wrap;shape=rect;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacing=0;fontSize=15;fontColor=#172B4D;fontStyle=0;" parent="1" vertex="1">
-                    <mxGeometry x="810" y="856" width="730" height="31" as="geometry"/>
-                </mxCell>
-            </root>
-        </mxGraphModel>
-    </diagram>
     <diagram id="rewards" name="Rewards">
-        <mxGraphModel dx="950" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="2200" pageHeight="1640" math="0" shadow="0">
+        <mxGraphModel dx="2693" dy="1283" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="2200" pageHeight="1640" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -1926,7 +1926,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="ledger" name="Ledger">
-        <mxGraphModel dx="1625" dy="1675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="2600" pageHeight="2310" math="0" shadow="0">
+        <mxGraphModel dx="3471" dy="1738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="2600" pageHeight="2310" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
