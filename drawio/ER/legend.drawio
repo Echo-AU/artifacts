@@ -1,472 +1,472 @@
 <mxfile host="65bd71144e">
     <diagram id="page1" name="1 · Grundelementer">
-        <mxGraphModel dx="1047" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1180" math="0" shadow="0">
+        <mxGraphModel dx="1922" dy="1182" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1180" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="v1" value="" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#F5F7FB;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;" parent="1" vertex="1">
-                    <mxGeometry width="1200" height="1180" as="geometry"/>
+                <mxCell id="v1" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#F5F7FB;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;" value="" vertex="1">
+                    <mxGeometry height="1180" width="1200" as="geometry"/>
                 </mxCell>
-                <mxCell id="v2" value="ER / LEGEND                                              1 / 4" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=13;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="38" y="25" width="1120" height="24" as="geometry"/>
+                <mxCell id="v2" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=13;fontStyle=1;" value="ER / LEGEND                                              1 / 4" vertex="1">
+                    <mxGeometry height="24" width="1120" x="38" y="25" as="geometry"/>
                 </mxCell>
-                <mxCell id="v3" value="Grundelementer" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=32;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="38" y="57" width="1120" height="52" as="geometry"/>
+                <mxCell id="v3" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=32;fontStyle=1;" value="Grundelementer" vertex="1">
+                    <mxGeometry height="52" width="1120" x="38" y="57" as="geometry"/>
                 </mxCell>
-                <mxCell id="v4" value="Vores variant: entiteter med attributrækker og datatyper, kombineret med Chen-relationer. Klassisk Chen bruger rektangler og attribut-ovaler. PK, FK og datatyper er vores tabeltilføjelser." style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=16;" parent="1" vertex="1">
-                    <mxGeometry x="38" y="114" width="1120" height="66" as="geometry"/>
+                <mxCell id="v4" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=16;" value="Vores variant: entiteter med attributrækker og datatyper, kombineret med Chen-relationer. Klassisk Chen bruger rektangler og attribut-ovaler. PK, FK og datatyper er vores tabeltilføjelser." vertex="1">
+                    <mxGeometry height="66" width="1120" x="38" y="114" as="geometry"/>
                 </mxCell>
-                <mxCell id="v5" value="" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#FFFFFF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=#D5DFED;" parent="1" vertex="1">
-                    <mxGeometry x="38" y="198" width="550" height="282" as="geometry"/>
+                <mxCell id="v5" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#FFFFFF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=#D5DFED;" value="" vertex="1">
+                    <mxGeometry height="282" width="550" x="38" y="198" as="geometry"/>
                 </mxCell>
-                <mxCell id="v6" value="01  Entitet / entitetstype" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=19;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="54" y="210" width="518" height="32" as="geometry"/>
+                <mxCell id="v6" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=19;fontStyle=1;" value="01  Entitet / entitetstype" vertex="1">
+                    <mxGeometry height="32" width="518" x="54" y="210" as="geometry"/>
                 </mxCell>
-                <mxCell id="v7" value="Hvad: en type ting, person eller begreb i systemet. Brug: én boks pr. type; navn øverst, attributter nedenunder." style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=15;" parent="1" vertex="1">
-                    <mxGeometry x="54" y="249" width="518" height="65" as="geometry"/>
+                <mxCell id="v7" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=15;" value="Hvad: en type ting, person eller begreb i systemet. Brug: én boks pr. type; navn øverst, attributter nedenunder." vertex="1">
+                    <mxGeometry height="65" width="518" x="54" y="249" as="geometry"/>
                 </mxCell>
-                <mxCell id="v8" value="user" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#EAF2FF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="191" y="321" width="240" height="30" as="geometry"/>
+                <mxCell id="v8" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#EAF2FF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;fontStyle=1;" value="user" vertex="1">
+                    <mxGeometry height="30" width="240" x="191" y="321" as="geometry"/>
                 </mxCell>
-                <mxCell id="v9" value="" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#FFFFFF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;" parent="1" vertex="1">
-                    <mxGeometry x="191" y="351" width="240" height="24" as="geometry"/>
+                <mxCell id="v9" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#FFFFFF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;" value="" vertex="1">
+                    <mxGeometry height="24" width="240" x="191" y="351" as="geometry"/>
                 </mxCell>
-                <mxCell id="v10" value="PK   id                 UUID" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=13;" parent="1" vertex="1">
-                    <mxGeometry x="196" y="350" width="230" height="24" as="geometry"/>
+                <mxCell id="v10" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=13;" value="PK   id                 UUID" vertex="1">
+                    <mxGeometry height="24" width="230" x="196" y="350" as="geometry"/>
                 </mxCell>
-                <mxCell id="v11" value="" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#FFFFFF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;" parent="1" vertex="1">
-                    <mxGeometry x="191" y="375" width="240" height="24" as="geometry"/>
+                <mxCell id="v11" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#FFFFFF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;" value="" vertex="1">
+                    <mxGeometry height="24" width="240" x="191" y="375" as="geometry"/>
                 </mxCell>
-                <mxCell id="v12" value="       name           TEXT" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=13;" parent="1" vertex="1">
-                    <mxGeometry x="196" y="374" width="230" height="24" as="geometry"/>
+                <mxCell id="v12" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=13;" value="       name           TEXT" vertex="1">
+                    <mxGeometry height="24" width="230" x="196" y="374" as="geometry"/>
                 </mxCell>
-                <mxCell id="v13" value="Eksempel: user beskriver brugere. En bestemt bruger er én forekomst af entitetstypen." style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=14;" parent="1" vertex="1">
-                    <mxGeometry x="54" y="423" width="518" height="49" as="geometry"/>
+                <mxCell id="v13" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=14;" value="Eksempel: user beskriver brugere. En bestemt bruger er én forekomst af entitetstypen." vertex="1">
+                    <mxGeometry height="49" width="518" x="54" y="423" as="geometry"/>
                 </mxCell>
-                <mxCell id="v14" value="" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#FFFFFF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=#D5DFED;" parent="1" vertex="1">
-                    <mxGeometry x="612" y="198" width="550" height="282" as="geometry"/>
+                <mxCell id="v14" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#FFFFFF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=#D5DFED;" value="" vertex="1">
+                    <mxGeometry height="282" width="550" x="612" y="198" as="geometry"/>
                 </mxCell>
-                <mxCell id="v15" value="02  Attribut" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=19;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="628" y="210" width="518" height="32" as="geometry"/>
+                <mxCell id="v15" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=19;fontStyle=1;" value="02  Attribut" vertex="1">
+                    <mxGeometry height="32" width="518" x="628" y="210" as="geometry"/>
                 </mxCell>
-                <mxCell id="v16" value="Hvad: en egenskab ved en entitet. Brug: skriv den som en række i entitetens boks." style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=15;" parent="1" vertex="1">
-                    <mxGeometry x="628" y="249" width="518" height="65" as="geometry"/>
+                <mxCell id="v16" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=15;" value="Hvad: en egenskab ved en entitet. Brug: skriv den som en række i entitetens boks." vertex="1">
+                    <mxGeometry height="65" width="518" x="628" y="249" as="geometry"/>
                 </mxCell>
-                <mxCell id="v17" value="task" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#EAF2FF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="630" y="321" width="220" height="30" as="geometry"/>
+                <mxCell id="v17" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#EAF2FF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;fontStyle=1;" value="task" vertex="1">
+                    <mxGeometry height="30" width="220" x="630" y="321" as="geometry"/>
                 </mxCell>
-                <mxCell id="v18" value="" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#FFFFFF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;" parent="1" vertex="1">
-                    <mxGeometry x="630" y="351" width="220" height="24" as="geometry"/>
+                <mxCell id="v18" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#FFFFFF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;" value="" vertex="1">
+                    <mxGeometry height="24" width="220" x="630" y="351" as="geometry"/>
                 </mxCell>
-                <mxCell id="v19" value="       title              TEXT" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=13;" parent="1" vertex="1">
-                    <mxGeometry x="635" y="350" width="210" height="24" as="geometry"/>
+                <mxCell id="v19" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=13;" value="       title              TEXT" vertex="1">
+                    <mxGeometry height="24" width="210" x="635" y="350" as="geometry"/>
                 </mxCell>
-                <mxCell id="e20" style="endArrow=none;startArrow=none;strokeColor=#5274A6;strokeWidth=1.5;" parent="1" edge="1">
+                <mxCell id="e20" edge="1" parent="1" style="endArrow=none;startArrow=none;strokeColor=#5274A6;strokeWidth=1.5;">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="930" y="356" as="sourcePoint"/>
                         <mxPoint x="970" y="356" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="v21" value="task" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#EAF2FF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;" parent="1" vertex="1">
-                    <mxGeometry x="880" y="333" width="50" height="46" as="geometry"/>
+                <mxCell id="v21" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#EAF2FF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;" value="task" vertex="1">
+                    <mxGeometry height="46" width="50" x="880" y="333" as="geometry"/>
                 </mxCell>
-                <mxCell id="v22" value="" style="shape=ellipse;whiteSpace=wrap;html=0;rounded=0;fillColor=#E8F5EE;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;" parent="1" vertex="1">
-                    <mxGeometry x="970" y="334" width="150" height="44" as="geometry"/>
+                <mxCell id="v22" parent="1" style="shape=ellipse;whiteSpace=wrap;html=0;rounded=0;fillColor=#E8F5EE;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;" value="" vertex="1">
+                    <mxGeometry height="44" width="150" x="970" y="334" as="geometry"/>
                 </mxCell>
-                <mxCell id="v23" value="title" style="shape=ellipse;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="970" y="334" width="150" height="44" as="geometry"/>
+                <mxCell id="v23" parent="1" style="shape=ellipse;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;" value="title" vertex="1">
+                    <mxGeometry height="44" width="150" x="970" y="334" as="geometry"/>
                 </mxCell>
-                <mxCell id="v24" value="Eksempel: title beskriver en task. I klassisk Chen vises attributten som en oval forbundet til entiteten." style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=14;" parent="1" vertex="1">
-                    <mxGeometry x="628" y="423" width="518" height="49" as="geometry"/>
+                <mxCell id="v24" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=14;" value="Eksempel: title beskriver en task. I klassisk Chen vises attributten som en oval forbundet til entiteten." vertex="1">
+                    <mxGeometry height="49" width="518" x="628" y="423" as="geometry"/>
                 </mxCell>
-                <mxCell id="v25" value="" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#FFFFFF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=#D5DFED;" parent="1" vertex="1">
-                    <mxGeometry x="38" y="496" width="550" height="282" as="geometry"/>
+                <mxCell id="v25" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#FFFFFF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=#D5DFED;" value="" vertex="1">
+                    <mxGeometry height="282" width="550" x="38" y="496" as="geometry"/>
                 </mxCell>
-                <mxCell id="v26" value="03  Primærnøgle · PK" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=19;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="54" y="508" width="518" height="32" as="geometry"/>
+                <mxCell id="v26" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=19;fontStyle=1;" value="03  Primærnøgle · PK" vertex="1">
+                    <mxGeometry height="32" width="518" x="54" y="508" as="geometry"/>
                 </mxCell>
-                <mxCell id="v27" value="Hvad: den valgte nøgle, der identificerer hver forekomst. Brug: markér nøglefeltet med PK; værdien er unik og udfyldt." style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=15;" parent="1" vertex="1">
-                    <mxGeometry x="54" y="547" width="518" height="65" as="geometry"/>
+                <mxCell id="v27" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=15;" value="Hvad: den valgte nøgle, der identificerer hver forekomst. Brug: markér nøglefeltet med PK; værdien er unik og udfyldt." vertex="1">
+                    <mxGeometry height="65" width="518" x="54" y="547" as="geometry"/>
                 </mxCell>
-                <mxCell id="v28" value="user" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#EAF2FF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="56" y="619" width="235" height="30" as="geometry"/>
+                <mxCell id="v28" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#EAF2FF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;fontStyle=1;" value="user" vertex="1">
+                    <mxGeometry height="30" width="235" x="56" y="619" as="geometry"/>
                 </mxCell>
-                <mxCell id="v29" value="" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#FFFFFF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;" parent="1" vertex="1">
-                    <mxGeometry x="56" y="649" width="235" height="24" as="geometry"/>
+                <mxCell id="v29" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#FFFFFF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;" value="" vertex="1">
+                    <mxGeometry height="24" width="235" x="56" y="649" as="geometry"/>
                 </mxCell>
-                <mxCell id="v30" value="PK   id                 UUID" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=13;" parent="1" vertex="1">
-                    <mxGeometry x="61" y="648" width="225" height="24" as="geometry"/>
+                <mxCell id="v30" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=13;" value="PK   id                 UUID" vertex="1">
+                    <mxGeometry height="24" width="225" x="61" y="648" as="geometry"/>
                 </mxCell>
-                <mxCell id="v31" value="" style="shape=ellipse;whiteSpace=wrap;html=0;rounded=0;fillColor=#E8F5EE;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;" parent="1" vertex="1">
-                    <mxGeometry x="381" y="629" width="120" height="44" as="geometry"/>
+                <mxCell id="v31" parent="1" style="shape=ellipse;whiteSpace=wrap;html=0;rounded=0;fillColor=#E8F5EE;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;" value="" vertex="1">
+                    <mxGeometry height="44" width="120" x="381" y="629" as="geometry"/>
                 </mxCell>
-                <mxCell id="v32" value="id" style="shape=ellipse;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;fontStyle=4;" parent="1" vertex="1">
-                    <mxGeometry x="381" y="629" width="120" height="44" as="geometry"/>
+                <mxCell id="v32" parent="1" style="shape=ellipse;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;fontStyle=4;" value="id" vertex="1">
+                    <mxGeometry height="44" width="120" x="381" y="629" as="geometry"/>
                 </mxCell>
-                <mxCell id="v33" value="Eksempel: user.id skelner mellem brugere med samme navn. I klassisk Chen understreges nøgleattributten." style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=14;" parent="1" vertex="1">
-                    <mxGeometry x="54" y="721" width="518" height="49" as="geometry"/>
+                <mxCell id="v33" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=14;" value="Eksempel: user.id skelner mellem brugere med samme navn. I klassisk Chen understreges nøgleattributten." vertex="1">
+                    <mxGeometry height="49" width="518" x="54" y="721" as="geometry"/>
                 </mxCell>
-                <mxCell id="v34" value="" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#FFFFFF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=#D5DFED;" parent="1" vertex="1">
-                    <mxGeometry x="612" y="496" width="550" height="282" as="geometry"/>
+                <mxCell id="v34" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#FFFFFF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=#D5DFED;" value="" vertex="1">
+                    <mxGeometry height="282" width="550" x="612" y="496" as="geometry"/>
                 </mxCell>
-                <mxCell id="v35" value="04  Sammensat primærnøgle" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=19;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="628" y="508" width="518" height="32" as="geometry"/>
+                <mxCell id="v35" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=19;fontStyle=1;" value="04  Sammensat primærnøgle" vertex="1">
+                    <mxGeometry height="32" width="518" x="628" y="508" as="geometry"/>
                 </mxCell>
-                <mxCell id="v36" value="Hvad: flere attributter, der tilsammen identificerer en række. Brug: markér alle felter i den fælles nøgle med PK." style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=15;" parent="1" vertex="1">
-                    <mxGeometry x="628" y="547" width="518" height="65" as="geometry"/>
+                <mxCell id="v36" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=15;" value="Hvad: flere attributter, der tilsammen identificerer en række. Brug: markér alle felter i den fælles nøgle med PK." vertex="1">
+                    <mxGeometry height="65" width="518" x="628" y="547" as="geometry"/>
                 </mxCell>
-                <mxCell id="v37" value="task_participant" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#EAF2FF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="730" y="619" width="310" height="30" as="geometry"/>
+                <mxCell id="v37" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#EAF2FF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;fontStyle=1;" value="task_participant" vertex="1">
+                    <mxGeometry height="30" width="310" x="730" y="619" as="geometry"/>
                 </mxCell>
-                <mxCell id="v38" value="" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#FFFFFF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;" parent="1" vertex="1">
-                    <mxGeometry x="730" y="649" width="310" height="24" as="geometry"/>
+                <mxCell id="v38" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#FFFFFF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;" value="" vertex="1">
+                    <mxGeometry height="24" width="310" x="730" y="649" as="geometry"/>
                 </mxCell>
-                <mxCell id="v39" value="PK, FK   task_id        UUID" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=13;" parent="1" vertex="1">
-                    <mxGeometry x="735" y="648" width="300" height="24" as="geometry"/>
+                <mxCell id="v39" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=13;" value="PK, FK   task_id        UUID" vertex="1">
+                    <mxGeometry height="24" width="300" x="735" y="648" as="geometry"/>
                 </mxCell>
-                <mxCell id="v40" value="" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#FFFFFF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;" parent="1" vertex="1">
-                    <mxGeometry x="730" y="673" width="310" height="24" as="geometry"/>
+                <mxCell id="v40" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#FFFFFF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;" value="" vertex="1">
+                    <mxGeometry height="24" width="310" x="730" y="673" as="geometry"/>
                 </mxCell>
-                <mxCell id="v41" value="PK, FK   user_id        UUID" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=13;" parent="1" vertex="1">
-                    <mxGeometry x="735" y="672" width="300" height="24" as="geometry"/>
+                <mxCell id="v41" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=13;" value="PK, FK   user_id        UUID" vertex="1">
+                    <mxGeometry height="24" width="300" x="735" y="672" as="geometry"/>
                 </mxCell>
-                <mxCell id="v42" value="Eksempel: (task_id, user_id) er unik som par, hvis en bruger kun må deltage én gang pr. task." style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=14;" parent="1" vertex="1">
-                    <mxGeometry x="628" y="721" width="518" height="49" as="geometry"/>
+                <mxCell id="v42" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=14;" value="Eksempel: (task_id, user_id) er unik som par, hvis en bruger kun må deltage én gang pr. task." vertex="1">
+                    <mxGeometry height="49" width="518" x="628" y="721" as="geometry"/>
                 </mxCell>
-                <mxCell id="v43" value="" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#FFFFFF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=#D5DFED;" parent="1" vertex="1">
-                    <mxGeometry x="38" y="794" width="550" height="282" as="geometry"/>
+                <mxCell id="v43" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#FFFFFF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=#D5DFED;" value="" vertex="1">
+                    <mxGeometry height="282" width="550" x="38" y="794" as="geometry"/>
                 </mxCell>
-                <mxCell id="v44" value="05  Fremmednøgle · FK" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=19;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="54" y="806" width="518" height="32" as="geometry"/>
+                <mxCell id="v44" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=19;fontStyle=1;" value="05  Fremmednøgle · FK" vertex="1">
+                    <mxGeometry height="32" width="518" x="54" y="806" as="geometry"/>
                 </mxCell>
-                <mxCell id="v45" value="Hvad: et felt, der refererer til en nøgle i en anden tabel. Brug: markér FK og angiv målet; tegn også Chen-relationen." style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=15;" parent="1" vertex="1">
-                    <mxGeometry x="54" y="845" width="518" height="65" as="geometry"/>
+                <mxCell id="v45" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=15;" value="Hvad: et felt, der refererer til en nøgle i en anden tabel. Brug: markér FK og angiv målet; tegn også Chen-relationen." vertex="1">
+                    <mxGeometry height="65" width="518" x="54" y="845" as="geometry"/>
                 </mxCell>
-                <mxCell id="v46" value="task" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#EAF2FF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="121" y="917" width="385" height="30" as="geometry"/>
+                <mxCell id="v46" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#EAF2FF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;fontStyle=1;" value="task" vertex="1">
+                    <mxGeometry height="30" width="385" x="121" y="917" as="geometry"/>
                 </mxCell>
-                <mxCell id="v47" value="" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#FFFFFF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;" parent="1" vertex="1">
-                    <mxGeometry x="121" y="947" width="385" height="24" as="geometry"/>
+                <mxCell id="v47" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#FFFFFF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;" value="" vertex="1">
+                    <mxGeometry height="24" width="385" x="121" y="947" as="geometry"/>
                 </mxCell>
-                <mxCell id="v48" value="PK   id                       UUID" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=13;" parent="1" vertex="1">
-                    <mxGeometry x="126" y="946" width="375" height="24" as="geometry"/>
+                <mxCell id="v48" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=13;" value="PK   id                       UUID" vertex="1">
+                    <mxGeometry height="24" width="375" x="126" y="946" as="geometry"/>
                 </mxCell>
-                <mxCell id="v49" value="" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#FFFFFF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;" parent="1" vertex="1">
-                    <mxGeometry x="121" y="971" width="385" height="24" as="geometry"/>
+                <mxCell id="v49" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#FFFFFF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;" value="" vertex="1">
+                    <mxGeometry height="24" width="385" x="121" y="971" as="geometry"/>
                 </mxCell>
-                <mxCell id="v50" value="FK   created_by          UUID → user.id" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=13;" parent="1" vertex="1">
-                    <mxGeometry x="126" y="970" width="375" height="24" as="geometry"/>
+                <mxCell id="v50" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=13;" value="FK   created_by          UUID → user.id" vertex="1">
+                    <mxGeometry height="24" width="375" x="126" y="970" as="geometry"/>
                 </mxCell>
-                <mxCell id="v51" value="Eksempel: task.created_by refererer til user.id. PK, FK betyder, at samme felt har begge funktioner." style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=14;" parent="1" vertex="1">
-                    <mxGeometry x="54" y="1019" width="518" height="49" as="geometry"/>
+                <mxCell id="v51" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=14;" value="Eksempel: task.created_by refererer til user.id. PK, FK betyder, at samme felt har begge funktioner." vertex="1">
+                    <mxGeometry height="49" width="518" x="54" y="1019" as="geometry"/>
                 </mxCell>
-                <mxCell id="v52" value="" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#FFFFFF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=#D5DFED;" parent="1" vertex="1">
-                    <mxGeometry x="612" y="794" width="550" height="282" as="geometry"/>
+                <mxCell id="v52" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#FFFFFF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=#D5DFED;" value="" vertex="1">
+                    <mxGeometry height="282" width="550" x="612" y="794" as="geometry"/>
                 </mxCell>
-                <mxCell id="v53" value="06  Datatype og domæne / enum" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=19;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="628" y="806" width="518" height="32" as="geometry"/>
+                <mxCell id="v53" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=19;fontStyle=1;" value="06  Datatype og domæne / enum" vertex="1">
+                    <mxGeometry height="32" width="518" x="628" y="806" as="geometry"/>
                 </mxCell>
-                <mxCell id="v54" value="Hvad: typen og de tilladte værdier for en attribut. Brug: datatype i rækken; enum-værdier i en kort note." style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=15;" parent="1" vertex="1">
-                    <mxGeometry x="628" y="845" width="518" height="65" as="geometry"/>
+                <mxCell id="v54" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=15;" value="Hvad: typen og de tilladte værdier for en attribut. Brug: datatype i rækken; enum-værdier i en kort note." vertex="1">
+                    <mxGeometry height="65" width="518" x="628" y="845" as="geometry"/>
                 </mxCell>
-                <mxCell id="v55" value="task" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#EAF2FF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="630" y="917" width="235" height="30" as="geometry"/>
+                <mxCell id="v55" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#EAF2FF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;fontStyle=1;" value="task" vertex="1">
+                    <mxGeometry height="30" width="235" x="630" y="917" as="geometry"/>
                 </mxCell>
-                <mxCell id="v56" value="" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#FFFFFF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;" parent="1" vertex="1">
-                    <mxGeometry x="630" y="947" width="235" height="24" as="geometry"/>
+                <mxCell id="v56" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#FFFFFF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;" value="" vertex="1">
+                    <mxGeometry height="24" width="235" x="630" y="947" as="geometry"/>
                 </mxCell>
-                <mxCell id="v57" value="status   TASK_STATUS" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=13;" parent="1" vertex="1">
-                    <mxGeometry x="635" y="946" width="225" height="24" as="geometry"/>
+                <mxCell id="v57" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=13;" value="status   TASK_STATUS" vertex="1">
+                    <mxGeometry height="24" width="225" x="635" y="946" as="geometry"/>
                 </mxCell>
-                <mxCell id="v58" value="TASK_STATUS = {DRAFT, PUBLISHED,  COMPLETED}" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=15;" parent="1" vertex="1">
-                    <mxGeometry x="890" y="917" width="255" height="90" as="geometry"/>
+                <mxCell id="v58" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=15;" value="TASK_STATUS = {DRAFT, PUBLISHED,  COMPLETED}" vertex="1">
+                    <mxGeometry height="90" width="255" x="890" y="917" as="geometry"/>
                 </mxCell>
-                <mxCell id="v59" value="Eksempel: status må kun være en værdi i TASK_STATUS. Datatyper og enums er tilføjelser til den logiske model." style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=14;" parent="1" vertex="1">
-                    <mxGeometry x="628" y="1019" width="518" height="49" as="geometry"/>
+                <mxCell id="v59" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=14;" value="Eksempel: status må kun være en værdi i TASK_STATUS. Datatyper og enums er tilføjelser til den logiske model." vertex="1">
+                    <mxGeometry height="49" width="518" x="628" y="1019" as="geometry"/>
                 </mxCell>
-                <mxCell id="v60" value="Fælles konvention: tabelform for entiteter · Chen-romber for relationer · ingen pile Eksemplerne viser mulige forretningsregler; vælg reglerne ud fra jeres eget system." style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=13;" parent="1" vertex="1">
-                    <mxGeometry x="38" y="1112" width="1120" height="48" as="geometry"/>
+                <mxCell id="v60" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=13;" value="Fælles konvention: tabelform for entiteter · Chen-romber for relationer · ingen pile Eksemplerne viser mulige forretningsregler; vælg reglerne ud fra jeres eget system." vertex="1">
+                    <mxGeometry height="48" width="1120" x="38" y="1112" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
     <diagram id="page2" name="2 · Relationer">
-        <mxGraphModel dx="1190" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1180" math="0" shadow="0">
+        <mxGraphModel dx="1922" dy="1182" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1180" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="v1" value="" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#F5F7FB;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;" parent="1" vertex="1">
-                    <mxGeometry width="1200" height="1180" as="geometry"/>
+                <mxCell id="v1" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#F5F7FB;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;" value="" vertex="1">
+                    <mxGeometry height="1180" width="1200" as="geometry"/>
                 </mxCell>
-                <mxCell id="v2" value="ER / LEGEND                                              2 / 4" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=13;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="38" y="25" width="1120" height="24" as="geometry"/>
+                <mxCell id="v2" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=13;fontStyle=1;" value="ER / LEGEND                                              2 / 4" vertex="1">
+                    <mxGeometry height="24" width="1120" x="38" y="25" as="geometry"/>
                 </mxCell>
-                <mxCell id="v3" value="Relationer, kardinalitet og deltagelse" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=32;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="38" y="57" width="1120" height="52" as="geometry"/>
+                <mxCell id="v3" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=32;fontStyle=1;" value="Relationer, kardinalitet og deltagelse" vertex="1">
+                    <mxGeometry height="52" width="1120" x="38" y="57" as="geometry"/>
                 </mxCell>
-                <mxCell id="v4" value="Læs to ting hver for sig: 1 / N / M angiver maksimum; linjen angiver minimum. Tallene læses modsat den entitet, du tager udgangspunkt i. Deltagelse læses på entitetens egen linje." style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=16;" parent="1" vertex="1">
-                    <mxGeometry x="38" y="114" width="1120" height="66" as="geometry"/>
+                <mxCell id="v4" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=16;" value="Læs to ting hver for sig: 1 / N / M angiver maksimum; linjen angiver minimum. Tallene læses modsat den entitet, du tager udgangspunkt i. Deltagelse læses på entitetens egen linje." vertex="1">
+                    <mxGeometry height="66" width="1120" x="38" y="114" as="geometry"/>
                 </mxCell>
-                <mxCell id="v5" value="" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#FFFFFF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=#D5DFED;" parent="1" vertex="1">
-                    <mxGeometry x="38" y="198" width="550" height="282" as="geometry"/>
+                <mxCell id="v5" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#FFFFFF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=#D5DFED;" value="" vertex="1">
+                    <mxGeometry height="282" width="550" x="38" y="198" as="geometry"/>
                 </mxCell>
-                <mxCell id="v6" value="07  Relation · rombe" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=19;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="54" y="210" width="518" height="32" as="geometry"/>
+                <mxCell id="v6" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=19;fontStyle=1;" value="07  Relation · rombe" vertex="1">
+                    <mxGeometry height="32" width="518" x="54" y="210" as="geometry"/>
                 </mxCell>
-                <mxCell id="v7" value="Hvad: en sammenhæng mellem entiteter. Brug: navngiv romben med et udsagnsord; forbind uden pile." style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=15;" parent="1" vertex="1">
-                    <mxGeometry x="54" y="249" width="518" height="65" as="geometry"/>
+                <mxCell id="v7" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=15;" value="Hvad: en sammenhæng mellem entiteter. Brug: navngiv romben med et udsagnsord; forbind uden pile." vertex="1">
+                    <mxGeometry height="65" width="518" x="54" y="249" as="geometry"/>
                 </mxCell>
-                <mxCell id="v8" value="user" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#EAF2FF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="56" y="346" width="122" height="48" as="geometry"/>
+                <mxCell id="v8" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#EAF2FF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;fontStyle=1;" value="user" vertex="1">
+                    <mxGeometry height="48" width="122" x="56" y="346" as="geometry"/>
                 </mxCell>
-                <mxCell id="v9" value="opretter" style="shape=rhombus;whiteSpace=wrap;html=0;rounded=0;fillColor=#F0EAFE;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;" parent="1" vertex="1">
-                    <mxGeometry x="260" y="321" width="106" height="98" as="geometry"/>
+                <mxCell id="v9" parent="1" style="shape=rhombus;whiteSpace=wrap;html=0;rounded=0;fillColor=#F0EAFE;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;" value="opretter" vertex="1">
+                    <mxGeometry height="98" width="106" x="260" y="321" as="geometry"/>
                 </mxCell>
-                <mxCell id="v10" value="task" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#EAF2FF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="448" y="346" width="122" height="48" as="geometry"/>
+                <mxCell id="v10" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#EAF2FF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;fontStyle=1;" value="task" vertex="1">
+                    <mxGeometry height="48" width="122" x="448" y="346" as="geometry"/>
                 </mxCell>
-                <mxCell id="e11" style="endArrow=none;startArrow=none;strokeColor=#5274A6;strokeWidth=1.5;" parent="1" edge="1">
+                <mxCell id="e11" edge="1" parent="1" style="endArrow=none;startArrow=none;strokeColor=#5274A6;strokeWidth=1.5;">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="178" y="370" as="sourcePoint"/>
                         <mxPoint x="260" y="370" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="e12" style="endArrow=none;startArrow=none;strokeColor=#5274A6;strokeWidth=1.5;" parent="1" edge="1">
+                <mxCell id="e12" edge="1" parent="1" style="endArrow=none;startArrow=none;strokeColor=#5274A6;strokeWidth=1.5;">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="366" y="370" as="sourcePoint"/>
                         <mxPoint x="448" y="370" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="v13" value="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=15;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="192" y="335" width="55" height="24" as="geometry"/>
+                <mxCell id="v13" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=15;fontStyle=1;" value="1" vertex="1">
+                    <mxGeometry height="24" width="55" x="192" y="335" as="geometry"/>
                 </mxCell>
-                <mxCell id="v14" value="N" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=15;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="389" y="335" width="55" height="24" as="geometry"/>
+                <mxCell id="v14" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=15;fontStyle=1;" value="N" vertex="1">
+                    <mxGeometry height="24" width="55" x="389" y="335" as="geometry"/>
                 </mxCell>
-                <mxCell id="v15" value="Eksempel: user opretter task. En rombe beskriver forholdet; linjerne viser, hvilke entiteter der deltager." style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=14;" parent="1" vertex="1">
-                    <mxGeometry x="54" y="423" width="518" height="49" as="geometry"/>
+                <mxCell id="v15" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=14;" value="Eksempel: user opretter task. En rombe beskriver forholdet; linjerne viser, hvilke entiteter der deltager." vertex="1">
+                    <mxGeometry height="49" width="518" x="54" y="423" as="geometry"/>
                 </mxCell>
-                <mxCell id="v16" value="" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#FFFFFF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=#D5DFED;" parent="1" vertex="1">
-                    <mxGeometry x="612" y="198" width="550" height="282" as="geometry"/>
+                <mxCell id="v16" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#FFFFFF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=#D5DFED;" value="" vertex="1">
+                    <mxGeometry height="282" width="550" x="612" y="198" as="geometry"/>
                 </mxCell>
-                <mxCell id="v17" value="08  Én-til-én · 1:1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=19;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="628" y="210" width="518" height="32" as="geometry"/>
+                <mxCell id="v17" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=19;fontStyle=1;" value="08  Én-til-én · 1:1" vertex="1">
+                    <mxGeometry height="32" width="518" x="628" y="210" as="geometry"/>
                 </mxCell>
-                <mxCell id="v18" value="Hvad: højst én tilknyttet forekomst i hver retning. Brug: skriv 1 ved begge ender; minimum vises med linjen." style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=15;" parent="1" vertex="1">
-                    <mxGeometry x="628" y="249" width="518" height="65" as="geometry"/>
+                <mxCell id="v18" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=15;" value="Hvad: højst én tilknyttet forekomst i hver retning. Brug: skriv 1 ved begge ender; minimum vises med linjen." vertex="1">
+                    <mxGeometry height="65" width="518" x="628" y="249" as="geometry"/>
                 </mxCell>
-                <mxCell id="v19" value="user" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#EAF2FF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="630" y="346" width="122" height="48" as="geometry"/>
+                <mxCell id="v19" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#EAF2FF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;fontStyle=1;" value="user" vertex="1">
+                    <mxGeometry height="48" width="122" x="630" y="346" as="geometry"/>
                 </mxCell>
-                <mxCell id="v20" value="har" style="shape=rhombus;whiteSpace=wrap;html=0;rounded=0;fillColor=#F0EAFE;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;" parent="1" vertex="1">
-                    <mxGeometry x="834" y="321" width="106" height="98" as="geometry"/>
+                <mxCell id="v20" parent="1" style="shape=rhombus;whiteSpace=wrap;html=0;rounded=0;fillColor=#F0EAFE;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;" value="har" vertex="1">
+                    <mxGeometry height="98" width="106" x="834" y="321" as="geometry"/>
                 </mxCell>
-                <mxCell id="v21" value="user_profile" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#EAF2FF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="1022" y="346" width="122" height="48" as="geometry"/>
+                <mxCell id="v21" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#EAF2FF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;fontStyle=1;" value="user_profile" vertex="1">
+                    <mxGeometry height="48" width="122" x="1022" y="346" as="geometry"/>
                 </mxCell>
-                <mxCell id="e22" style="endArrow=none;startArrow=none;strokeColor=#5274A6;strokeWidth=1.5;" parent="1" edge="1">
+                <mxCell id="e22" edge="1" parent="1" style="endArrow=none;startArrow=none;strokeColor=#5274A6;strokeWidth=1.5;">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="752" y="370" as="sourcePoint"/>
                         <mxPoint x="834" y="370" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="e23" style="endArrow=none;startArrow=none;strokeColor=#5274A6;strokeWidth=1.5;" parent="1" edge="1">
+                <mxCell id="e23" edge="1" parent="1" style="endArrow=none;startArrow=none;strokeColor=#5274A6;strokeWidth=1.5;">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="940" y="367" as="sourcePoint"/>
                         <mxPoint x="1022" y="367" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="e24" style="endArrow=none;startArrow=none;strokeColor=#5274A6;strokeWidth=1.5;" parent="1" edge="1">
+                <mxCell id="e24" edge="1" parent="1" style="endArrow=none;startArrow=none;strokeColor=#5274A6;strokeWidth=1.5;">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="940" y="373" as="sourcePoint"/>
                         <mxPoint x="1022" y="373" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="v25" value="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=15;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="766" y="335" width="55" height="24" as="geometry"/>
+                <mxCell id="v25" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=15;fontStyle=1;" value="1" vertex="1">
+                    <mxGeometry height="24" width="55" x="766" y="335" as="geometry"/>
                 </mxCell>
-                <mxCell id="v26" value="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=15;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="963" y="335" width="55" height="24" as="geometry"/>
+                <mxCell id="v26" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=15;fontStyle=1;" value="1" vertex="1">
+                    <mxGeometry height="24" width="55" x="963" y="335" as="geometry"/>
                 </mxCell>
-                <mxCell id="v27" value="Eksempel: en user har højst én profil. Hver profil tilhører præcis én user (dobbeltlinje ved profilen)." style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=14;" parent="1" vertex="1">
-                    <mxGeometry x="628" y="423" width="518" height="49" as="geometry"/>
+                <mxCell id="v27" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=14;" value="Eksempel: en user har højst én profil. Hver profil tilhører præcis én user (dobbeltlinje ved profilen)." vertex="1">
+                    <mxGeometry height="49" width="518" x="628" y="423" as="geometry"/>
                 </mxCell>
-                <mxCell id="v28" value="" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#FFFFFF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=#D5DFED;" parent="1" vertex="1">
-                    <mxGeometry x="38" y="496" width="550" height="282" as="geometry"/>
+                <mxCell id="v28" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#FFFFFF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=#D5DFED;" value="" vertex="1">
+                    <mxGeometry height="282" width="550" x="38" y="496" as="geometry"/>
                 </mxCell>
-                <mxCell id="v29" value="09  Én-til-mange · 1:N" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=19;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="54" y="508" width="518" height="32" as="geometry"/>
+                <mxCell id="v29" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=19;fontStyle=1;" value="09  Én-til-mange · 1:N" vertex="1">
+                    <mxGeometry height="32" width="518" x="54" y="508" as="geometry"/>
                 </mxCell>
-                <mxCell id="v30" value="Hvad: én forekomst kan være knyttet til mange på den anden side. Brug: 1 ved én-siden og N ved mange-siden." style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=15;" parent="1" vertex="1">
-                    <mxGeometry x="54" y="547" width="518" height="65" as="geometry"/>
+                <mxCell id="v30" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=15;" value="Hvad: én forekomst kan være knyttet til mange på den anden side. Brug: 1 ved én-siden og N ved mange-siden." vertex="1">
+                    <mxGeometry height="65" width="518" x="54" y="547" as="geometry"/>
                 </mxCell>
-                <mxCell id="v31" value="user" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#EAF2FF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="56" y="644" width="122" height="48" as="geometry"/>
+                <mxCell id="v31" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#EAF2FF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;fontStyle=1;" value="user" vertex="1">
+                    <mxGeometry height="48" width="122" x="56" y="644" as="geometry"/>
                 </mxCell>
-                <mxCell id="v32" value="opretter" style="shape=rhombus;whiteSpace=wrap;html=0;rounded=0;fillColor=#F0EAFE;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;" parent="1" vertex="1">
-                    <mxGeometry x="260" y="619" width="106" height="98" as="geometry"/>
+                <mxCell id="v32" parent="1" style="shape=rhombus;whiteSpace=wrap;html=0;rounded=0;fillColor=#F0EAFE;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;" value="opretter" vertex="1">
+                    <mxGeometry height="98" width="106" x="260" y="619" as="geometry"/>
                 </mxCell>
-                <mxCell id="v33" value="task" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#EAF2FF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="448" y="644" width="122" height="48" as="geometry"/>
+                <mxCell id="v33" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#EAF2FF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;fontStyle=1;" value="task" vertex="1">
+                    <mxGeometry height="48" width="122" x="448" y="644" as="geometry"/>
                 </mxCell>
-                <mxCell id="e34" style="endArrow=none;startArrow=none;strokeColor=#5274A6;strokeWidth=1.5;" parent="1" edge="1">
+                <mxCell id="e34" edge="1" parent="1" style="endArrow=none;startArrow=none;strokeColor=#5274A6;strokeWidth=1.5;">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="178" y="668" as="sourcePoint"/>
                         <mxPoint x="260" y="668" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="e35" style="endArrow=none;startArrow=none;strokeColor=#5274A6;strokeWidth=1.5;" parent="1" edge="1">
+                <mxCell id="e35" edge="1" parent="1" style="endArrow=none;startArrow=none;strokeColor=#5274A6;strokeWidth=1.5;">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="366" y="665" as="sourcePoint"/>
                         <mxPoint x="448" y="665" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="e36" style="endArrow=none;startArrow=none;strokeColor=#5274A6;strokeWidth=1.5;" parent="1" edge="1">
+                <mxCell id="e36" edge="1" parent="1" style="endArrow=none;startArrow=none;strokeColor=#5274A6;strokeWidth=1.5;">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="366" y="671" as="sourcePoint"/>
                         <mxPoint x="448" y="671" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="v37" value="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=15;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="192" y="633" width="55" height="24" as="geometry"/>
+                <mxCell id="v37" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=15;fontStyle=1;" value="1" vertex="1">
+                    <mxGeometry height="24" width="55" x="192" y="633" as="geometry"/>
                 </mxCell>
-                <mxCell id="v38" value="N" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=15;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="389" y="633" width="55" height="24" as="geometry"/>
+                <mxCell id="v38" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=15;fontStyle=1;" value="N" vertex="1">
+                    <mxGeometry height="24" width="55" x="389" y="633" as="geometry"/>
                 </mxCell>
-                <mxCell id="v39" value="Eksempel: en user kan oprette mange tasks. Hver task har præcis én opretter (dobbeltlinje ved task)." style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=14;" parent="1" vertex="1">
-                    <mxGeometry x="54" y="721" width="518" height="49" as="geometry"/>
+                <mxCell id="v39" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=14;" value="Eksempel: en user kan oprette mange tasks. Hver task har præcis én opretter (dobbeltlinje ved task)." vertex="1">
+                    <mxGeometry height="49" width="518" x="54" y="721" as="geometry"/>
                 </mxCell>
-                <mxCell id="v40" value="" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#FFFFFF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=#D5DFED;" parent="1" vertex="1">
-                    <mxGeometry x="612" y="496" width="550" height="282" as="geometry"/>
+                <mxCell id="v40" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#FFFFFF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=#D5DFED;" value="" vertex="1">
+                    <mxGeometry height="282" width="550" x="612" y="496" as="geometry"/>
                 </mxCell>
-                <mxCell id="v41" value="10  Mange-til-mange · M:N" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=19;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="628" y="508" width="518" height="32" as="geometry"/>
+                <mxCell id="v41" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=19;fontStyle=1;" value="10  Mange-til-mange · M:N" vertex="1">
+                    <mxGeometry height="32" width="518" x="628" y="508" as="geometry"/>
                 </mxCell>
-                <mxCell id="v42" value="Hvad: flere forekomster kan være knyttet til flere. Brug: M og N ved enderne; begge bogstaver betyder mange." style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=15;" parent="1" vertex="1">
-                    <mxGeometry x="628" y="547" width="518" height="65" as="geometry"/>
+                <mxCell id="v42" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=15;" value="Hvad: flere forekomster kan være knyttet til flere. Brug: M og N ved enderne; begge bogstaver betyder mange." vertex="1">
+                    <mxGeometry height="65" width="518" x="628" y="547" as="geometry"/>
                 </mxCell>
-                <mxCell id="v43" value="user" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#EAF2FF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="630" y="644" width="122" height="48" as="geometry"/>
+                <mxCell id="v43" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#EAF2FF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;fontStyle=1;" value="user" vertex="1">
+                    <mxGeometry height="48" width="122" x="630" y="644" as="geometry"/>
                 </mxCell>
-                <mxCell id="v44" value="deltager i" style="shape=rhombus;whiteSpace=wrap;html=0;rounded=0;fillColor=#F0EAFE;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;" parent="1" vertex="1">
-                    <mxGeometry x="834" y="619" width="106" height="98" as="geometry"/>
+                <mxCell id="v44" parent="1" style="shape=rhombus;whiteSpace=wrap;html=0;rounded=0;fillColor=#F0EAFE;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;" value="deltager i" vertex="1">
+                    <mxGeometry height="98" width="106" x="834" y="619" as="geometry"/>
                 </mxCell>
-                <mxCell id="v45" value="task" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#EAF2FF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="1022" y="644" width="122" height="48" as="geometry"/>
+                <mxCell id="v45" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#EAF2FF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;fontStyle=1;" value="task" vertex="1">
+                    <mxGeometry height="48" width="122" x="1022" y="644" as="geometry"/>
                 </mxCell>
-                <mxCell id="e46" style="endArrow=none;startArrow=none;strokeColor=#5274A6;strokeWidth=1.5;" parent="1" edge="1">
+                <mxCell id="e46" edge="1" parent="1" style="endArrow=none;startArrow=none;strokeColor=#5274A6;strokeWidth=1.5;">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="752" y="668" as="sourcePoint"/>
                         <mxPoint x="834" y="668" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="e47" style="endArrow=none;startArrow=none;strokeColor=#5274A6;strokeWidth=1.5;" parent="1" edge="1">
+                <mxCell id="e47" edge="1" parent="1" style="endArrow=none;startArrow=none;strokeColor=#5274A6;strokeWidth=1.5;">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="940" y="668" as="sourcePoint"/>
                         <mxPoint x="1022" y="668" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="v48" value="M" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=15;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="766" y="633" width="55" height="24" as="geometry"/>
+                <mxCell id="v48" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=15;fontStyle=1;" value="M" vertex="1">
+                    <mxGeometry height="24" width="55" x="766" y="633" as="geometry"/>
                 </mxCell>
-                <mxCell id="v49" value="N" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=15;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="963" y="633" width="55" height="24" as="geometry"/>
+                <mxCell id="v49" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=15;fontStyle=1;" value="N" vertex="1">
+                    <mxGeometry height="24" width="55" x="963" y="633" as="geometry"/>
                 </mxCell>
-                <mxCell id="v50" value="Eksempel: en user kan deltage i flere tasks, og en task kan have flere users. Kan senere blive en koblingstabel." style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=14;" parent="1" vertex="1">
-                    <mxGeometry x="628" y="721" width="518" height="49" as="geometry"/>
+                <mxCell id="v50" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=14;" value="Eksempel: en user kan deltage i flere tasks, og en task kan have flere users. Kan senere blive en koblingstabel." vertex="1">
+                    <mxGeometry height="49" width="518" x="628" y="721" as="geometry"/>
                 </mxCell>
-                <mxCell id="v51" value="" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#FFFFFF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=#D5DFED;" parent="1" vertex="1">
-                    <mxGeometry x="38" y="794" width="550" height="282" as="geometry"/>
+                <mxCell id="v51" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#FFFFFF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=#D5DFED;" value="" vertex="1">
+                    <mxGeometry height="282" width="550" x="38" y="794" as="geometry"/>
                 </mxCell>
-                <mxCell id="v52" value="11  Valgfri deltagelse · enkeltlinje" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=19;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="54" y="806" width="518" height="32" as="geometry"/>
+                <mxCell id="v52" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=19;fontStyle=1;" value="11  Valgfri deltagelse · enkeltlinje" vertex="1">
+                    <mxGeometry height="32" width="518" x="54" y="806" as="geometry"/>
                 </mxCell>
-                <mxCell id="v53" value="Hvad: en forekomst må eksistere uden denne relation. Brug: én fuldt optrukket linje fra entiteten til romben." style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=15;" parent="1" vertex="1">
-                    <mxGeometry x="54" y="845" width="518" height="65" as="geometry"/>
+                <mxCell id="v53" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=15;" value="Hvad: en forekomst må eksistere uden denne relation. Brug: én fuldt optrukket linje fra entiteten til romben." vertex="1">
+                    <mxGeometry height="65" width="518" x="54" y="845" as="geometry"/>
                 </mxCell>
-                <mxCell id="v54" value="user" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#EAF2FF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="56" y="942" width="122" height="48" as="geometry"/>
+                <mxCell id="v54" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#EAF2FF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;fontStyle=1;" value="user" vertex="1">
+                    <mxGeometry height="48" width="122" x="56" y="942" as="geometry"/>
                 </mxCell>
-                <mxCell id="v55" value="opretter" style="shape=rhombus;whiteSpace=wrap;html=0;rounded=0;fillColor=#F0EAFE;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;" parent="1" vertex="1">
-                    <mxGeometry x="260" y="917" width="106" height="98" as="geometry"/>
+                <mxCell id="v55" parent="1" style="shape=rhombus;whiteSpace=wrap;html=0;rounded=0;fillColor=#F0EAFE;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;" value="opretter" vertex="1">
+                    <mxGeometry height="98" width="106" x="260" y="917" as="geometry"/>
                 </mxCell>
-                <mxCell id="v56" value="task" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#EAF2FF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="448" y="942" width="122" height="48" as="geometry"/>
+                <mxCell id="v56" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#EAF2FF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;fontStyle=1;" value="task" vertex="1">
+                    <mxGeometry height="48" width="122" x="448" y="942" as="geometry"/>
                 </mxCell>
-                <mxCell id="e57" style="endArrow=none;startArrow=none;strokeColor=#5274A6;strokeWidth=1.5;" parent="1" edge="1">
+                <mxCell id="e57" edge="1" parent="1" style="endArrow=none;startArrow=none;strokeColor=#5274A6;strokeWidth=1.5;">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="178" y="966" as="sourcePoint"/>
                         <mxPoint x="260" y="966" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="e58" style="endArrow=none;startArrow=none;strokeColor=#5274A6;strokeWidth=1.5;" parent="1" edge="1">
+                <mxCell id="e58" edge="1" parent="1" style="endArrow=none;startArrow=none;strokeColor=#5274A6;strokeWidth=1.5;">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="366" y="963" as="sourcePoint"/>
                         <mxPoint x="448" y="963" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="e59" style="endArrow=none;startArrow=none;strokeColor=#5274A6;strokeWidth=1.5;" parent="1" edge="1">
+                <mxCell id="e59" edge="1" parent="1" style="endArrow=none;startArrow=none;strokeColor=#5274A6;strokeWidth=1.5;">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="366" y="969" as="sourcePoint"/>
                         <mxPoint x="448" y="969" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="v60" value="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=15;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="192" y="931" width="55" height="24" as="geometry"/>
+                <mxCell id="v60" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=15;fontStyle=1;" value="1" vertex="1">
+                    <mxGeometry height="24" width="55" x="192" y="931" as="geometry"/>
                 </mxCell>
-                <mxCell id="v61" value="N" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=15;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="389" y="931" width="55" height="24" as="geometry"/>
+                <mxCell id="v61" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=15;fontStyle=1;" value="N" vertex="1">
+                    <mxGeometry height="24" width="55" x="389" y="931" as="geometry"/>
                 </mxCell>
-                <mxCell id="v62" value="Eksempel: en user kan have nul tasks. Valgfri betyder minimum 0; N på modsatte side giver maksimum mange." style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=14;" parent="1" vertex="1">
-                    <mxGeometry x="54" y="1019" width="518" height="49" as="geometry"/>
+                <mxCell id="v62" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=14;" value="Eksempel: en user kan have nul tasks. Valgfri betyder minimum 0; N på modsatte side giver maksimum mange." vertex="1">
+                    <mxGeometry height="49" width="518" x="54" y="1019" as="geometry"/>
                 </mxCell>
-                <mxCell id="v63" value="" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#FFFFFF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=#D5DFED;" parent="1" vertex="1">
-                    <mxGeometry x="612" y="794" width="550" height="282" as="geometry"/>
+                <mxCell id="v63" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#FFFFFF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=#D5DFED;" value="" vertex="1">
+                    <mxGeometry height="282" width="550" x="612" y="794" as="geometry"/>
                 </mxCell>
-                <mxCell id="v64" value="12  Total deltagelse · dobbeltlinje" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=19;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="628" y="806" width="518" height="32" as="geometry"/>
+                <mxCell id="v64" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=19;fontStyle=1;" value="12  Total deltagelse · dobbeltlinje" vertex="1">
+                    <mxGeometry height="32" width="518" x="628" y="806" as="geometry"/>
                 </mxCell>
-                <mxCell id="v65" value="Hvad: hver forekomst skal deltage mindst én gang. Brug: to parallelle linjer fra entiteten til romben." style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=15;" parent="1" vertex="1">
-                    <mxGeometry x="628" y="845" width="518" height="65" as="geometry"/>
+                <mxCell id="v65" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=15;" value="Hvad: hver forekomst skal deltage mindst én gang. Brug: to parallelle linjer fra entiteten til romben." vertex="1">
+                    <mxGeometry height="65" width="518" x="628" y="845" as="geometry"/>
                 </mxCell>
-                <mxCell id="v66" value="user" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#EAF2FF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="630" y="942" width="122" height="48" as="geometry"/>
+                <mxCell id="v66" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#EAF2FF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;fontStyle=1;" value="user" vertex="1">
+                    <mxGeometry height="48" width="122" x="630" y="942" as="geometry"/>
                 </mxCell>
-                <mxCell id="v67" value="opretter" style="shape=rhombus;whiteSpace=wrap;html=0;rounded=0;fillColor=#F0EAFE;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;" parent="1" vertex="1">
-                    <mxGeometry x="834" y="917" width="106" height="98" as="geometry"/>
+                <mxCell id="v67" parent="1" style="shape=rhombus;whiteSpace=wrap;html=0;rounded=0;fillColor=#F0EAFE;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;" value="opretter" vertex="1">
+                    <mxGeometry height="98" width="106" x="834" y="917" as="geometry"/>
                 </mxCell>
-                <mxCell id="v68" value="task" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#EAF2FF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="1022" y="942" width="122" height="48" as="geometry"/>
+                <mxCell id="v68" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=#EAF2FF;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;fontStyle=1;" value="task" vertex="1">
+                    <mxGeometry height="48" width="122" x="1022" y="942" as="geometry"/>
                 </mxCell>
-                <mxCell id="e69" style="endArrow=none;startArrow=none;strokeColor=#5274A6;strokeWidth=1.5;" parent="1" edge="1">
+                <mxCell id="e69" edge="1" parent="1" style="endArrow=none;startArrow=none;strokeColor=#5274A6;strokeWidth=1.5;">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="752" y="966" as="sourcePoint"/>
                         <mxPoint x="834" y="966" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="e70" style="endArrow=none;startArrow=none;strokeColor=#5274A6;strokeWidth=1.5;" parent="1" edge="1">
+                <mxCell id="e70" edge="1" parent="1" style="endArrow=none;startArrow=none;strokeColor=#5274A6;strokeWidth=1.5;">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="940" y="963" as="sourcePoint"/>
                         <mxPoint x="1022" y="963" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="e71" style="endArrow=none;startArrow=none;strokeColor=#5274A6;strokeWidth=1.5;" parent="1" edge="1">
+                <mxCell id="e71" edge="1" parent="1" style="endArrow=none;startArrow=none;strokeColor=#5274A6;strokeWidth=1.5;">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="940" y="969" as="sourcePoint"/>
                         <mxPoint x="1022" y="969" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="v72" value="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=15;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="766" y="931" width="55" height="24" as="geometry"/>
+                <mxCell id="v72" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=15;fontStyle=1;" value="1" vertex="1">
+                    <mxGeometry height="24" width="55" x="766" y="931" as="geometry"/>
                 </mxCell>
-                <mxCell id="v73" value="N" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=15;fontStyle=1;" parent="1" vertex="1">
-                    <mxGeometry x="963" y="931" width="55" height="24" as="geometry"/>
+                <mxCell id="v73" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=15;fontStyle=1;" value="N" vertex="1">
+                    <mxGeometry height="24" width="55" x="963" y="931" as="geometry"/>
                 </mxCell>
-                <mxCell id="v74" value="Eksempel: hver task skal have en user som opretter. Dobbeltlinjen giver min. 1; 1 ved user giver maks. 1." style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=14;" parent="1" vertex="1">
-                    <mxGeometry x="628" y="1019" width="518" height="49" as="geometry"/>
+                <mxCell id="v74" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=14;" value="Eksempel: hver task skal have en user som opretter. Dobbeltlinjen giver min. 1; 1 ved user giver maks. 1." vertex="1">
+                    <mxGeometry height="49" width="518" x="628" y="1019" as="geometry"/>
                 </mxCell>
-                <mxCell id="v75" value="Fælles konvention: tabelform for entiteter · Chen-romber for relationer · ingen pile Eksemplerne viser mulige forretningsregler; vælg reglerne ud fra jeres eget system." style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=13;" parent="1" vertex="1">
-                    <mxGeometry x="38" y="1112" width="1120" height="48" as="geometry"/>
+                <mxCell id="v75" parent="1" style="shape=rect;whiteSpace=wrap;html=0;rounded=0;fillColor=none;strokeColor=#5274A6;fontColor=#172B4D;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;strokeColor=none;align=left;verticalAlign=top;fontSize=13;" value="Fælles konvention: tabelform for entiteter · Chen-romber for relationer · ingen pile Eksemplerne viser mulige forretningsregler; vælg reglerne ud fra jeres eget system." vertex="1">
+                    <mxGeometry height="48" width="1120" x="38" y="1112" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
