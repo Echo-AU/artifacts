@@ -1,0 +1,427 @@
+<mxfile host="65bd71144e">
+    <diagram id="be-seq-plain" name="1 - Sekvens uden klasser">
+        <mxGraphModel dx="1575" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="title" parent="1" style="text;html=1;fontSize=24;fontStyle=1;" value="US-4a · Backend CPU · Sekvensdiagram uden klasser" vertex="1">
+                    <mxGeometry height="40" width="900" x="40" y="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="note" parent="1" style="shape=note;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;" value="Backend-fokus: autorisation, validering, persistens og filtrering af offentlige aktiviteter." vertex="1">
+                    <mxGeometry height="60" width="410" x="930" y="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="p1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" value="Organisation" vertex="1">
+                    <mxGeometry height="50" width="150" x="40" y="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="p2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" value="Contributor" vertex="1">
+                    <mxGeometry height="50" width="150" x="240" y="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="p3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" value="Client (frontend)" vertex="1">
+                    <mxGeometry height="50" width="180" x="470" y="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="p4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;" value="Server (backend)" vertex="1">
+                    <mxGeometry height="50" width="180" x="750" y="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="p5" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;" value="Database" vertex="1">
+                    <mxGeometry height="60" width="150" x="1080" y="95" as="geometry"/>
+                </mxCell>
+                <mxCell id="l1" edge="1" parent="1" style="endArrow=none;dashed=1;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="115" y="150" as="sourcePoint"/>
+                        <mxPoint x="115" y="840" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="l2" edge="1" parent="1" style="endArrow=none;dashed=1;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="315" y="150" as="sourcePoint"/>
+                        <mxPoint x="315" y="840" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="l3" edge="1" parent="1" style="endArrow=none;dashed=1;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="560" y="150" as="sourcePoint"/>
+                        <mxPoint x="560" y="840" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="l4" edge="1" parent="1" style="endArrow=none;dashed=1;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="840" y="150" as="sourcePoint"/>
+                        <mxPoint x="840" y="840" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="l5" edge="1" parent="1" style="endArrow=none;dashed=1;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1155" y="155" as="sourcePoint"/>
+                        <mxPoint x="1155" y="840" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="m1" edge="1" parent="1" style="endArrow=block;html=1;" value="1. Udfyld og offentliggør aktivitet">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="115" y="190" as="sourcePoint"/>
+                        <mxPoint x="560" y="190" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="m2" edge="1" parent="1" style="endArrow=block;html=1;" value="2. Send oprettelsesforespørgsel">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="560" y="240" as="sourcePoint"/>
+                        <mxPoint x="840" y="240" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="m3" edge="1" parent="1" style="endArrow=block;html=1;dashed=1;" value="3. Kontrollér login og Organization-rolle">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="840" y="290" as="sourcePoint"/>
+                        <mxPoint x="840" y="330" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="m4" edge="1" parent="1" style="endArrow=block;html=1;dashed=1;" value="4. Validér titel, kategori og point">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="840" y="350" as="sourcePoint"/>
+                        <mxPoint x="840" y="390" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="m5" edge="1" parent="1" style="endArrow=block;html=1;" value="5. Gem Task + OrganizationTask atomisk">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="840" y="420" as="sourcePoint"/>
+                        <mxPoint x="1155" y="420" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="m6" edge="1" parent="1" style="endArrow=block;html=1;dashed=1;" value="6. Oprettet med status OPEN">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1155" y="470" as="sourcePoint"/>
+                        <mxPoint x="840" y="470" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="m7" edge="1" parent="1" style="endArrow=block;html=1;dashed=1;" value="7. Returnér 201 + aktivitet">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="840" y="520" as="sourcePoint"/>
+                        <mxPoint x="560" y="520" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="m8" edge="1" parent="1" style="endArrow=block;html=1;" value="8. Åbn offentlige aktiviteter">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="315" y="580" as="sourcePoint"/>
+                        <mxPoint x="560" y="580" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="m9" edge="1" parent="1" style="endArrow=block;html=1;" value="9. Anmod om publicerede aktiviteter">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="560" y="630" as="sourcePoint"/>
+                        <mxPoint x="840" y="630" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="m10" edge="1" parent="1" style="endArrow=block;html=1;" value="10. Hent kun status OPEN">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="840" y="680" as="sourcePoint"/>
+                        <mxPoint x="1155" y="680" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="m11" edge="1" parent="1" style="endArrow=block;html=1;" value="11. Vælg aktivitet og tilmeld">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="315" y="730" as="sourcePoint"/>
+                        <mxPoint x="560" y="730" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="m12" edge="1" parent="1" style="endArrow=block;html=1;" value="12. Opret Application">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="560" y="770" as="sourcePoint"/>
+                        <mxPoint x="840" y="770" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="m13" edge="1" parent="1" style="endArrow=block;html=1;" value="13. Validér Contributor + Task og gem Pending">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="840" y="810" as="sourcePoint"/>
+                        <mxPoint x="1155" y="810" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="be-class-empty" name="2 - Klasser uden forbindelser">
+        <mxGraphModel dx="1402" dy="675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="t" parent="1" style="text;html=1;fontSize=24;fontStyle=1;" value="US-4a · Backend CPU · Konceptuelle klasser (uden forbindelser)" vertex="1">
+                    <mxGeometry height="40" width="900" x="40" y="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="n" parent="1" style="shape=note;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;" value="Minimal API: endpoint-klasser bruges i stedet for MVC Controllers. Ingen forbindelser på dette trin." vertex="1">
+                    <mxGeometry height="60" width="410" x="930" y="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="c1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;spacing=9;" value="&lt;&lt;endpoint&gt;&gt;&lt;br&gt;&lt;b&gt;OrganizationTaskEndpoints&lt;/b&gt;&lt;hr&gt;POST opret/offentliggør" vertex="1">
+                    <mxGeometry height="120" width="280" x="50" y="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="c2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;spacing=9;" value="&lt;&lt;endpoint&gt;&gt;&lt;br&gt;&lt;b&gt;TaskDiscoveryEndpoints&lt;/b&gt;&lt;hr&gt;GET offentlige aktiviteter" vertex="1">
+                    <mxGeometry height="120" width="280" x="380" y="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="c3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;spacing=9;" value="&lt;&lt;endpoint&gt;&gt;&lt;br&gt;&lt;b&gt;ApplicationEndpoints&lt;/b&gt;&lt;hr&gt;POST tilmelding" vertex="1">
+                    <mxGeometry height="120" width="280" x="710" y="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="c4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;spacing=9;" value="&lt;&lt;service&gt;&gt;&lt;br&gt;&lt;b&gt;OrganizationTaskService&lt;/b&gt;&lt;hr&gt;Regler for oprettelse" vertex="1">
+                    <mxGeometry height="120" width="280" x="1040" y="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="c5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;spacing=9;" value="&lt;&lt;service&gt;&gt;&lt;br&gt;&lt;b&gt;ApplicationService&lt;/b&gt;&lt;hr&gt;Regler for tilmelding" vertex="1">
+                    <mxGeometry height="120" width="280" x="50" y="310" as="geometry"/>
+                </mxCell>
+                <mxCell id="c6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;align=left;spacing=9;" value="&lt;&lt;repository&gt;&gt;&lt;br&gt;&lt;b&gt;ITaskRepository&lt;/b&gt;&lt;hr&gt;Task og OrganizationTask" vertex="1">
+                    <mxGeometry height="120" width="280" x="380" y="310" as="geometry"/>
+                </mxCell>
+                <mxCell id="c7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;align=left;spacing=9;" value="&lt;&lt;repository&gt;&gt;&lt;br&gt;&lt;b&gt;IApplicationRepository&lt;/b&gt;&lt;hr&gt;Application" vertex="1">
+                    <mxGeometry height="120" width="280" x="710" y="310" as="geometry"/>
+                </mxCell>
+                <mxCell id="c8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;spacing=9;" value="&lt;&lt;data access&gt;&gt;&lt;br&gt;&lt;b&gt;AppDbContext&lt;/b&gt;&lt;hr&gt;EF Core unit of work" vertex="1">
+                    <mxGeometry height="120" width="280" x="1040" y="310" as="geometry"/>
+                </mxCell>
+                <mxCell id="e1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;spacing=9;" value="&lt;&lt;domain/entity&gt;&gt;&lt;br&gt;&lt;b&gt;Organization&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="100" width="220" x="50" y="560" as="geometry"/>
+                </mxCell>
+                <mxCell id="e2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;spacing=9;" value="&lt;&lt;domain/entity&gt;&gt;&lt;br&gt;&lt;b&gt;Task&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="100" width="220" x="310" y="560" as="geometry"/>
+                </mxCell>
+                <mxCell id="e3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;spacing=9;" value="&lt;&lt;domain/entity&gt;&gt;&lt;br&gt;&lt;b&gt;OrganizationTask&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="100" width="220" x="570" y="560" as="geometry"/>
+                </mxCell>
+                <mxCell id="e4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;spacing=9;" value="&lt;&lt;domain/entity&gt;&gt;&lt;br&gt;&lt;b&gt;Peer&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="100" width="220" x="830" y="560" as="geometry"/>
+                </mxCell>
+                <mxCell id="e5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;spacing=9;" value="&lt;&lt;domain/entity&gt;&gt;&lt;br&gt;&lt;b&gt;Application&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="100" width="220" x="1090" y="560" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="be-seq-class" name="3 - Sekvens med klasser">
+        <mxGraphModel dx="1402" dy="675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="t" parent="1" style="text;html=1;fontSize=24;fontStyle=1;" value="US-4a · Backend CPU · Sekvensdiagram med klasser" vertex="1">
+                    <mxGeometry height="40" width="900" x="40" y="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="p1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" value="Client" vertex="1">
+                    <mxGeometry height="50" width="130" x="30" y="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="p2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" value="OrganizationTaskEndpoints" vertex="1">
+                    <mxGeometry height="50" width="200" x="200" y="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="p3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;" value="OrganizationTaskService" vertex="1">
+                    <mxGeometry height="50" width="190" x="450" y="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="p4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;" value="ITaskRepository" vertex="1">
+                    <mxGeometry height="50" width="160" x="690" y="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="p5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" value="ApplicationEndpoints / Service" vertex="1">
+                    <mxGeometry height="50" width="210" x="900" y="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="p6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;" value="AppDbContext" vertex="1">
+                    <mxGeometry height="50" width="170" x="1160" y="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="l1" edge="1" parent="1" style="endArrow=none;dashed=1;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="95" y="140" as="sourcePoint"/>
+                        <mxPoint x="95" y="840" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="l2" edge="1" parent="1" style="endArrow=none;dashed=1;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="300" y="140" as="sourcePoint"/>
+                        <mxPoint x="300" y="840" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="l3" edge="1" parent="1" style="endArrow=none;dashed=1;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="545" y="140" as="sourcePoint"/>
+                        <mxPoint x="545" y="840" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="l4" edge="1" parent="1" style="endArrow=none;dashed=1;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="770" y="140" as="sourcePoint"/>
+                        <mxPoint x="770" y="840" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="l5" edge="1" parent="1" style="endArrow=none;dashed=1;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1005" y="140" as="sourcePoint"/>
+                        <mxPoint x="1005" y="840" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="l6" edge="1" parent="1" style="endArrow=none;dashed=1;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1245" y="140" as="sourcePoint"/>
+                        <mxPoint x="1245" y="840" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="m1" edge="1" parent="1" style="endArrow=block;html=1;" value="POST /api/organization-tasks">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="95" y="185" as="sourcePoint"/>
+                        <mxPoint x="300" y="185" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="m2" edge="1" parent="1" style="endArrow=block;html=1;" value="CreateOPENAsync(userId, request)">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="300" y="240" as="sourcePoint"/>
+                        <mxPoint x="545" y="240" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="m3" edge="1" parent="1" style="endArrow=block;html=1;dashed=1;" value="Authorize Organization + Validate">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="545" y="285" as="sourcePoint"/>
+                        <mxPoint x="545" y="330" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="m4" edge="1" parent="1" style="endArrow=block;html=1;" value="AddAsync(task, organizationTask)">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="545" y="370" as="sourcePoint"/>
+                        <mxPoint x="770" y="370" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="m5" edge="1" parent="1" style="endArrow=block;html=1;" value="SaveChangesAsync()">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="770" y="420" as="sourcePoint"/>
+                        <mxPoint x="1245" y="420" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="m6" edge="1" parent="1" style="endArrow=block;html=1;dashed=1;" value="TaskDto (OPEN)">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="545" y="475" as="sourcePoint"/>
+                        <mxPoint x="300" y="475" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="m7" edge="1" parent="1" style="endArrow=block;html=1;dashed=1;" value="201 Created">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="300" y="525" as="sourcePoint"/>
+                        <mxPoint x="95" y="525" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="m8" edge="1" parent="1" style="endArrow=block;html=1;" value="GET /api/tasks?status=OPEN">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="95" y="590" as="sourcePoint"/>
+                        <mxPoint x="300" y="590" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="m9" edge="1" parent="1" style="endArrow=block;html=1;" value="GetOPENAsync()">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="300" y="640" as="sourcePoint"/>
+                        <mxPoint x="770" y="640" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="m10" edge="1" parent="1" style="endArrow=block;html=1;" value="Query Tasks + OrganizationTasks">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="770" y="690" as="sourcePoint"/>
+                        <mxPoint x="1245" y="690" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="m11" edge="1" parent="1" style="endArrow=block;html=1;" value="POST /api/tasks/{id}/applications">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="95" y="745" as="sourcePoint"/>
+                        <mxPoint x="1005" y="745" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="m12" edge="1" parent="1" style="endArrow=block;html=1;dashed=1;" value="ApplyAsync(peerId, taskId, message)">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1005" y="790" as="sourcePoint"/>
+                        <mxPoint x="1005" y="825" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="m13" edge="1" parent="1" style="endArrow=block;html=1;" value="Add Application(Pending) + Save">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1005" y="835" as="sourcePoint"/>
+                        <mxPoint x="1245" y="835" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="be-class-full" name="4 - Klassediagram">
+        <mxGraphModel dx="1753" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="t" parent="1" style="text;html=1;fontSize=24;fontStyle=1;" value="US-4a · Backend CPU · Klassediagram" vertex="1">
+                    <mxGeometry height="40" width="800" x="40" y="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="ep1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;spacing=8;" value="&lt;&lt;endpoint&gt;&gt;&lt;br&gt;&lt;b&gt;OrganizationTaskEndpoints&lt;/b&gt;&lt;hr&gt;+ MapOrganizationTaskEndpoints(app)&lt;br&gt;+ CreateAsync(request, user)" vertex="1">
+                    <mxGeometry height="140" width="280" x="30" y="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="ep2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;spacing=8;" value="&lt;&lt;endpoint&gt;&gt;&lt;br&gt;&lt;b&gt;TaskDiscoveryEndpoints&lt;/b&gt;&lt;hr&gt;+ MapTaskEndpoints(app)&lt;br&gt;+ GetOPENAsync()" vertex="1">
+                    <mxGeometry height="140" width="270" x="360" y="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="ep3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;spacing=8;" value="&lt;&lt;endpoint&gt;&gt;&lt;br&gt;&lt;b&gt;ApplicationEndpoints&lt;/b&gt;&lt;hr&gt;+ MapApplicationEndpoints(app)&lt;br&gt;+ ApplyAsync(taskId, request, user)" vertex="1">
+                    <mxGeometry height="140" width="290" x="680" y="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="svc1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;spacing=8;" value="&lt;&lt;service&gt;&gt;&lt;br&gt;&lt;b&gt;OrganizationTaskService&lt;/b&gt;&lt;hr&gt;+ CreateOPENAsync(userId, request): Task&lt;br&gt;+ GetOPENAsync(): IReadOnlyList&amp;lt;Task&amp;gt;" vertex="1">
+                    <mxGeometry height="160" width="320" x="1040" y="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="svc2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;spacing=8;" value="&lt;&lt;service&gt;&gt;&lt;br&gt;&lt;b&gt;ApplicationService&lt;/b&gt;&lt;hr&gt;+ ApplyAsync(peerId, taskId, message): Application" vertex="1">
+                    <mxGeometry height="130" width="300" x="30" y="330" as="geometry"/>
+                </mxCell>
+                <mxCell id="repo1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;align=left;spacing=8;" value="&lt;&lt;repository&gt;&gt;&lt;br&gt;&lt;b&gt;ITaskRepository&lt;/b&gt;&lt;hr&gt;+ AddAsync(task, organizationTask)&lt;br&gt;+ GetOPENAsync()&lt;br&gt;+ ExistsOPENAsync(taskId)" vertex="1">
+                    <mxGeometry height="150" width="280" x="390" y="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="repo2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;align=left;spacing=8;" value="&lt;&lt;repository&gt;&gt;&lt;br&gt;&lt;b&gt;IApplicationRepository&lt;/b&gt;&lt;hr&gt;+ AddAsync(application)&lt;br&gt;+ ExistsAsync(taskId, peerId)" vertex="1">
+                    <mxGeometry height="130" width="280" x="730" y="330" as="geometry"/>
+                </mxCell>
+                <mxCell id="db" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;spacing=8;" value="&lt;&lt;data access&gt;&gt;&lt;br&gt;&lt;b&gt;AppDbContext&lt;/b&gt;&lt;hr&gt;+ Tasks: DbSet&amp;lt;Task&amp;gt;&lt;br&gt;+ OrganizationTasks: DbSet&amp;lt;OrganizationTask&amp;gt;&lt;br&gt;+ Applications: DbSet&amp;lt;Application&amp;gt;&lt;br&gt;+ SaveChangesAsync()" vertex="1">
+                    <mxGeometry height="190" width="290" x="1070" y="300" as="geometry"/>
+                </mxCell>
+                <mxCell id="org" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;spacing=8;" value="&lt;&lt;entity&gt;&gt;&lt;br&gt;&lt;b&gt;Organization&lt;/b&gt;&lt;hr&gt;+ userId: Guid&lt;br&gt;+ cvr: string" vertex="1">
+                    <mxGeometry height="120" width="220" x="30" y="650" as="geometry"/>
+                </mxCell>
+                <mxCell id="task" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;spacing=8;" value="&lt;&lt;entity&gt;&gt;&lt;br&gt;&lt;b&gt;Task&lt;/b&gt;&lt;hr&gt;+ id: Guid&lt;br&gt;+ createdByUserId: Guid&lt;br&gt;+ title: string&lt;br&gt;+ description: string&lt;br&gt;+ status: TaskStatus&lt;br&gt;+ category: TaskCategory&lt;hr&gt;+ Publish(): void" vertex="1">
+                    <mxGeometry height="230" width="270" x="300" y="590" as="geometry"/>
+                </mxCell>
+                <mxCell id="ot" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;spacing=8;" value="&lt;&lt;entity&gt;&gt;&lt;br&gt;&lt;b&gt;OrganizationTask&lt;/b&gt;&lt;hr&gt;+ taskId: Guid&lt;br&gt;+ rewardPointsPerContributor: long" vertex="1">
+                    <mxGeometry height="130" width="250" x="620" y="650" as="geometry"/>
+                </mxCell>
+                <mxCell id="peer" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;spacing=8;" value="&lt;&lt;entity&gt;&gt;&lt;br&gt;&lt;b&gt;Peer&lt;/b&gt;&lt;hr&gt;+ userId: Guid&lt;br&gt;+ dateOfBirth: DateOnly" vertex="1">
+                    <mxGeometry height="130" width="220" x="920" y="650" as="geometry"/>
+                </mxCell>
+                <mxCell id="app" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;spacing=8;" value="&lt;&lt;entity&gt;&gt;&lt;br&gt;&lt;b&gt;Application&lt;/b&gt;&lt;hr&gt;+ id: Guid&lt;br&gt;+ taskId: Guid&lt;br&gt;+ peerId: Guid&lt;br&gt;+ message: string?&lt;br&gt;+ status: ApplicationStatus&lt;br&gt;+ createdAt: DateTimeOffset" vertex="1">
+                    <mxGeometry height="220" width="220" x="1180" y="600" as="geometry"/>
+                </mxCell>
+                <mxCell id="r1" edge="1" parent="1" source="ep1" style="endArrow=open;dashed=1;html=1;" target="svc1" value="kalder">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="r2" edge="1" parent="1" source="ep2" style="endArrow=open;dashed=1;html=1;" target="svc1" value="kalder">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="r3" edge="1" parent="1" source="ep3" style="endArrow=open;dashed=1;html=1;" target="svc2" value="kalder">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="r4" edge="1" parent="1" source="svc1" style="endArrow=open;dashed=1;html=1;" target="repo1" value="afhænger af">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="r5" edge="1" parent="1" source="svc2" style="endArrow=open;dashed=1;html=1;" target="repo1" value="afhænger af">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="r6" edge="1" parent="1" source="svc2" style="endArrow=open;dashed=1;html=1;" target="repo2" value="afhænger af">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="r7" edge="1" parent="1" source="repo1" style="endArrow=open;dashed=1;html=1;" target="db" value="implementeres med">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="r8" edge="1" parent="1" source="repo2" style="endArrow=open;dashed=1;html=1;" target="db" value="implementeres med">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="r9" edge="1" parent="1" source="org" style="endArrow=open;html=1;" target="task" value="1 opretter 0..*">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="r10" edge="1" parent="1" source="task" style="startArrow=diamond;startFill=1;endArrow=open;html=1;" target="ot" value="1 : 1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="r11" edge="1" parent="1" source="task" style="endArrow=open;html=1;" target="app" value="1 modtager 0..*">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="r12" edge="1" parent="1" source="peer" style="endArrow=open;html=1;" target="app" value="1 sender 0..*">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="r13" edge="1" parent="1" source="db" style="endArrow=open;dashed=1;html=1;" target="task" value="persistér">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="r14" edge="1" parent="1" source="db" style="endArrow=open;dashed=1;html=1;" target="app" value="persistér">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

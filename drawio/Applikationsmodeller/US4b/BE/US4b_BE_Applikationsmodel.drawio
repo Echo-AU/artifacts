@@ -1,0 +1,196 @@
+<mxfile host="app.diagrams.net" modified="2026-10-09T00:00:00.000Z" agent="Codex" version="24.7.17" type="device">
+<diagram id="seq-plain" name="1 - Sekvens uden klasser"><mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" page="1" pageWidth="1400" pageHeight="900"><root><mxCell id="0"/><mxCell id="1" parent="0"/>
+<mxCell id="title" value="US4b · BE CPU · Sekvensdiagram uden klasser" style="text;html=1;fontSize=24;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="35" y="20" width="900" height="40" as="geometry"/></mxCell>
+<mxCell id="note" value="Backend autoriserer Peer, validerer belønning og gemmer Task + PeerTask atomisk." style="shape=note;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;" vertex="1" parent="1"><mxGeometry x="930" y="20" width="420" height="60" as="geometry"/></mxCell>
+<mxCell id="p0" value="Requester" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=13;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="-30" y="95" width="150" height="50" as="geometry"/></mxCell>
+<mxCell id="l0" value="" style="endArrow=block;html=1;fontSize=12;dashed=1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="45" y="145" as="sourcePoint"/><mxPoint x="45" y="850" as="targetPoint"/></mxGeometry></mxCell>
+<mxCell id="p1" value="Contributor" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=13;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="290" y="95" width="150" height="50" as="geometry"/></mxCell>
+<mxCell id="l1" value="" style="endArrow=block;html=1;fontSize=12;dashed=1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="365" y="145" as="sourcePoint"/><mxPoint x="365" y="850" as="targetPoint"/></mxGeometry></mxCell>
+<mxCell id="p2" value="Client" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=13;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="610" y="95" width="150" height="50" as="geometry"/></mxCell>
+<mxCell id="l2" value="" style="endArrow=block;html=1;fontSize=12;dashed=1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="685" y="145" as="sourcePoint"/><mxPoint x="685" y="850" as="targetPoint"/></mxGeometry></mxCell>
+<mxCell id="p3" value="Server" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=13;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="930" y="95" width="150" height="50" as="geometry"/></mxCell>
+<mxCell id="l3" value="" style="endArrow=block;html=1;fontSize=12;dashed=1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="1005" y="145" as="sourcePoint"/><mxPoint x="1005" y="850" as="targetPoint"/></mxGeometry></mxCell>
+<mxCell id="p4" value="Database" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=13;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1"><mxGeometry x="1250" y="95" width="150" height="50" as="geometry"/></mxCell>
+<mxCell id="l4" value="" style="endArrow=block;html=1;fontSize=12;dashed=1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="1325" y="145" as="sourcePoint"/><mxPoint x="1325" y="850" as="targetPoint"/></mxGeometry></mxCell>
+<mxCell id="m0" value="1. Åbn formular og indtast opgaven" style="endArrow=block;html=1;fontSize=12;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="45" y="180" as="sourcePoint"/><mxPoint x="685" y="180" as="targetPoint"/></mxGeometry></mxCell>
+<mxCell id="m1" value="2. Validér og vis preview" style="endArrow=block;html=1;fontSize=12;dashed=1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="685" y="230" as="sourcePoint"/><mxPoint x="45" y="230" as="targetPoint"/></mxGeometry></mxCell>
+<mxCell id="m2" value="3. Bekræft offentliggørelse" style="endArrow=block;html=1;fontSize=12;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="45" y="280" as="sourcePoint"/><mxPoint x="685" y="280" as="targetPoint"/></mxGeometry></mxCell>
+<mxCell id="m3" value="4. Send titel, beskrivelse, kategori og belønning" style="endArrow=block;html=1;fontSize=12;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="685" y="330" as="sourcePoint"/><mxPoint x="1005" y="330" as="targetPoint"/></mxGeometry></mxCell>
+<mxCell id="m4" value="5. Gem Task + PeerTask med status OPEN" style="endArrow=block;html=1;fontSize=12;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="1005" y="380" as="sourcePoint"/><mxPoint x="1325" y="380" as="targetPoint"/></mxGeometry></mxCell>
+<mxCell id="m5" value="6. Returnér 201 + opgave" style="endArrow=block;html=1;fontSize=12;dashed=1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="1005" y="430" as="sourcePoint"/><mxPoint x="685" y="430" as="targetPoint"/></mxGeometry></mxCell>
+<mxCell id="m6" value="7. Vis bekræftelse" style="endArrow=block;html=1;fontSize=12;dashed=1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="685" y="480" as="sourcePoint"/><mxPoint x="45" y="480" as="targetPoint"/></mxGeometry></mxCell>
+<mxCell id="m7" value="8. Åbn Requester-opgaver" style="endArrow=block;html=1;fontSize=12;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="365" y="530" as="sourcePoint"/><mxPoint x="685" y="530" as="targetPoint"/></mxGeometry></mxCell>
+<mxCell id="m8" value="9. Hent åbne PeerTasks" style="endArrow=block;html=1;fontSize=12;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="685" y="580" as="sourcePoint"/><mxPoint x="1005" y="580" as="targetPoint"/></mxGeometry></mxCell>
+<mxCell id="m9" value="10. Læs Task + PeerTask hvor status = OPEN" style="endArrow=block;html=1;fontSize=12;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="1005" y="630" as="sourcePoint"/><mxPoint x="1325" y="630" as="targetPoint"/></mxGeometry></mxCell>
+<mxCell id="m10" value="11. Vis opgaver" style="endArrow=block;html=1;fontSize=12;dashed=1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="685" y="680" as="sourcePoint"/><mxPoint x="365" y="680" as="targetPoint"/></mxGeometry></mxCell>
+<mxCell id="m11" value="12. Vælg og tilmeld" style="endArrow=block;html=1;fontSize=12;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="365" y="730" as="sourcePoint"/><mxPoint x="685" y="730" as="targetPoint"/></mxGeometry></mxCell>
+<mxCell id="m12" value="13. Opret Application(PENDING)" style="endArrow=block;html=1;fontSize=12;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="685" y="780" as="sourcePoint"/><mxPoint x="1005" y="780" as="targetPoint"/></mxGeometry></mxCell>
+<mxCell id="m13" value="14. Gem tilmelding" style="endArrow=block;html=1;fontSize=12;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="1005" y="830" as="sourcePoint"/><mxPoint x="1325" y="830" as="targetPoint"/></mxGeometry></mxCell>
+</root></mxGraphModel></diagram>
+<diagram id="class-empty" name="2 - Klasser uden forbindelser"><mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" page="1" pageWidth="1400" pageHeight="900"><root><mxCell id="0"/><mxCell id="1" parent="0"/>
+<mxCell id="title" value="US4b · BE CPU · Konceptuelle klasser" style="text;html=1;fontSize=24;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="35" y="20" width="900" height="40" as="geometry"/></mxCell>
+<mxCell id="note" value="Ansvar og type er vist; relationer tilføjes først i det udfyldte klassediagram." style="shape=note;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;" vertex="1" parent="1"><mxGeometry x="930" y="20" width="420" height="60" as="geometry"/></mxCell>
+<mxCell id="ep" value="&lt;&lt;endpoint&gt;&gt;
+RequesterTaskEndpoints
+────────────
+Minimal API-ruter" style="rounded=0;whiteSpace=wrap;html=0;align=left;verticalAlign=top;spacing=9;fontSize=13;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="35" y="105" width="285" height="125" as="geometry"/></mxCell>
+<mxCell id="dep" value="&lt;&lt;endpoint&gt;&gt;
+TaskDiscoveryEndpoints
+────────────
+GET åbne Requester-opgaver" style="rounded=0;whiteSpace=wrap;html=0;align=left;verticalAlign=top;spacing=9;fontSize=13;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="375" y="105" width="285" height="125" as="geometry"/></mxCell>
+<mxCell id="aep" value="&lt;&lt;endpoint&gt;&gt;
+ApplicationEndpoints
+────────────
+POST tilmelding" style="rounded=0;whiteSpace=wrap;html=0;align=left;verticalAlign=top;spacing=9;fontSize=13;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="715" y="105" width="285" height="125" as="geometry"/></mxCell>
+<mxCell id="svc" value="&lt;&lt;service&gt;&gt;
+RequesterTaskService
+────────────
+Oprettelsesregler" style="rounded=0;whiteSpace=wrap;html=0;align=left;verticalAlign=top;spacing=9;fontSize=13;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1"><mxGeometry x="1055" y="105" width="285" height="125" as="geometry"/></mxCell>
+<mxCell id="asvc" value="&lt;&lt;service&gt;&gt;
+ApplicationService
+────────────
+Tilmeldingsregler" style="rounded=0;whiteSpace=wrap;html=0;align=left;verticalAlign=top;spacing=9;fontSize=13;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1"><mxGeometry x="35" y="365" width="285" height="125" as="geometry"/></mxCell>
+<mxCell id="repo" value="&lt;&lt;repository&gt;&gt;
+ITaskRepository
+────────────
+Task + PeerTask adgang" style="rounded=0;whiteSpace=wrap;html=0;align=left;verticalAlign=top;spacing=9;fontSize=13;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1"><mxGeometry x="375" y="365" width="285" height="125" as="geometry"/></mxCell>
+<mxCell id="arepo" value="&lt;&lt;repository&gt;&gt;
+IApplicationRepository
+────────────
+Application adgang" style="rounded=0;whiteSpace=wrap;html=0;align=left;verticalAlign=top;spacing=9;fontSize=13;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1"><mxGeometry x="715" y="365" width="285" height="125" as="geometry"/></mxCell>
+<mxCell id="db" value="&lt;&lt;data access&gt;&gt;
+AppDbContext
+────────────
+EF Core unit of work" style="rounded=0;whiteSpace=wrap;html=0;align=left;verticalAlign=top;spacing=9;fontSize=13;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1"><mxGeometry x="1055" y="365" width="285" height="125" as="geometry"/></mxCell>
+<mxCell id="peer" value="&lt;&lt;entity&gt;&gt;
+Peer
+────────────
+Requester eller Contributor" style="rounded=0;whiteSpace=wrap;html=0;align=left;verticalAlign=top;spacing=9;fontSize=13;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="35" y="625" width="285" height="125" as="geometry"/></mxCell>
+<mxCell id="task" value="&lt;&lt;entity&gt;&gt;
+Task
+────────────
+Fælles opgave" style="rounded=0;whiteSpace=wrap;html=0;align=left;verticalAlign=top;spacing=9;fontSize=13;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="375" y="625" width="285" height="125" as="geometry"/></mxCell>
+<mxCell id="pt" value="&lt;&lt;entity&gt;&gt;
+PeerTask
+────────────
+Requester-specialisering" style="rounded=0;whiteSpace=wrap;html=0;align=left;verticalAlign=top;spacing=9;fontSize=13;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="715" y="625" width="285" height="125" as="geometry"/></mxCell>
+<mxCell id="app" value="&lt;&lt;entity&gt;&gt;
+Application
+────────────
+Tilmelding" style="rounded=0;whiteSpace=wrap;html=0;align=left;verticalAlign=top;spacing=9;fontSize=13;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="1055" y="625" width="285" height="125" as="geometry"/></mxCell>
+</root></mxGraphModel></diagram>
+<diagram id="seq-class" name="3 - Sekvens med klasser"><mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" page="1" pageWidth="1400" pageHeight="900"><root><mxCell id="0"/><mxCell id="1" parent="0"/>
+<mxCell id="title" value="US4b · BE CPU · Sekvensdiagram med klasser" style="text;html=1;fontSize=24;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="35" y="20" width="900" height="40" as="geometry"/></mxCell>
+<mxCell id="note" value="Minimal API-endpoints, services, repositories og EF Core." style="shape=note;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;" vertex="1" parent="1"><mxGeometry x="930" y="20" width="420" height="60" as="geometry"/></mxCell>
+<mxCell id="p0" value="Client" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=13;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="-30" y="95" width="150" height="50" as="geometry"/></mxCell>
+<mxCell id="l0" value="" style="endArrow=block;html=1;fontSize=12;dashed=1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="45" y="145" as="sourcePoint"/><mxPoint x="45" y="850" as="targetPoint"/></mxGeometry></mxCell>
+<mxCell id="p1" value="RequesterTaskEndpoints" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=13;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="226" y="95" width="150" height="50" as="geometry"/></mxCell>
+<mxCell id="l1" value="" style="endArrow=block;html=1;fontSize=12;dashed=1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="301" y="145" as="sourcePoint"/><mxPoint x="301" y="850" as="targetPoint"/></mxGeometry></mxCell>
+<mxCell id="p2" value="RequesterTaskService" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=13;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="482" y="95" width="150" height="50" as="geometry"/></mxCell>
+<mxCell id="l2" value="" style="endArrow=block;html=1;fontSize=12;dashed=1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="557" y="145" as="sourcePoint"/><mxPoint x="557" y="850" as="targetPoint"/></mxGeometry></mxCell>
+<mxCell id="p3" value="ITaskRepository" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=13;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="738" y="95" width="150" height="50" as="geometry"/></mxCell>
+<mxCell id="l3" value="" style="endArrow=block;html=1;fontSize=12;dashed=1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="813" y="145" as="sourcePoint"/><mxPoint x="813" y="850" as="targetPoint"/></mxGeometry></mxCell>
+<mxCell id="p4" value="ApplicationEndpoints / Service" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=13;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="994" y="95" width="150" height="50" as="geometry"/></mxCell>
+<mxCell id="l4" value="" style="endArrow=block;html=1;fontSize=12;dashed=1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="1069" y="145" as="sourcePoint"/><mxPoint x="1069" y="850" as="targetPoint"/></mxGeometry></mxCell>
+<mxCell id="p5" value="AppDbContext" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=13;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1"><mxGeometry x="1250" y="95" width="150" height="50" as="geometry"/></mxCell>
+<mxCell id="l5" value="" style="endArrow=block;html=1;fontSize=12;dashed=1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="1325" y="145" as="sourcePoint"/><mxPoint x="1325" y="850" as="targetPoint"/></mxGeometry></mxCell>
+<mxCell id="m0" value="1. POST /api/peer-tasks" style="endArrow=block;html=1;fontSize=12;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="45" y="180" as="sourcePoint"/><mxPoint x="301" y="180" as="targetPoint"/></mxGeometry></mxCell>
+<mxCell id="m1" value="2. CreateOpenAsync(userId, request)" style="endArrow=block;html=1;fontSize=12;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="301" y="234" as="sourcePoint"/><mxPoint x="557" y="234" as="targetPoint"/></mxGeometry></mxCell>
+<mxCell id="m2" value="3. Autoriser Peer og validér belønning" style="endArrow=block;html=1;fontSize=12;dashed=1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="557" y="288" as="sourcePoint"/><mxPoint x="557" y="288" as="targetPoint"/></mxGeometry></mxCell>
+<mxCell id="m3" value="4. AddAsync(Task, PeerTask)" style="endArrow=block;html=1;fontSize=12;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="557" y="342" as="sourcePoint"/><mxPoint x="813" y="342" as="targetPoint"/></mxGeometry></mxCell>
+<mxCell id="m4" value="5. SaveChangesAsync()" style="endArrow=block;html=1;fontSize=12;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="813" y="396" as="sourcePoint"/><mxPoint x="1325" y="396" as="targetPoint"/></mxGeometry></mxCell>
+<mxCell id="m5" value="6. TaskDto(OPEN)" style="endArrow=block;html=1;fontSize=12;dashed=1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="557" y="450" as="sourcePoint"/><mxPoint x="301" y="450" as="targetPoint"/></mxGeometry></mxCell>
+<mxCell id="m6" value="7. 201 Created" style="endArrow=block;html=1;fontSize=12;dashed=1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="301" y="504" as="sourcePoint"/><mxPoint x="45" y="504" as="targetPoint"/></mxGeometry></mxCell>
+<mxCell id="m7" value="8. GET åbne PeerTasks" style="endArrow=block;html=1;fontSize=12;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="45" y="558" as="sourcePoint"/><mxPoint x="301" y="558" as="targetPoint"/></mxGeometry></mxCell>
+<mxCell id="m8" value="9. GetOpenPeerTasksAsync()" style="endArrow=block;html=1;fontSize=12;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="301" y="612" as="sourcePoint"/><mxPoint x="813" y="612" as="targetPoint"/></mxGeometry></mxCell>
+<mxCell id="m9" value="10. Query Task + PeerTask" style="endArrow=block;html=1;fontSize=12;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="813" y="666" as="sourcePoint"/><mxPoint x="1325" y="666" as="targetPoint"/></mxGeometry></mxCell>
+<mxCell id="m10" value="11. POST Application" style="endArrow=block;html=1;fontSize=12;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="45" y="720" as="sourcePoint"/><mxPoint x="1069" y="720" as="targetPoint"/></mxGeometry></mxCell>
+<mxCell id="m11" value="12. ApplyAsync -&gt; PENDING" style="endArrow=block;html=1;fontSize=12;dashed=1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="1069" y="774" as="sourcePoint"/><mxPoint x="1069" y="774" as="targetPoint"/></mxGeometry></mxCell>
+<mxCell id="m12" value="13. Save Application" style="endArrow=block;html=1;fontSize=12;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="1069" y="828" as="sourcePoint"/><mxPoint x="1325" y="828" as="targetPoint"/></mxGeometry></mxCell>
+</root></mxGraphModel></diagram>
+<diagram id="class-full" name="4 - Klassediagram"><mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" page="1" pageWidth="1400" pageHeight="900"><root><mxCell id="0"/><mxCell id="1" parent="0"/>
+<mxCell id="title" value="US4b · BE CPU · Klassediagram" style="text;html=1;fontSize=24;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="35" y="20" width="900" height="40" as="geometry"/></mxCell>
+<mxCell id="note" value="Requester er en Peer; Task og PeerTask udgør en total specialisering." style="shape=note;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;" vertex="1" parent="1"><mxGeometry x="930" y="20" width="420" height="60" as="geometry"/></mxCell>
+<mxCell id="ep" value="&lt;&lt;endpoint&gt;&gt;
+RequesterTaskEndpoints
+────────────
++ MapRequesterTaskEndpoints()
++ CreateAsync()" style="rounded=0;whiteSpace=wrap;html=0;align=left;verticalAlign=top;spacing=9;fontSize=13;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="35" y="105" width="285" height="190" as="geometry"/></mxCell>
+<mxCell id="dep" value="&lt;&lt;endpoint&gt;&gt;
+TaskDiscoveryEndpoints
+────────────
++ GetOpenPeerTasksAsync()" style="rounded=0;whiteSpace=wrap;html=0;align=left;verticalAlign=top;spacing=9;fontSize=13;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="375" y="105" width="285" height="190" as="geometry"/></mxCell>
+<mxCell id="aep" value="&lt;&lt;endpoint&gt;&gt;
+ApplicationEndpoints
+────────────
++ ApplyAsync()" style="rounded=0;whiteSpace=wrap;html=0;align=left;verticalAlign=top;spacing=9;fontSize=13;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="715" y="105" width="285" height="190" as="geometry"/></mxCell>
+<mxCell id="svc" value="&lt;&lt;service&gt;&gt;
+RequesterTaskService
+────────────
++ CreateOpenAsync(userId, request)
++ GetOpenAsync()" style="rounded=0;whiteSpace=wrap;html=0;align=left;verticalAlign=top;spacing=9;fontSize=13;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1"><mxGeometry x="1055" y="105" width="285" height="190" as="geometry"/></mxCell>
+<mxCell id="asvc" value="&lt;&lt;service&gt;&gt;
+ApplicationService
+────────────
++ ApplyAsync(peerId, taskId, message)" style="rounded=0;whiteSpace=wrap;html=0;align=left;verticalAlign=top;spacing=9;fontSize=13;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1"><mxGeometry x="35" y="365" width="285" height="190" as="geometry"/></mxCell>
+<mxCell id="repo" value="&lt;&lt;repository&gt;&gt;
+ITaskRepository
+────────────
++ AddAsync()
++ GetOpenPeerTasksAsync()
++ ExistsOpenAsync()" style="rounded=0;whiteSpace=wrap;html=0;align=left;verticalAlign=top;spacing=9;fontSize=13;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1"><mxGeometry x="375" y="365" width="285" height="190" as="geometry"/></mxCell>
+<mxCell id="arepo" value="&lt;&lt;repository&gt;&gt;
+IApplicationRepository
+────────────
++ AddAsync()
++ ExistsAsync()" style="rounded=0;whiteSpace=wrap;html=0;align=left;verticalAlign=top;spacing=9;fontSize=13;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1"><mxGeometry x="715" y="365" width="285" height="190" as="geometry"/></mxCell>
+<mxCell id="db" value="&lt;&lt;data access&gt;&gt;
+AppDbContext
+────────────
++ Tasks
++ PeerTasks
++ Applications
++ SaveChangesAsync()" style="rounded=0;whiteSpace=wrap;html=0;align=left;verticalAlign=top;spacing=9;fontSize=13;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1"><mxGeometry x="1055" y="365" width="285" height="190" as="geometry"/></mxCell>
+<mxCell id="peer" value="&lt;&lt;entity&gt;&gt;
+Peer
+────────────
++ userId
++ dateOfBirth" style="rounded=0;whiteSpace=wrap;html=0;align=left;verticalAlign=top;spacing=9;fontSize=13;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="35" y="625" width="285" height="190" as="geometry"/></mxCell>
+<mxCell id="task" value="&lt;&lt;entity&gt;&gt;
+Task
+────────────
++ id
++ createdByUserId
++ title
++ description
++ status
++ category
++ Open()" style="rounded=0;whiteSpace=wrap;html=0;align=left;verticalAlign=top;spacing=9;fontSize=13;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="375" y="625" width="285" height="190" as="geometry"/></mxCell>
+<mxCell id="pt" value="&lt;&lt;entity&gt;&gt;
+PeerTask
+────────────
++ taskId
++ rewardAmount
++ currency" style="rounded=0;whiteSpace=wrap;html=0;align=left;verticalAlign=top;spacing=9;fontSize=13;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="715" y="625" width="285" height="190" as="geometry"/></mxCell>
+<mxCell id="app" value="&lt;&lt;entity&gt;&gt;
+Application
+────────────
++ id
++ taskId
++ peerId
++ status
++ createdAt" style="rounded=0;whiteSpace=wrap;html=0;align=left;verticalAlign=top;spacing=9;fontSize=13;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="1055" y="625" width="285" height="190" as="geometry"/></mxCell>
+<mxCell id="r0" value="kalder" style="endArrow=open;dashed=1;html=1;" edge="1" parent="1" source="ep" target="svc"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="r1" value="kalder" style="endArrow=open;dashed=1;html=1;" edge="1" parent="1" source="dep" target="svc"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="r2" value="kalder" style="endArrow=open;dashed=1;html=1;" edge="1" parent="1" source="aep" target="asvc"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="r3" value="afhænger af" style="endArrow=open;dashed=1;html=1;" edge="1" parent="1" source="svc" target="repo"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="r4" value="afhænger af" style="endArrow=open;dashed=1;html=1;" edge="1" parent="1" source="asvc" target="repo"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="r5" value="afhænger af" style="endArrow=open;dashed=1;html=1;" edge="1" parent="1" source="asvc" target="arepo"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="r6" value="implementeres med" style="endArrow=open;dashed=1;html=1;" edge="1" parent="1" source="repo" target="db"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="r7" value="implementeres med" style="endArrow=open;dashed=1;html=1;" edge="1" parent="1" source="arepo" target="db"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="r8" value="1 opretter 0..*" style="endArrow=open;html=1;" edge="1" parent="1" source="peer" target="task"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="r9" value="1 : 1" style="startArrow=diamond;startFill=1;endArrow=open;html=1;" edge="1" parent="1" source="task" target="pt"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="r10" value="1 : 0..*" style="endArrow=open;html=1;" edge="1" parent="1" source="task" target="app"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="r11" value="1 sender 0..*" style="endArrow=open;html=1;" edge="1" parent="1" source="peer" target="app"><mxGeometry relative="1" as="geometry"/></mxCell>
+</root></mxGraphModel></diagram>
+</mxfile>
