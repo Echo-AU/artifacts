@@ -1,0 +1,257 @@
+<mxfile host="65bd71144e">
+    <diagram id="K0naNSqvF1KpugFZKSCs" name="systemsekvensdiagram">
+        <mxGraphModel dx="1815" dy="1415" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="w54DBegJw6yKjlh169Ov-93" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" value="&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;User Story&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0); font-size: 16px;&quot;&gt;Som Requester bør jeg kunne oprette opgaver, der beskriver den hjælp, jeg &lt;/font&gt;&lt;span style=&quot;background-color: transparent; font-size: 16px;&quot;&gt;har brug for, så Contributors kan finde og tilmelde sig dem.&lt;/span&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="110" width="409" x="79" y="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="9RwK9YinBAVlYiJP0Xfu-1" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=220;height=30;" value="&lt;b style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgba(121, 121, 121, 0.4) rgb(30, 30, 30);&quot;&gt;sd US-4b: &lt;/b&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Opret PeerTask&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="900" width="1220" x="38" y="270" as="geometry"/>
+                </mxCell>
+                <mxCell id="9RwK9YinBAVlYiJP0Xfu-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value=": Client" vertex="1">
+                    <mxGeometry height="850" width="150" x="308" y="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="9RwK9YinBAVlYiJP0Xfu-3" parent="9RwK9YinBAVlYiJP0Xfu-2" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="" vertex="1">
+                    <mxGeometry height="720" width="10" x="70" y="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="9RwK9YinBAVlYiJP0Xfu-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value=": Server" vertex="1">
+                    <mxGeometry height="850" width="150" x="684" y="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="9RwK9YinBAVlYiJP0Xfu-5" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="&lt;span style=&quot;font-size: 40px;&quot;&gt;Systemssekvensdiagram u. klasser&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="60" width="650" x="20" y="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="9RwK9YinBAVlYiJP0Xfu-6" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;&quot;&gt;[PRE]: &lt;/b&gt;Systemet er startet, Peer er logget ind&lt;/font&gt;" vertex="1">
+                    <mxGeometry height="40" width="390" x="79" y="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="9RwK9YinBAVlYiJP0Xfu-7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+                    <mxGeometry height="821" width="20" x="93" y="349" as="geometry"/>
+                </mxCell>
+                <mxCell id="9RwK9YinBAVlYiJP0Xfu-8" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Peer" vertex="1">
+                    <mxGeometry height="30" width="50" x="87" y="308" as="geometry"/>
+                </mxCell>
+                <mxCell id="9RwK9YinBAVlYiJP0Xfu-9" parent="1" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="" vertex="1">
+                    <mxGeometry height="620" width="10" x="754" y="470" as="geometry"/>
+                </mxCell>
+                <mxCell id="9RwK9YinBAVlYiJP0Xfu-10" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value=": Database" vertex="1">
+                    <mxGeometry height="842" width="150" x="1074.5" y="328" as="geometry"/>
+                </mxCell>
+                <mxCell id="9RwK9YinBAVlYiJP0Xfu-11" edge="1" parent="1" style="verticalAlign=bottom;elbow=vertical;curved=0;rounded=0;endArrow=block;endSize=6;endFill=1;" value="Sender oprettelsesforespørgelse">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                        <mxPoint x="389" y="476.2399999999998" as="sourcePoint"/>
+                        <mxPoint x="754" y="476.2399999999998" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9RwK9YinBAVlYiJP0Xfu-12" edge="1" parent="1" style="verticalAlign=bottom;elbow=vertical;curved=0;rounded=0;endArrow=open;endSize=6;endFill=0;" value="Åbn formular til ny Task">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                        <mxPoint x="103" y="411" as="sourcePoint"/>
+                        <mxPoint x="378.5" y="411" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9RwK9YinBAVlYiJP0Xfu-13" edge="1" parent="1" style="verticalAlign=bottom;edgeStyle=orthogonalEdgeStyle;elbow=vertical;rounded=0;endArrow=block;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="408" y="420.80999999999995"/>
+                            <mxPoint x="408" y="435.80999999999995"/>
+                        </Array>
+                        <mxPoint x="388" y="421.00000000000045" as="sourcePoint"/>
+                        <mxPoint x="388" y="435.80999999999995" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9RwK9YinBAVlYiJP0Xfu-14" connectable="0" parent="9RwK9YinBAVlYiJP0Xfu-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;Vis formular&lt;/span&gt;" vertex="1">
+                    <mxGeometry relative="1" x="-0.0706" as="geometry">
+                        <mxPoint x="43" y="5" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9RwK9YinBAVlYiJP0Xfu-15" edge="1" parent="1" style="verticalAlign=bottom;elbow=vertical;curved=0;rounded=0;endArrow=open;endSize=6;endFill=0;" value="Udfyld titel, beskrivelse, kategori og point">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                        <mxPoint x="101.5" y="461" as="sourcePoint"/>
+                        <mxPoint x="377" y="461" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9RwK9YinBAVlYiJP0Xfu-16" parent="1" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="" vertex="1">
+                    <mxGeometry height="59" width="10" x="1144.5" y="756" as="geometry"/>
+                </mxCell>
+                <mxCell id="9RwK9YinBAVlYiJP0Xfu-17" edge="1" parent="1" style="verticalAlign=bottom;edgeStyle=orthogonalEdgeStyle;elbow=vertical;rounded=0;endArrow=block;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="784" y="498.80999999999995"/>
+                            <mxPoint x="784" y="513.81"/>
+                        </Array>
+                        <mxPoint x="764" y="499.00000000000045" as="sourcePoint"/>
+                        <mxPoint x="764" y="513.81" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9RwK9YinBAVlYiJP0Xfu-18" connectable="0" parent="9RwK9YinBAVlYiJP0Xfu-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;Kontrollér login og Peer-rolle&lt;/span&gt;" vertex="1">
+                    <mxGeometry relative="1" x="-0.0706" as="geometry">
+                        <mxPoint x="91" y="2" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9RwK9YinBAVlYiJP0Xfu-19" edge="1" parent="1" style="verticalAlign=bottom;elbow=vertical;curved=0;rounded=0;endArrow=block;endFill=1;" value="">
+                    <mxGeometry relative="1" x="-0.0012" as="geometry">
+                        <mxPoint x="764" y="765" as="sourcePoint"/>
+                        <mxPoint x="1145.5" y="765" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9RwK9YinBAVlYiJP0Xfu-20" connectable="0" parent="9RwK9YinBAVlYiJP0Xfu-19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;Gem Task + PeerTask atomisk&lt;/span&gt;" vertex="1">
+                    <mxGeometry relative="1" x="0.157" y="1" as="geometry">
+                        <mxPoint x="-22" y="-9" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9RwK9YinBAVlYiJP0Xfu-21" edge="1" parent="1" style="verticalAlign=bottom;elbow=vertical;rounded=0;endArrow=open;endFill=0;dashed=1;" value="Oprettet med status DRAFT">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1145.5" y="807" as="sourcePoint"/>
+                        <mxPoint x="763" y="807" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9RwK9YinBAVlYiJP0Xfu-22" edge="1" parent="1" style="verticalAlign=bottom;edgeStyle=orthogonalEdgeStyle;elbow=vertical;rounded=0;endArrow=block;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="784" y="626.81"/>
+                            <mxPoint x="784" y="641.81"/>
+                        </Array>
+                        <mxPoint x="764" y="627.0000000000005" as="sourcePoint"/>
+                        <mxPoint x="764" y="641.81" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9RwK9YinBAVlYiJP0Xfu-23" connectable="0" parent="9RwK9YinBAVlYiJP0Xfu-22" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;Validér titel, kategori og point&lt;/span&gt;" vertex="1">
+                    <mxGeometry relative="1" x="-0.0706" as="geometry">
+                        <mxPoint x="74" y="2" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9RwK9YinBAVlYiJP0Xfu-24" edge="1" parent="1" style="verticalAlign=bottom;elbow=vertical;rounded=0;endArrow=open;endFill=0;dashed=1;" value="Returnér 401">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="754" y="587" as="sourcePoint"/>
+                        <mxPoint x="388" y="587" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9RwK9YinBAVlYiJP0Xfu-25" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=50;height=19;" value="&lt;b&gt;ext&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="90" width="421" x="363" y="525" as="geometry"/>
+                </mxCell>
+                <mxCell id="9RwK9YinBAVlYiJP0Xfu-26" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;b&gt;[&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;Organization fejler Role check&lt;/span&gt;&lt;/b&gt;&lt;b&gt;]&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="20" width="195" x="366" y="547" as="geometry"/>
+                </mxCell>
+                <mxCell id="9RwK9YinBAVlYiJP0Xfu-27" edge="1" parent="1" style="verticalAlign=bottom;elbow=vertical;rounded=0;endArrow=open;endFill=0;dashed=1;" value="Returnér 400">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="754" y="717" as="sourcePoint"/>
+                        <mxPoint x="388" y="717" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9RwK9YinBAVlYiJP0Xfu-28" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=50;height=19;" value="&lt;b&gt;ext&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="90" width="421" x="363" y="655" as="geometry"/>
+                </mxCell>
+                <mxCell id="9RwK9YinBAVlYiJP0Xfu-29" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;b&gt;[&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;Requst body fejler validering&lt;/span&gt;&lt;/b&gt;&lt;b&gt;]&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="20" width="195" x="366" y="677" as="geometry"/>
+                </mxCell>
+                <mxCell id="9RwK9YinBAVlYiJP0Xfu-30" edge="1" parent="1" style="verticalAlign=bottom;elbow=vertical;rounded=0;endArrow=open;endFill=0;dashed=1;" value="Returnér 201 + Task">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="753" y="830" as="sourcePoint"/>
+                        <mxPoint x="388" y="830" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9RwK9YinBAVlYiJP0Xfu-31" edge="1" parent="1" style="verticalAlign=bottom;edgeStyle=orthogonalEdgeStyle;elbow=vertical;rounded=0;endArrow=block;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="408" y="857.81"/>
+                            <mxPoint x="408" y="872.81"/>
+                        </Array>
+                        <mxPoint x="388" y="858.0000000000005" as="sourcePoint"/>
+                        <mxPoint x="388" y="872.81" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9RwK9YinBAVlYiJP0Xfu-32" connectable="0" parent="9RwK9YinBAVlYiJP0Xfu-31" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;Succes besked fremvises&lt;/span&gt;" vertex="1">
+                    <mxGeometry relative="1" x="-0.0706" as="geometry">
+                        <mxPoint x="68" y="2" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9RwK9YinBAVlYiJP0Xfu-33" edge="1" parent="1" style="verticalAlign=bottom;elbow=vertical;curved=0;rounded=0;endArrow=open;endSize=6;endFill=0;" value="Trykker på knap">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                        <mxPoint x="102.5" y="898.9099999999999" as="sourcePoint"/>
+                        <mxPoint x="378" y="898.9099999999999" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9RwK9YinBAVlYiJP0Xfu-34" edge="1" parent="1" style="verticalAlign=bottom;edgeStyle=orthogonalEdgeStyle;elbow=vertical;rounded=0;endArrow=block;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="408" y="912.8199999999997"/>
+                            <mxPoint x="408" y="927.8199999999997"/>
+                        </Array>
+                        <mxPoint x="388" y="913.0100000000002" as="sourcePoint"/>
+                        <mxPoint x="388" y="927.8199999999997" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9RwK9YinBAVlYiJP0Xfu-35" connectable="0" parent="9RwK9YinBAVlYiJP0Xfu-34" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;Naviger til den oprettede Tasks Details&lt;/span&gt;" vertex="1">
+                    <mxGeometry relative="1" x="-0.0706" as="geometry">
+                        <mxPoint x="103" y="2" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9RwK9YinBAVlYiJP0Xfu-36" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=50;height=19;" value="&lt;b&gt;opt&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="199.59" width="1173.5" x="51" y="940.4099999999999" as="geometry"/>
+                </mxCell>
+                <mxCell id="9RwK9YinBAVlYiJP0Xfu-37" edge="1" parent="1" style="verticalAlign=bottom;elbow=vertical;curved=0;rounded=0;endArrow=open;endSize=6;endFill=0;" value="Trykker på &quot;Publicer&quot; knap">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                        <mxPoint x="102.5" y="1002.4099999999999" as="sourcePoint"/>
+                        <mxPoint x="378" y="1002.4099999999999" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9RwK9YinBAVlYiJP0Xfu-38" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;b&gt;[&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;Opdater Status til OPEN&lt;/span&gt;&lt;/b&gt;&lt;b&gt;]&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="20" width="157" x="55" y="963.4099999999999" as="geometry"/>
+                </mxCell>
+                <mxCell id="9RwK9YinBAVlYiJP0Xfu-39" edge="1" parent="1" style="verticalAlign=bottom;elbow=vertical;curved=0;rounded=0;endArrow=block;endSize=6;endFill=1;" value="Sender opdateringsforespørgelse">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                        <mxPoint x="388" y="1015.9099999999999" as="sourcePoint"/>
+                        <mxPoint x="753" y="1015.9099999999999" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9RwK9YinBAVlYiJP0Xfu-40" edge="1" parent="1" style="verticalAlign=bottom;elbow=vertical;rounded=0;endArrow=open;endFill=0;dashed=1;" value="Returnér 204 + Task">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="753" y="1084.9099999999999" as="sourcePoint"/>
+                        <mxPoint x="388" y="1084.9099999999999" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9RwK9YinBAVlYiJP0Xfu-41" edge="1" parent="1" style="verticalAlign=bottom;edgeStyle=orthogonalEdgeStyle;elbow=vertical;rounded=0;endArrow=block;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="408" y="1099.2199999999998"/>
+                            <mxPoint x="408" y="1114.2199999999998"/>
+                        </Array>
+                        <mxPoint x="388" y="1099.4100000000003" as="sourcePoint"/>
+                        <mxPoint x="388" y="1114.2199999999998" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9RwK9YinBAVlYiJP0Xfu-42" connectable="0" parent="9RwK9YinBAVlYiJP0Xfu-41" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;Re-render details, nu med Task.Status == OPEN&lt;/span&gt;" vertex="1">
+                    <mxGeometry relative="1" x="-0.0706" as="geometry">
+                        <mxPoint x="128" y="2" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9RwK9YinBAVlYiJP0Xfu-43" edge="1" parent="1" style="verticalAlign=bottom;elbow=vertical;rounded=0;endArrow=open;endFill=0;dashed=1;" value="Opdaterer status OPEN">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1147.5" y="1065" as="sourcePoint"/>
+                        <mxPoint x="765" y="1065" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9RwK9YinBAVlYiJP0Xfu-44" edge="1" parent="1" style="verticalAlign=bottom;elbow=vertical;curved=0;rounded=0;endArrow=block;endFill=1;" value="">
+                    <mxGeometry relative="1" x="-0.0012" as="geometry">
+                        <mxPoint x="764" y="1036.5" as="sourcePoint"/>
+                        <mxPoint x="1145.5" y="1036.5" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9RwK9YinBAVlYiJP0Xfu-45" connectable="0" parent="9RwK9YinBAVlYiJP0Xfu-44" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;Opdater Task + PeerTask atomisk&lt;/span&gt;" vertex="1">
+                    <mxGeometry relative="1" x="0.157" y="1" as="geometry">
+                        <mxPoint x="-22" y="-9" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9RwK9YinBAVlYiJP0Xfu-46" parent="1" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="" vertex="1">
+                    <mxGeometry height="37" width="10" x="1145.5" y="1033" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
