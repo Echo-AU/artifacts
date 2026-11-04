@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="keNtotqF6NMqy5YqGtk6" name="1 - konceptuelt sekvens">
-        <mxGraphModel dx="1194" dy="871" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="2088" dy="1349" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -241,7 +241,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="gunno9nKBxVuKmPRdcHw" name="2 - klasser">
-        <mxGraphModel dx="670" dy="488" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1399" dy="904" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="gUIw8mH9Mxuu1jjkkpD8-0"/>
                 <mxCell id="gUIw8mH9Mxuu1jjkkpD8-1" parent="gUIw8mH9Mxuu1jjkkpD8-0"/>
@@ -309,7 +309,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="DB5N_mp86jzXHnB2LFZW" name="3 - sekvens m. klasser">
-        <mxGraphModel dx="561" dy="409" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="2855" dy="1845" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="nZfh7-MtK_y3nadLG3l3-0"/>
                 <mxCell id="nZfh7-MtK_y3nadLG3l3-1" parent="nZfh7-MtK_y3nadLG3l3-0"/>
