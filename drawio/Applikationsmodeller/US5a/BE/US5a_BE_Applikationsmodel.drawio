@@ -1141,7 +1141,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="seq-class" name="3 - Sekvens med klasser">
-        <mxGraphModel dx="912" dy="513" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2700" pageHeight="6792" math="0" shadow="0">
+        <mxGraphModel dx="1886" dy="1060" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2700" pageHeight="6792" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -2375,7 +2375,7 @@
                     <mxGeometry height="18" width="350" x="126" y="6418" as="geometry"/>
                 </mxCell>
                 <mxCell id="p3-fr29" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=50;height=19;" value="&lt;b&gt;opt&lt;/b&gt;" vertex="1">
-                    <mxGeometry height="1544" width="2324" x="122" y="5158" as="geometry"/>
+                    <mxGeometry height="1544" width="2346" x="100" y="5158" as="geometry"/>
                 </mxCell>
                 <mxCell id="p3-g29" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=11;" value="&lt;b&gt;[Application trækkes tilbage]&lt;/b&gt;" vertex="1">
                     <mxGeometry height="18" width="202" x="126" y="5180" as="geometry"/>
