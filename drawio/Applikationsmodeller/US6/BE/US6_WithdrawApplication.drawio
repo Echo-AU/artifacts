@@ -1,17 +1,17 @@
 <mxfile host="65bd71144e">
     <diagram id="rXYsQxy5o8FYsILGtkEH" name="1 - konceptuelt sekvens">
-        <mxGraphModel dx="1090" dy="628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="4224" math="0" shadow="0">
+        <mxGraphModel dx="907" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="4224" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
                 <mxCell id="heyR9MU4u8TddQi1iWlK-1" parent="1" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="&lt;span style=&quot;font-size: 40px;&quot;&gt;Konceptuelt sekvensdiagram (Frontend + Backend)&lt;/span&gt;" vertex="1">
                     <mxGeometry height="60" width="1000" x="590" y="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="heyR9MU4u8TddQi1iWlK-2" parent="1" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="&lt;b&gt;[PRE]:&lt;/b&gt;Systemet er startet, Peer er logget ind, navigeret til en Opgaves &quot;Details page&quot;" vertex="1">
-                    <mxGeometry height="30" width="480" x="590" y="180" as="geometry"/>
+                <mxCell id="heyR9MU4u8TddQi1iWlK-2" parent="1" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="&lt;b&gt;[PRE]:&lt;/b&gt;Systemet er startet, Contributor er logget ind, navigeret til en Opgaves &quot;Details page&quot;" vertex="1">
+                    <mxGeometry height="30" width="510" x="590" y="180" as="geometry"/>
                 </mxCell>
-                <mxCell id="heyR9MU4u8TddQi1iWlK-3" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=210;height=30;" value="&lt;b style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgba(98, 104, 128, 0.5) rgb(48, 52, 70);&quot;&gt;sd&lt;/b&gt;&lt;span style=&quot;color: rgb(0, 0, 0); scrollbar-color: rgba(98, 104, 128, 0.5) rgb(48, 52, 70);&quot;&gt; US-5b.3-S: Withdraw Application&lt;/span&gt;" vertex="1">
-                    <mxGeometry height="1300" width="915" x="590" y="220" as="geometry"/>
+                <mxCell id="heyR9MU4u8TddQi1iWlK-3" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=210;height=30;" value="&lt;b style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgba(98, 104, 128, 0.5) rgb(48, 52, 70);&quot;&gt;sd&lt;/b&gt;&lt;span style=&quot;color: rgb(0, 0, 0); scrollbar-color: rgba(98, 104, 128, 0.5) rgb(48, 52, 70);&quot;&gt; US-6: Withdraw Application&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="1300" width="925" x="580" y="220" as="geometry"/>
                 </mxCell>
                 <mxCell id="heyR9MU4u8TddQi1iWlK-6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;size=50;fontSize=11;" value=": Client" vertex="1">
                     <mxGeometry height="1250" width="140" x="740" y="270" as="geometry"/>
@@ -188,7 +188,7 @@
                 <mxCell id="opMDwOuIz_C4WlHOON8i-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;fillColor=#f8cecc;strokeColor=#b85450;" value="" vertex="1">
                     <mxGeometry height="1240" width="20" x="610" y="280" as="geometry"/>
                 </mxCell>
-                <mxCell id="opMDwOuIz_C4WlHOON8i-2" parent="1" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=0;strokeColor=none;fillColor=none;align=center;fontSize=12;fontStyle=1" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 11px; white-space: normal;&quot;&gt;Peer&lt;/span&gt;" vertex="1">
+                <mxCell id="opMDwOuIz_C4WlHOON8i-2" parent="1" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=0;strokeColor=none;fillColor=none;align=center;fontSize=12;fontStyle=1" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 11px; white-space: normal;&quot;&gt;Contributor (Peer)&lt;/span&gt;" vertex="1">
                     <mxGeometry height="30" width="120" x="560" y="250" as="geometry"/>
                 </mxCell>
                 <mxCell id="opMDwOuIz_C4WlHOON8i-3" edge="1" parent="1" style="html=1;edgeStyle=orthogonalEdgeStyle;elbow=vertical;rounded=0;endArrow=block;endFill=1;" value="">
@@ -299,12 +299,12 @@
         </mxGraphModel>
     </diagram>
     <diagram id="class-empty" name="2 - Klasser">
-        <mxGraphModel dx="1569" dy="904" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1666" pageHeight="875" math="0" shadow="0">
+        <mxGraphModel dx="754" dy="435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1666" pageHeight="875" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="p2-frame" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=300;height=20;align=left;" value="&lt;b style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgba(98, 104, 128, 0.5) rgb(48, 52, 70); text-align: center;&quot;&gt;cd&lt;/b&gt;&lt;span style=&quot;color: rgb(0, 0, 0); text-align: center;&quot;&gt; US-5b.3-S: Withdraw Application&lt;/span&gt;" vertex="1">
-                    <mxGeometry height="480" width="650" x="110" y="170" as="geometry"/>
+                <mxCell id="p2-frame" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=300;height=20;align=left;" value="&lt;b style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgba(98, 104, 128, 0.5) rgb(48, 52, 70); text-align: center;&quot;&gt;cd&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;scrollbar-color: rgba(98, 104, 128, 0.5) rgb(48, 52, 70); text-align: center; color: rgb(0, 0, 0);&quot;&gt;US-6: Withdraw Application&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="625" width="1496" x="110" y="170" as="geometry"/>
                 </mxCell>
                 <mxCell id="p2-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Boundary&amp;gt;&amp;gt;&lt;/i&gt;&lt;/span&gt;&lt;div&gt;WithdrawTaskApplicationEndpoint&lt;/div&gt;" vertex="1">
                     <mxGeometry height="50" width="265" x="132" y="215" as="geometry"/>
@@ -313,7 +313,7 @@
                     <mxGeometry height="50" width="220" x="417" y="215" as="geometry"/>
                 </mxCell>
                 <mxCell id="p2-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Controller&amp;gt;&amp;gt;&lt;/i&gt;&lt;/span&gt;&lt;div&gt;WithdrawTaskApplication.Handler&lt;/div&gt;" vertex="1">
-                    <mxGeometry height="50" width="265" x="420" y="290" as="geometry"/>
+                    <mxGeometry height="50" width="265" x="133" y="365" as="geometry"/>
                 </mxCell>
                 <mxCell id="p2-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Command&amp;gt;&amp;gt;&lt;/i&gt;&lt;/span&gt;&lt;div&gt;WithdrawTaskApplication.Command&lt;/div&gt;" vertex="1">
                     <mxGeometry height="50" width="265" x="132" y="290" as="geometry"/>
@@ -328,7 +328,7 @@
                     <mxGeometry height="50" width="204" x="434" y="432" as="geometry"/>
                 </mxCell>
                 <mxCell id="p2-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Service&amp;gt;&amp;gt;&lt;/i&gt;&lt;/span&gt;&lt;div&gt;TaskApplicationService&lt;/div&gt;" vertex="1">
-                    <mxGeometry height="50" width="197" x="443" y="361" as="geometry"/>
+                    <mxGeometry height="50" width="197" x="658" y="432" as="geometry"/>
                 </mxCell>
                 <mxCell id="p2-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;UnitOfWork&amp;gt;&amp;gt;&lt;/i&gt;&lt;/span&gt;&lt;div&gt;TasksDbContext&lt;/div&gt;" vertex="1">
                     <mxGeometry height="50" width="136" x="134" y="507" as="geometry"/>
@@ -343,10 +343,10 @@
                     <mxGeometry height="50" width="130" x="611" y="507" as="geometry"/>
                 </mxCell>
                 <mxCell id="p2-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Entity&amp;gt;&amp;gt;&lt;/i&gt;&lt;/span&gt;&lt;div&gt;TaskApplication&lt;/div&gt;" vertex="1">
-                    <mxGeometry height="50" width="144" x="132" y="361" as="geometry"/>
+                    <mxGeometry height="50" width="144" x="761" y="507" as="geometry"/>
                 </mxCell>
                 <mxCell id="p2-30" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Entity&amp;gt;&amp;gt;&lt;/i&gt;&lt;/span&gt;&lt;div&gt;Contribution&lt;/div&gt;" vertex="1">
-                    <mxGeometry height="50" width="130" x="296" y="361" as="geometry"/>
+                    <mxGeometry height="50" width="130" x="925" y="507" as="geometry"/>
                 </mxCell>
                 <mxCell id="p2-31" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;enum&amp;gt;&amp;gt;&lt;/i&gt;&lt;/span&gt;&lt;div&gt;TaskStatus&lt;/div&gt;" vertex="1">
                     <mxGeometry height="50" width="130" x="134" y="582" as="geometry"/>
@@ -357,11 +357,14 @@
                 <mxCell id="p2-33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;enum&amp;gt;&amp;gt;&lt;/i&gt;&lt;/span&gt;&lt;div&gt;ContributionStatus&lt;/div&gt;" vertex="1">
                     <mxGeometry height="50" width="166" x="463" y="582" as="geometry"/>
                 </mxCell>
+                <mxCell id="p2-legend" parent="1" style="shape=note;whiteSpace=wrap;html=1;size=10;fontSize=11;fillColor=#fff2cc;strokeColor=#d6b656;align=left;spacingLeft=4;" value="* Foreslået: findes ikke i backenden endnu (docs/tasks-todo.md: list OPEN Tasks mangler). Navnene følger konventionen i de øvrige slices." vertex="1">
+                    <mxGeometry height="40" width="520" x="134" y="662" as="geometry"/>
+                </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
     <diagram id="seq-class" name="3 - Sekvens med klasser">
-        <mxGraphModel dx="1090" dy="628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2700" pageHeight="6792" math="0" shadow="0">
+        <mxGraphModel dx="1569" dy="904" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2700" pageHeight="6792" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -383,7 +386,7 @@
                 <mxCell id="p3-pre" parent="1" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="&lt;b style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgba(98, 104, 128, 0.5) rgb(48, 52, 70);&quot;&gt;[PRE]:&lt;/b&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Systemet er startet, Peer er logget ind, navigeret til en Opgaves &quot;Details page&quot;&lt;/span&gt;" vertex="1">
                     <mxGeometry height="30" width="480" x="80" y="130" as="geometry"/>
                 </mxCell>
-                <mxCell id="p3-frame" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=230;height=30;" value="&lt;b style=&quot;scrollbar-color: rgba(98, 104, 128, 0.5) rgb(48, 52, 70); color: rgb(63, 63, 63);&quot;&gt;sd&lt;/b&gt;&lt;span style=&quot;scrollbar-color: rgba(98, 104, 128, 0.5) rgb(48, 52, 70); color: rgb(0, 0, 0);&quot;&gt; US-5b.3-S: Withdraw Application&lt;/span&gt;" vertex="1">
+                <mxCell id="p3-frame" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=230;height=30;" value="&lt;b style=&quot;scrollbar-color: rgba(98, 104, 128, 0.5) rgb(48, 52, 70); color: rgb(63, 63, 63);&quot;&gt;sd&lt;/b&gt;&lt;span style=&quot;scrollbar-color: rgba(98, 104, 128, 0.5) rgb(48, 52, 70); color: rgb(0, 0, 0);&quot;&gt; US-6-S: Withdraw Application&lt;/span&gt;" vertex="1">
                     <mxGeometry height="1310" width="1550" x="80" y="170" as="geometry"/>
                 </mxCell>
                 <mxCell id="p3-ll0" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;size=50;fontSize=11;fillColor=#f8cecc;strokeColor=#b85450;" value=": Client" vertex="1">
