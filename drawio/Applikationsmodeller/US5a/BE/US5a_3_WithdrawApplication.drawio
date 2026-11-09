@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="rXYsQxy5o8FYsILGtkEH" name="1 - konceptuelt sekvens">
-        <mxGraphModel dx="2274" dy="1310" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="4224" math="0" shadow="0">
+        <mxGraphModel dx="1934" dy="1458" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="4224" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -299,11 +299,11 @@
         </mxGraphModel>
     </diagram>
     <diagram id="class-empty" name="2 - Klasser">
-        <mxGraphModel dx="1308" dy="753" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1666" pageHeight="875" math="0" shadow="0">
+        <mxGraphModel dx="693" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1666" pageHeight="875" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="p2-frame" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=300;height=20;align=left;" value="&lt;b style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgba(98, 104, 128, 0.5) rgb(48, 52, 70); text-align: center;&quot;&gt;sd&lt;/b&gt;&lt;span style=&quot;color: rgb(0, 0, 0); text-align: center;&quot;&gt; US-5a.3-S: Withdraw Application&lt;/span&gt;" vertex="1">
+                <mxCell id="p2-frame" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=300;height=20;align=left;" value="&lt;b style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgba(98, 104, 128, 0.5) rgb(48, 52, 70); text-align: center;&quot;&gt;cd&lt;/b&gt;&lt;span style=&quot;color: rgb(0, 0, 0); text-align: center;&quot;&gt; US-5a.3-S: Withdraw Application&lt;/span&gt;" vertex="1">
                     <mxGeometry height="625" width="1496" x="110" y="170" as="geometry"/>
                 </mxCell>
                 <mxCell id="p2-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Boundary&amp;gt;&amp;gt;&lt;/i&gt;&lt;/span&gt;&lt;div&gt;WithdrawTaskApplicationEndpoint&lt;/div&gt;" vertex="1">
@@ -364,7 +364,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="seq-class" name="3 - Sekvens med klasser">
-        <mxGraphModel dx="1090" dy="628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2700" pageHeight="6792" math="0" shadow="0">
+        <mxGraphModel dx="1934" dy="1458" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2700" pageHeight="6792" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>

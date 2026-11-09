@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="rXYsQxy5o8FYsILGtkEH" name="1 - konceptuelt sekvens">
-        <mxGraphModel dx="4376" dy="2460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="4224" math="0" shadow="0">
+        <mxGraphModel dx="3241" dy="2443" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="4224" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -534,11 +534,11 @@
         </mxGraphModel>
     </diagram>
     <diagram id="class-empty" name="2 - Klasser">
-        <mxGraphModel dx="1199" dy="904" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1666" pageHeight="875" math="0" shadow="0">
+        <mxGraphModel dx="576" dy="435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1666" pageHeight="875" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="p2-frame" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=300;height=20;align=left;" value="&lt;b style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgba(98, 104, 128, 0.5) rgb(48, 52, 70); text-align: center;&quot;&gt;sd&lt;/b&gt;&lt;span style=&quot;color: rgb(0, 0, 0); text-align: center;&quot;&gt; US-5a.2: Accepter OrganizationTask Application&lt;/span&gt;" vertex="1">
+                <mxCell id="p2-frame" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=300;height=20;align=left;" value="&lt;b style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgba(98, 104, 128, 0.5) rgb(48, 52, 70); text-align: center;&quot;&gt;cd&lt;/b&gt;&lt;span style=&quot;color: rgb(0, 0, 0); text-align: center;&quot;&gt; US-5a.2: Accepter OrganizationTask Application&lt;/span&gt;" vertex="1">
                     <mxGeometry height="450" width="770" x="110" y="170" as="geometry"/>
                 </mxCell>
                 <mxCell id="p2-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Boundary&amp;gt;&amp;gt;&lt;/i&gt;&lt;/span&gt;&lt;div&gt;AcceptTaskApplicationEndpoint&lt;/div&gt;" vertex="1">
@@ -593,7 +593,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="seq-class" name="3 - Sekvens med klasser">
-        <mxGraphModel dx="912" dy="513" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2700" pageHeight="6792" math="0" shadow="0">
+        <mxGraphModel dx="3426" dy="2583" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2700" pageHeight="6792" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
