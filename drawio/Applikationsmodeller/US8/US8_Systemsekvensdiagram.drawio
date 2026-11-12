@@ -1,0 +1,506 @@
+<mxfile host="65bd71144e">
+    <diagram id="K0naNSqvF1KpugFZKSCs" name="systemsekvensdiagram">
+        <mxGraphModel dx="803" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-1" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=260;height=30;" value="&lt;b&gt;sd US-8:&amp;nbsp;&lt;/b&gt;Rate Contributor" vertex="1">
+                    <mxGeometry height="2380" width="1000" x="60" y="370" as="geometry"/>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;size=50;fontSize=11;" value=": Client" vertex="1">
+                    <mxGeometry height="2310" width="140" x="295" y="440" as="geometry"/>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;size=50;fontSize=11;" value=": Server" vertex="1">
+                    <mxGeometry height="2310" width="140" x="595" y="440" as="geometry"/>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;size=50;fontSize=11;" value=": Database" vertex="1">
+                    <mxGeometry height="2310" width="140" x="895" y="440" as="geometry"/>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-5" parent="1" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="" vertex="1">
+                    <mxGeometry height="211" width="10" x="960" y="809" as="geometry"/>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-6" parent="1" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="" vertex="1">
+                    <mxGeometry height="1980" width="10" x="660" y="540" as="geometry"/>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-7" parent="1" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="" vertex="1">
+                    <mxGeometry height="810" width="10" x="960" y="1560" as="geometry"/>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-8" parent="1" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="" vertex="1">
+                    <mxGeometry height="2176" width="10" x="360" y="520" as="geometry"/>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-9" parent="1" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="&lt;span style=&quot;font-size: 40px;&quot;&gt;Konceptuelt sekvensdiagram (Frontend + Backend)&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="60" width="1000" x="60" y="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-10" parent="1" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;[PRE]: &lt;/b&gt;Systemet er startet, Requester/Organization er logget ind og har navigeret til en IN_PROGRESS Opgaves &quot;Details page&quot;&lt;/font&gt;" vertex="1">
+                    <mxGeometry height="40" width="900" x="60" y="310" as="geometry"/>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Som Organization/Requester kan jeg anmelde en Contributor efter en fuldført opgave, så fremtidige Users kan vurdere vedkommendes omdømme.&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="110" width="409" x="60" y="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-12" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+                    <mxGeometry height="2300" width="20" x="165" y="450" as="geometry"/>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-13" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=0;strokeColor=none;fillColor=none;fontSize=11;fontStyle=1" value="Requester / Organization&amp;nbsp;&lt;div&gt;(Poster)&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="30" width="140" x="105" y="420" as="geometry"/>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-14" edge="1" parent="1" style="html=1;verticalAlign=bottom;elbow=vertical;curved=0;rounded=0;endArrow=block;endSize=6;endFill=1;fontSize=11;labelBackgroundColor=default;" target="mLF3m3YI3NrvwOITEvZ0-8" value="Trykker &quot;Afslut opgave&quot;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="175" y="520" as="sourcePoint"/>
+                        <mxPoint x="355" y="520" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-15" edge="1" parent="1" style="html=1;verticalAlign=bottom;elbow=vertical;curved=0;rounded=0;endArrow=block;endSize=6;endFill=1;fontSize=11;labelBackgroundColor=default;" value="Hent Contributions for Task request">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="369.9999999999999" y="539" as="sourcePoint"/>
+                        <mxPoint x="660" y="539" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-16" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=50;height=19;" value="&lt;b&gt;ext&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="108" width="380" x="325" y="560" as="geometry"/>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-17" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=11;" value="&lt;b&gt;[Bruger er ikke logget ind]&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="18" width="187" x="329" y="582" as="geometry"/>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-18" edge="1" parent="1" style="html=1;verticalAlign=bottom;elbow=vertical;rounded=0;endArrow=open;endFill=0;dashed=1;fontSize=11;labelBackgroundColor=default;" value="Returnér 401">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="660" y="620" as="sourcePoint"/>
+                        <mxPoint x="370" y="620" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-19" edge="1" parent="1" style="html=1;edgeStyle=orthogonalEdgeStyle;elbow=vertical;rounded=0;endArrow=block;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="385" y="641"/>
+                            <mxPoint x="385" y="662"/>
+                        </Array>
+                        <mxPoint x="365" y="641" as="sourcePoint"/>
+                        <mxPoint x="365" y="662" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=11;" value="Fejlbesked fremvises" vertex="1">
+                    <mxGeometry height="30" width="122" x="392" y="636" as="geometry"/>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-21" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=50;height=19;" value="&lt;b&gt;ext&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="108" width="380" x="325" y="680" as="geometry"/>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-22" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=11;" value="&lt;b&gt;[Bruger er hverken Requester (Peer) eller Organization]&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="18" width="358" x="329" y="702" as="geometry"/>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-23" edge="1" parent="1" style="html=1;verticalAlign=bottom;elbow=vertical;rounded=0;endArrow=open;endFill=0;dashed=1;fontSize=11;labelBackgroundColor=default;" value="Returnér 403">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="660" y="740" as="sourcePoint"/>
+                        <mxPoint x="370" y="740" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-24" edge="1" parent="1" style="html=1;edgeStyle=orthogonalEdgeStyle;elbow=vertical;rounded=0;endArrow=block;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="385" y="761"/>
+                            <mxPoint x="385" y="782"/>
+                        </Array>
+                        <mxPoint x="365" y="761" as="sourcePoint"/>
+                        <mxPoint x="365" y="782" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=11;" value="Fejlbesked fremvises" vertex="1">
+                    <mxGeometry height="30" width="122" x="392" y="756" as="geometry"/>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-26" edge="1" parent="1" style="html=1;verticalAlign=bottom;elbow=vertical;curved=0;rounded=0;endArrow=block;endSize=6;endFill=1;fontSize=11;labelBackgroundColor=default;" value="Hent Task (kun hvis bruger er Poster)">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="670" y="809" as="sourcePoint"/>
+                        <mxPoint x="960" y="809" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-27" edge="1" parent="1" style="html=1;verticalAlign=bottom;elbow=vertical;rounded=0;endArrow=open;endFill=0;dashed=1;fontSize=11;labelBackgroundColor=default;" value="Task / ingen">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="960" y="840" as="sourcePoint"/>
+                        <mxPoint x="670" y="840" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-28" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=50;height=19;" value="&lt;b&gt;ext&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="108" width="380" x="325" y="860" as="geometry"/>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-29" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=11;" value="&lt;b&gt;[Task findes ikke, eller bruger er ikke Poster]&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="18" width="309" x="329" y="882" as="geometry"/>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-30" edge="1" parent="1" style="html=1;verticalAlign=bottom;elbow=vertical;rounded=0;endArrow=open;endFill=0;dashed=1;fontSize=11;labelBackgroundColor=default;" value="Returnér 404">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="660" y="920" as="sourcePoint"/>
+                        <mxPoint x="370" y="920" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-31" edge="1" parent="1" style="html=1;edgeStyle=orthogonalEdgeStyle;elbow=vertical;rounded=0;endArrow=block;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="390" y="941"/>
+                            <mxPoint x="390" y="962"/>
+                        </Array>
+                        <mxPoint x="370" y="941" as="sourcePoint"/>
+                        <mxPoint x="370" y="962" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-32" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=11;" value="Fejlbesked fremvises" vertex="1">
+                    <mxGeometry height="30" width="122" x="392" y="936" as="geometry"/>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-33" edge="1" parent="1" style="html=1;verticalAlign=bottom;elbow=vertical;curved=0;rounded=0;endArrow=block;endSize=6;endFill=1;fontSize=11;labelBackgroundColor=default;" value="Hent Contributions (IN_PROGRESS) for Task">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="670" y="990" as="sourcePoint"/>
+                        <mxPoint x="960" y="990" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-34" edge="1" parent="1" style="html=1;verticalAlign=bottom;elbow=vertical;rounded=0;endArrow=open;endFill=0;dashed=1;fontSize=11;labelBackgroundColor=default;" value="Contributions">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="960" y="1020" as="sourcePoint"/>
+                        <mxPoint x="670" y="1020" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-35" edge="1" parent="1" style="html=1;verticalAlign=bottom;elbow=vertical;rounded=0;endArrow=open;endFill=0;dashed=1;fontSize=11;labelBackgroundColor=default;" value="Returnér 200 + liste af Contributions">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="660" y="1039" as="sourcePoint"/>
+                        <mxPoint x="370" y="1039" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-36" edge="1" parent="1" style="html=1;edgeStyle=orthogonalEdgeStyle;elbow=vertical;rounded=0;endArrow=block;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="390" y="1060"/>
+                            <mxPoint x="390" y="1081"/>
+                        </Array>
+                        <mxPoint x="370" y="1060" as="sourcePoint"/>
+                        <mxPoint x="370" y="1081" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-37" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=11;" value="Fremvis modal til at bedømme første Contributor" vertex="1">
+                    <mxGeometry height="30" width="273" x="392" y="1055" as="geometry"/>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-38" edge="1" parent="1" style="html=1;verticalAlign=bottom;elbow=vertical;curved=0;rounded=0;endArrow=block;endSize=6;endFill=1;fontSize=11;labelBackgroundColor=default;" value="Vælger antal stjerner (1-5) og trykker &quot;Bekræft&quot;">
+                    <mxGeometry relative="1" x="-0.027" y="10" as="geometry">
+                        <mxPoint as="offset"/>
+                        <mxPoint x="175" y="1149" as="sourcePoint"/>
+                        <mxPoint x="360" y="1149" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-39" edge="1" parent="1" style="html=1;verticalAlign=bottom;elbow=vertical;curved=0;rounded=0;endArrow=block;endSize=6;endFill=1;fontSize=11;labelBackgroundColor=default;" value="Indsend Rating for Contributor request">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="370" y="1169" as="sourcePoint"/>
+                        <mxPoint x="660" y="1169" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-40" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=50;height=19;" value="&lt;b&gt;ext&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="108" width="380" x="325" y="1190" as="geometry"/>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-41" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=11;" value="&lt;b&gt;[Score er ikke mellem 1 og 5]&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="18" width="199" x="329" y="1212" as="geometry"/>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-42" edge="1" parent="1" style="html=1;verticalAlign=bottom;elbow=vertical;rounded=0;endArrow=open;endFill=0;dashed=1;fontSize=11;labelBackgroundColor=default;" value="Returnér 400 + valideringsfejl">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="660" y="1250" as="sourcePoint"/>
+                        <mxPoint x="370" y="1250" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-43" edge="1" parent="1" style="html=1;edgeStyle=orthogonalEdgeStyle;elbow=vertical;rounded=0;endArrow=block;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="390" y="1270"/>
+                            <mxPoint x="390" y="1291"/>
+                        </Array>
+                        <mxPoint x="370" y="1270" as="sourcePoint"/>
+                        <mxPoint x="370" y="1291" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-44" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=11;" value="Fejlbesked fremvises" vertex="1">
+                    <mxGeometry height="30" width="122" x="392" y="1265" as="geometry"/>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-45" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=50;height=19;" value="&lt;b&gt;ext&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="108" width="380" x="325" y="1310" as="geometry"/>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-46" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=11;" value="&lt;b&gt;[Bruger er ikke logget ind]&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="18" width="187" x="329" y="1332" as="geometry"/>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-47" edge="1" parent="1" style="html=1;verticalAlign=bottom;elbow=vertical;rounded=0;endArrow=open;endFill=0;dashed=1;fontSize=11;labelBackgroundColor=default;" value="Returnér 401">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="660" y="1370" as="sourcePoint"/>
+                        <mxPoint x="370" y="1370" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-48" edge="1" parent="1" style="html=1;edgeStyle=orthogonalEdgeStyle;elbow=vertical;rounded=0;endArrow=block;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="390" y="1390"/>
+                            <mxPoint x="390" y="1411"/>
+                        </Array>
+                        <mxPoint x="370" y="1390" as="sourcePoint"/>
+                        <mxPoint x="370" y="1411" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-49" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=11;" value="Fejlbesked fremvises" vertex="1">
+                    <mxGeometry height="30" width="122" x="392" y="1385" as="geometry"/>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-50" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=50;height=19;" value="&lt;b&gt;ext&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="108" width="380" x="325" y="1430" as="geometry"/>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-51" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=11;" value="&lt;b&gt;[Bruger er hverken Requester (Peer) eller Organization]&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="18" width="358" x="329" y="1452" as="geometry"/>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-52" edge="1" parent="1" style="html=1;verticalAlign=bottom;elbow=vertical;rounded=0;endArrow=open;endFill=0;dashed=1;fontSize=11;labelBackgroundColor=default;" value="Returnér 403">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="660" y="1490" as="sourcePoint"/>
+                        <mxPoint x="370" y="1490" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-53" edge="1" parent="1" style="html=1;edgeStyle=orthogonalEdgeStyle;elbow=vertical;rounded=0;endArrow=block;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="390" y="1510"/>
+                            <mxPoint x="390" y="1531"/>
+                        </Array>
+                        <mxPoint x="370" y="1510" as="sourcePoint"/>
+                        <mxPoint x="370" y="1531" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-54" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=11;" value="Fejlbesked fremvises" vertex="1">
+                    <mxGeometry height="30" width="122" x="392" y="1505" as="geometry"/>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-55" edge="1" parent="1" style="html=1;verticalAlign=bottom;elbow=vertical;curved=0;rounded=0;endArrow=block;endSize=6;endFill=1;fontSize=11;labelBackgroundColor=default;" value="Hent Task (kun hvis bruger er Poster)">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="670" y="1560" as="sourcePoint"/>
+                        <mxPoint x="960" y="1560" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-56" edge="1" parent="1" style="html=1;verticalAlign=bottom;elbow=vertical;rounded=0;endArrow=open;endFill=0;dashed=1;fontSize=11;labelBackgroundColor=default;" value="Task / ingen">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="960" y="1591" as="sourcePoint"/>
+                        <mxPoint x="670" y="1591" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-57" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=50;height=19;" value="&lt;b&gt;ext&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="108" width="380" x="325" y="1610" as="geometry"/>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-58" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=11;" value="&lt;b&gt;[Task findes ikke, eller bruger er ikke Poster]&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="18" width="309" x="329" y="1632" as="geometry"/>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-59" edge="1" parent="1" style="html=1;verticalAlign=bottom;elbow=vertical;rounded=0;endArrow=open;endFill=0;dashed=1;fontSize=11;labelBackgroundColor=default;" value="Returnér 404">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="660" y="1670" as="sourcePoint"/>
+                        <mxPoint x="370" y="1670" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-60" edge="1" parent="1" style="html=1;edgeStyle=orthogonalEdgeStyle;elbow=vertical;rounded=0;endArrow=block;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="390" y="1690"/>
+                            <mxPoint x="390" y="1711"/>
+                        </Array>
+                        <mxPoint x="370" y="1690" as="sourcePoint"/>
+                        <mxPoint x="370" y="1711" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-61" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=11;" value="Fejlbesked fremvises" vertex="1">
+                    <mxGeometry height="30" width="122" x="391" y="1685" as="geometry"/>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-62" edge="1" parent="1" style="html=1;verticalAlign=bottom;elbow=vertical;curved=0;rounded=0;endArrow=block;endSize=6;endFill=1;fontSize=11;labelBackgroundColor=default;" value="Hent Contribution på Task">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="670" y="1740" as="sourcePoint"/>
+                        <mxPoint x="960" y="1740" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-63" edge="1" parent="1" style="html=1;verticalAlign=bottom;elbow=vertical;rounded=0;endArrow=open;endFill=0;dashed=1;fontSize=11;labelBackgroundColor=default;" value="Contribution / ingen">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="960" y="1770" as="sourcePoint"/>
+                        <mxPoint x="670" y="1770" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-64" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=50;height=19;" value="&lt;b&gt;ext&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="108" width="380" x="325" y="1790" as="geometry"/>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-65" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=11;" value="&lt;b&gt;[Contribution findes ikke på Task]&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="18" width="229" x="329" y="1812" as="geometry"/>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-66" edge="1" parent="1" style="html=1;verticalAlign=bottom;elbow=vertical;rounded=0;endArrow=open;endFill=0;dashed=1;fontSize=11;labelBackgroundColor=default;" value="Returnér 404">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="660" y="1850" as="sourcePoint"/>
+                        <mxPoint x="370" y="1850" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-67" edge="1" parent="1" style="html=1;edgeStyle=orthogonalEdgeStyle;elbow=vertical;rounded=0;endArrow=block;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="390" y="1870"/>
+                            <mxPoint x="390" y="1891"/>
+                        </Array>
+                        <mxPoint x="370" y="1870" as="sourcePoint"/>
+                        <mxPoint x="370" y="1891" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-68" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=11;" value="Fejlbesked fremvises" vertex="1">
+                    <mxGeometry height="30" width="122" x="391" y="1864" as="geometry"/>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-69" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=50;height=19;" value="&lt;b&gt;ext&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="108" width="380" x="325" y="1910" as="geometry"/>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-70" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=11;" value="&lt;b&gt;[Task har ikke status IN_PROGRESS]&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="18" width="229" x="329" y="1932" as="geometry"/>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-71" edge="1" parent="1" style="html=1;verticalAlign=bottom;elbow=vertical;rounded=0;endArrow=open;endFill=0;dashed=1;fontSize=11;labelBackgroundColor=default;" value="Returnér 409">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="660" y="1970" as="sourcePoint"/>
+                        <mxPoint x="370" y="1970" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-72" edge="1" parent="1" style="html=1;edgeStyle=orthogonalEdgeStyle;elbow=vertical;rounded=0;endArrow=block;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="390" y="1990"/>
+                            <mxPoint x="390" y="2011"/>
+                        </Array>
+                        <mxPoint x="370" y="1990" as="sourcePoint"/>
+                        <mxPoint x="370" y="2011" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-73" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=11;" value="Fejlbesked fremvises" vertex="1">
+                    <mxGeometry height="30" width="122" x="391" y="1985" as="geometry"/>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-74" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=50;height=19;" value="&lt;b&gt;ext&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="108" width="460" x="325" y="2030" as="geometry"/>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-75" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=11;" value="&lt;b&gt;[Contribution er ikke IN_PROGRESS (allerede bedømt, eller CANCELLED)]&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="18" width="443" x="329" y="2052" as="geometry"/>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-76" edge="1" parent="1" style="html=1;verticalAlign=bottom;elbow=vertical;rounded=0;endArrow=open;endFill=0;dashed=1;fontSize=11;labelBackgroundColor=default;" value="Returnér 409">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="660" y="2090" as="sourcePoint"/>
+                        <mxPoint x="370" y="2090" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-77" edge="1" parent="1" style="html=1;edgeStyle=orthogonalEdgeStyle;elbow=vertical;rounded=0;endArrow=block;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="390" y="2110"/>
+                            <mxPoint x="390" y="2131"/>
+                        </Array>
+                        <mxPoint x="370" y="2110" as="sourcePoint"/>
+                        <mxPoint x="370" y="2131" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-78" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=11;" value="Fejlbesked fremvises" vertex="1">
+                    <mxGeometry height="30" width="122" x="391" y="2105" as="geometry"/>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-79" edge="1" parent="1" style="html=1;verticalAlign=bottom;elbow=vertical;curved=0;rounded=0;endArrow=block;endSize=6;endFill=1;fontSize=11;labelBackgroundColor=default;" value="Tæl øvrige Contributions IN_PROGRESS på Task">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="670" y="2270" as="sourcePoint"/>
+                        <mxPoint x="960" y="2270" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-80" edge="1" parent="1" style="html=1;verticalAlign=bottom;elbow=vertical;rounded=0;endArrow=open;endFill=0;dashed=1;fontSize=11;labelBackgroundColor=default;" value="Antal">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="960" y="2300" as="sourcePoint"/>
+                        <mxPoint x="670" y="2300" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-81" edge="1" parent="1" style="html=1;verticalAlign=bottom;elbow=vertical;curved=0;rounded=0;endArrow=block;endSize=6;endFill=1;fontSize=11;labelBackgroundColor=default;" value="Gem Rating, opdater Contribution til COMPLETED&amp;nbsp;&lt;div&gt;(og Task til COMPLETED, hvis sidste) atomisk&lt;/div&gt;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                        <mxPoint x="670" y="2340" as="sourcePoint"/>
+                        <mxPoint x="960" y="2340" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-82" edge="1" parent="1" style="html=1;verticalAlign=bottom;elbow=vertical;rounded=0;endArrow=open;endFill=0;dashed=1;fontSize=11;labelBackgroundColor=default;" value="Gemt / serialiseringsfejl">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="960" y="2370" as="sourcePoint"/>
+                        <mxPoint x="670" y="2370" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-83" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=50;height=19;" value="&lt;b&gt;ext&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="108" width="443" x="325" y="2390" as="geometry"/>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-84" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=11;" value="&lt;b&gt;[Task ændret af anden request samtidig, eller Contribution bedømt samtidig]&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="18" width="426" x="329" y="2412" as="geometry"/>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-85" edge="1" parent="1" style="html=1;verticalAlign=bottom;elbow=vertical;rounded=0;endArrow=open;endFill=0;dashed=1;fontSize=11;labelBackgroundColor=default;" value="Returnér 409">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="660" y="2450" as="sourcePoint"/>
+                        <mxPoint x="370" y="2450" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-86" edge="1" parent="1" style="html=1;edgeStyle=orthogonalEdgeStyle;elbow=vertical;rounded=0;endArrow=block;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="390" y="2470"/>
+                            <mxPoint x="390" y="2491"/>
+                        </Array>
+                        <mxPoint x="370" y="2470" as="sourcePoint"/>
+                        <mxPoint x="370" y="2491" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-87" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=11;" value="Fejlbesked fremvises" vertex="1">
+                    <mxGeometry height="30" width="122" x="391" y="2465" as="geometry"/>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-88" edge="1" parent="1" style="html=1;verticalAlign=bottom;elbow=vertical;rounded=0;endArrow=open;endFill=0;dashed=1;fontSize=11;labelBackgroundColor=default;" value="Returnér 204">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="660" y="2520" as="sourcePoint"/>
+                        <mxPoint x="370" y="2520" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-89" edge="1" parent="1" style="html=1;edgeStyle=orthogonalEdgeStyle;elbow=vertical;rounded=0;endArrow=block;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="390" y="2599"/>
+                            <mxPoint x="390" y="2620"/>
+                        </Array>
+                        <mxPoint x="370" y="2599" as="sourcePoint"/>
+                        <mxPoint x="370" y="2620" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-90" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=11;" value="Luk modal. Rerender Opgave detaljer (Task COMPLETED)" vertex="1">
+                    <mxGeometry height="30" width="323" x="392" y="2596" as="geometry"/>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-91" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=60;height=19;" value="&lt;b&gt;loop&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="1630" width="900" x="145" y="1100" as="geometry"/>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-92" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=11;" value="&lt;b&gt;[FOR contributor IN liste af Contributions]&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="18" width="238" x="208" y="1103" as="geometry"/>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-93" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=50;height=19;" value="&lt;b&gt;alt&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="168" width="443" x="325" y="2542" as="geometry"/>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-94" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=11;" value="&lt;b&gt;[Sidste Contributor i listen]&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="18" width="156.5" x="328.5" y="2565" as="geometry"/>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-95" edge="1" parent="1" style="html=1;edgeStyle=orthogonalEdgeStyle;elbow=vertical;rounded=0;endArrow=block;endFill=1;" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="390" y="2669"/>
+                            <mxPoint x="390" y="2690"/>
+                        </Array>
+                        <mxPoint x="370" y="2669" as="sourcePoint"/>
+                        <mxPoint x="370" y="2690" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-96" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=11;" value="Luk modal. Vis næste Contributor" vertex="1">
+                    <mxGeometry height="30" width="223" x="392" y="2666" as="geometry"/>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-97" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=11;" value="&lt;b&gt;[else]&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="18" width="46.5" x="328.5" y="2634" as="geometry"/>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-98" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;exitX=0.004;exitY=0.475;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.999;entryY=0.469;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+                    <mxGeometry height="50" relative="1" width="50" as="geometry">
+                        <mxPoint x="326.77200000000005" y="2630.3" as="sourcePoint"/>
+                        <mxPoint x="767.557" y="2629.172" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-99" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=50;height=19;" value="&lt;b&gt;ref&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="40" width="240" x="545" y="2151" as="geometry"/>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-100" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=11;" value="Opdater Contributors omdømme (avg_rating, number_of_ratings) - Users" vertex="1">
+                    <mxGeometry height="32" width="180" x="597" y="2155" as="geometry"/>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-101" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=50;height=19;" value="&lt;b&gt;ref&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="40" width="240" x="545" y="2201" as="geometry"/>
+                </mxCell>
+                <mxCell id="mLF3m3YI3NrvwOITEvZ0-102" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=11;" value="Udbetal belønning for Contribution - Payments" vertex="1">
+                    <mxGeometry height="32" width="180" x="597" y="2205" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
