@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="Vi-M2kdEp_ExA5_P2Zzr" name="Page-1">
-        <mxGraphModel dx="972" dy="586" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="390" dy="24" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -1172,8 +1172,8 @@
                         <mxRectangle height="29" width="120" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="hQfkarveytKxhr_G5V5m-520" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" value="&lt;div&gt;&lt;strong&gt;ACCOUNT_TYPE&lt;/strong&gt;&lt;/div&gt;&lt;div&gt;USER&lt;/div&gt;&lt;div&gt;KARMA_ISSUANCE&lt;/div&gt;&lt;div&gt;ESCROW&lt;/div&gt;" vertex="1">
-                    <mxGeometry height="90" width="200" x="120" y="1545" as="geometry"/>
+                <mxCell id="hQfkarveytKxhr_G5V5m-520" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" value="&lt;div&gt;&lt;strong&gt;ACCOUNT_TYPE&lt;/strong&gt;&lt;/div&gt;&lt;div&gt;USER&lt;/div&gt;&lt;div&gt;KARMA_ISSUANCE&lt;/div&gt;&lt;div&gt;ESCROW&lt;/div&gt;&lt;div&gt;EXTERNAL&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="110" width="200" x="120" y="1545" as="geometry"/>
                 </mxCell>
                 <mxCell id="hQfkarveytKxhr_G5V5m-521" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;strong&gt;Constraint:&lt;/strong&gt; En &lt;code dir=&quot;ltr&quot;&gt;Account&lt;/code&gt; ejes af præcis 1 &lt;code dir=&quot;ltr&quot;&gt;User&lt;/code&gt;, eller af ingen (platformkonti: &lt;code dir=&quot;ltr&quot;&gt;KARMA_ISSUANCE&lt;/code&gt;, &lt;code dir=&quot;ltr&quot;&gt;ESCROW&lt;/code&gt;). En &lt;code dir=&quot;ltr&quot;&gt;User&lt;/code&gt; har højst 1 &lt;code dir=&quot;ltr&quot;&gt;Account&lt;/code&gt; per &lt;code dir=&quot;ltr&quot;&gt;ASSET_TYPE&lt;/code&gt;." vertex="1">
                     <mxGeometry height="100" width="360" x="120" y="1660" as="geometry"/>
@@ -1454,8 +1454,8 @@
                         <mxRectangle height="29" width="128" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="hQfkarveytKxhr_G5V5m-315" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" value="&lt;strong&gt;TRANSACTION_TYPE&amp;nbsp;&lt;/strong&gt;&lt;div&gt;TASK_REWARD,&amp;nbsp;&lt;/div&gt;&lt;div&gt;REWARD_REDEMPTION,&amp;nbsp;&lt;/div&gt;&lt;div&gt;ESCROW_HOLD,&amp;nbsp;&lt;/div&gt;&lt;div&gt;ESCROW_RELEASE,&amp;nbsp;&lt;/div&gt;&lt;div&gt;ESCROW_REFUND,&amp;nbsp;&lt;/div&gt;&lt;div&gt;DEPOSIT,&amp;nbsp;&lt;/div&gt;&lt;div&gt;ADJUSTMENT&lt;/div&gt;" vertex="1">
-                    <mxGeometry height="175" width="190" x="2192.5" y="1870" as="geometry"/>
+                <mxCell id="hQfkarveytKxhr_G5V5m-315" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" value="&lt;strong&gt;TRANSACTION_TYPE&amp;nbsp;&lt;/strong&gt;&lt;div&gt;TASK_REWARD,&amp;nbsp;&lt;/div&gt;&lt;div&gt;REWARD_REDEMPTION,&amp;nbsp;&lt;/div&gt;&lt;div&gt;ESCROW_HOLD,&amp;nbsp;&lt;/div&gt;&lt;div&gt;ESCROW_RELEASE,&amp;nbsp;&lt;/div&gt;&lt;div&gt;ESCROW_REFUND,&amp;nbsp;&lt;/div&gt;&lt;div&gt;DEPOSIT,&amp;nbsp;&lt;/div&gt;&lt;div&gt;PAYOUT,&amp;nbsp;&lt;/div&gt;&lt;div&gt;ADJUSTMENT&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="200" width="190" x="2192.5" y="1870" as="geometry"/>
                 </mxCell>
                 <mxCell id="hQfkarveytKxhr_G5V5m-316" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" value="&lt;div&gt;&lt;strong&gt;ASSET_TYPE&lt;/strong&gt;&lt;/div&gt;&lt;div&gt;DKK&lt;/div&gt;&lt;div&gt;KK&lt;/div&gt;" vertex="1">
                     <mxGeometry height="70" width="190" x="2192.5" y="2060" as="geometry"/>
