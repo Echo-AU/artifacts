@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="publish-p1" name="1 - konceptuelt sekvens (v2)">
-        <mxGraphModel dx="1023" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="2286" dy="1878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -88,11 +88,8 @@
                 <mxCell id="n59" parent="1" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=0;strokeColor=none;fillColor=none;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;[PRE]: &lt;/b&gt;Systemet er startet, Organization er logget ind og har oprettet en Task (status DRAFT)&lt;/font&gt;" vertex="1">
                     <mxGeometry height="36" width="1400" x="220" y="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="n60" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;verticalAlign=top;spacingLeft=6;spacingTop=4;" value="&lt;b style=&quot;font-size:15px&quot;&gt;User Story&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:14px&quot;&gt;Som en Organization skal jeg kunne oprette og offentliggøre aktiviteter, så Contributors kan finde og tilmelde sig dem for at bidrage til min organisations formål.&lt;/span&gt;" vertex="1">
-                    <mxGeometry height="100" width="560" x="1590" y="20" as="geometry"/>
-                </mxCell>
                 <mxCell id="n61" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;verticalAlign=top;spacingLeft=6;spacingTop=4;" value="&lt;b style=&quot;font-size:14px&quot;&gt;TODO (mangler i koden)&lt;/b&gt;&lt;br&gt;GET /tasks returnerer kun &lt;b&gt;OPEN&lt;/b&gt; Tasks. En nyoprettet &lt;b&gt;DRAFT&lt;/b&gt; er derfor ikke i listen, så &quot;Mine Opgaver&quot; + filter DRAFT virker ikke endnu.&lt;br&gt;Mangler: et endpoint/filter der giver Posterens egne Tasks inkl. DRAFT (fx GET /tasks/mine eller ?status=DRAFT)." vertex="1">
-                    <mxGeometry height="130" width="520" x="1700" y="293" as="geometry"/>
+                    <mxGeometry height="130" width="520" x="240" y="1550" as="geometry"/>
                 </mxCell>
                 <mxCell id="n2" edge="1" parent="1" style="html=1;verticalAlign=bottom;elbow=vertical;curved=0;rounded=0;endArrow=open;endSize=6;endFill=0;fontSize=11;labelBackgroundColor=default;" value="Trykker på &quot;Mine Opgaver&quot; i shell">
                     <mxGeometry relative="1" as="geometry">
@@ -366,7 +363,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="publish-p3" name="3 - sekvens m. klasser">
-        <mxGraphModel dx="2450" dy="1787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="2166" dy="1779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
