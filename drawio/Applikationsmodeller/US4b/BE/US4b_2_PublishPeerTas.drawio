@@ -1,14 +1,14 @@
 <mxfile host="65bd71144e">
     <diagram id="Tg9yEdLhL7s149fXW_Ne" name="1 - konceptuelt sekvens">
-        <mxGraphModel dx="2591" dy="1674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1199" dy="904" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
                 <mxCell id="ml6ym6WCT_g3cEsFwYtk-5" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="&lt;span style=&quot;font-size: 40px;&quot;&gt;Systemssekvensdiagram u. klasser&lt;/span&gt;" vertex="1">
-                    <mxGeometry height="60" width="650" x="37" y="180" as="geometry"/>
+                    <mxGeometry height="60" width="650" x="70" y="180" as="geometry"/>
                 </mxCell>
                 <mxCell id="ml6ym6WCT_g3cEsFwYtk-6" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="&lt;b style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgba(121, 121, 121, 0.4) rgb(30, 30, 30); font-size: 16px; text-align: left;&quot;&gt;[PRE]: &lt;/b&gt;&lt;span style=&quot;color: rgb(63, 63, 63); font-size: 16px; text-align: left;&quot;&gt;Systemet er startet, Peer er logget ind og har oprettet en Task (status DRAFT)&lt;/span&gt;" vertex="1">
-                    <mxGeometry height="30" width="630" x="100" y="240" as="geometry"/>
+                    <mxGeometry height="30" width="630" x="70" y="240" as="geometry"/>
                 </mxCell>
                 <mxCell id="ml6ym6WCT_g3cEsFwYtk-47" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" value="&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;User Story&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Som en Organization skal jeg kunne oprette og offentliggøre aktiviteter, så&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-size: 16px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Contributors kan finde og tilmelde sig dem for at bidrage til min organisations formål.&lt;/span&gt;&lt;/div&gt;" vertex="1">
                     <mxGeometry height="110" width="409" x="46" y="40" as="geometry"/>
@@ -298,11 +298,11 @@
         </mxGraphModel>
     </diagram>
     <diagram id="f8EUyTwgGfhtEYrQLUql" name="2 - klasser">
-        <mxGraphModel dx="1164" dy="849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1199" dy="904" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="x3n2rOCafSqZgVdc9ICY-0"/>
                 <mxCell id="x3n2rOCafSqZgVdc9ICY-1" parent="x3n2rOCafSqZgVdc9ICY-0"/>
-                <mxCell id="kkXzUBcHW-hhFg5qvvpV-0" parent="x3n2rOCafSqZgVdc9ICY-1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=300;height=20;align=left;" value="&lt;b&gt;cd US-4b.2-S: &lt;/b&gt;Offentliggør OrganizationTask" vertex="1">
+                <mxCell id="kkXzUBcHW-hhFg5qvvpV-0" parent="x3n2rOCafSqZgVdc9ICY-1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=300;height=20;align=left;" value="&lt;b&gt;cd US-4b.2-S:&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Publish PeerTask&lt;/span&gt;" vertex="1">
                     <mxGeometry height="560" width="770" x="30" y="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="kkXzUBcHW-hhFg5qvvpV-1" parent="x3n2rOCafSqZgVdc9ICY-1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Boundary&amp;gt;&amp;gt;&lt;/i&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgba(121, 121, 121, 0.4) rgb(30, 30, 30);&quot;&gt;GetTasksEndpoint&lt;/span&gt;&lt;/div&gt;" vertex="1">
@@ -360,7 +360,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="bTrAIqQQFaYYIroqJ7Kr" name="3 - sekvens m. klasser">
-        <mxGraphModel dx="2798" dy="1808" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="2067" dy="1559" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="e8sUGSWUJiPacB1mvjwD-0"/>
                 <mxCell id="e8sUGSWUJiPacB1mvjwD-1" parent="e8sUGSWUJiPacB1mvjwD-0"/>
@@ -674,9 +674,6 @@
                 </mxCell>
                 <mxCell id="dWvZkljNFu7pJpmbldu2-86" parent="e8sUGSWUJiPacB1mvjwD-1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=220;height=30;" value="&lt;b style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgba(121, 121, 121, 0.4) rgb(30, 30, 30); text-align: left;&quot;&gt;sd US-4a.2:&lt;/b&gt;&lt;span style=&quot;color: rgb(0, 0, 0); text-align: left;&quot;&gt; Publish PeerTask&lt;/span&gt;" vertex="1">
                     <mxGeometry height="1630" width="1960" x="70" y="170" as="geometry"/>
-                </mxCell>
-                <mxCell id="dWvZkljNFu7pJpmbldu2-87" parent="e8sUGSWUJiPacB1mvjwD-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;verticalAlign=top;spacingLeft=6;spacingTop=4;" value="&lt;b style=&quot;font-size:14px&quot;&gt;TODO (mangler i koden)&lt;/b&gt;&lt;br&gt;GET /tasks returnerer kun &lt;b&gt;OPEN&lt;/b&gt; Tasks. En nyoprettet &lt;b&gt;DRAFT&lt;/b&gt; er derfor ikke i listen, så &quot;Mine Opgaver&quot; + filter DRAFT virker ikke endnu.&lt;br&gt;Mangler: et endpoint/filter der giver Posterens egne Tasks inkl. DRAFT (fx GET /tasks/mine eller ?status=DRAFT)." vertex="1">
-                    <mxGeometry height="98" width="520" x="730" y="109" as="geometry"/>
                 </mxCell>
                 <mxCell id="dWvZkljNFu7pJpmbldu2-88" edge="1" parent="e8sUGSWUJiPacB1mvjwD-1" style="html=1;edgeStyle=orthogonalEdgeStyle;elbow=vertical;rounded=0;endArrow=block;endFill=1;" value="">
                     <mxGeometry relative="1" x="-0.0164" as="geometry">
