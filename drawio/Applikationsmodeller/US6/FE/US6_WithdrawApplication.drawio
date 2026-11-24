@@ -1,0 +1,395 @@
+<mxfile host="65bd71144e">
+    <diagram id="c-fe-us6" name="1 - konceptuelt sekvens">
+        <mxGraphModel dx="1998" dy="1507" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="c2" parent="1" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=0;strokeColor=none;fillColor=none;" value="&lt;font style=&quot;font-size: 32px;&quot;&gt;Konceptuelt sekvensdiagram – Client CPU (FE)&lt;/font&gt;" vertex="1">
+                    <mxGeometry height="50" width="1400" x="40" y="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="c34" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;fillColor=#f8cecc;strokeColor=#b85450;" value="" vertex="1">
+                    <mxGeometry height="1134" width="20" x="110" y="330" as="geometry"/>
+                </mxCell>
+                <mxCell id="c35" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=0;strokeColor=none;fillColor=none;" value="&lt;b&gt;Peer&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="30" width="120" x="60" y="296" as="geometry"/>
+                </mxCell>
+                <mxCell id="c36" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=11;size=40;" value=": Client" vertex="1">
+                    <mxGeometry height="1164" width="150" x="365" y="300" as="geometry"/>
+                </mxCell>
+                <mxCell id="c37" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=11;size=40;" value=": Server" vertex="1">
+                    <mxGeometry height="1164" width="150" x="825" y="300" as="geometry"/>
+                </mxCell>
+                <mxCell id="c38" parent="1" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="" vertex="1">
+                    <mxGeometry height="1042" width="10" x="435" y="386" as="geometry"/>
+                </mxCell>
+                <mxCell id="c39" parent="1" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="" vertex="1">
+                    <mxGeometry height="714" width="10" x="895" y="661" as="geometry"/>
+                </mxCell>
+                <mxCell id="c3" edge="1" parent="1" style="html=1;verticalAlign=bottom;elbow=vertical;curved=0;rounded=0;endArrow=open;endSize=6;endFill=0;fontSize=11;labelBackgroundColor=default;" value="Trykker på &quot;Træk anmodning tilbage&quot; (PENDING)&lt;br&gt;eller &quot;Forlad opgave&quot; (ACCEPTED)">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="125" y="400" as="sourcePoint"/>
+                        <mxPoint x="435" y="400" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="c4" parent="1" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=0;strokeColor=none;fillColor=none;fontSize=11;labelBackgroundColor=default;" value="Vis bekræftelsesdialog (advarsel: Peeren kan ikke ansøge til opgaven igen)" vertex="1">
+                    <mxGeometry height="22" width="467" x="454" y="451" as="geometry"/>
+                </mxCell>
+                <mxCell id="c5" edge="1" parent="1" style="html=1;verticalAlign=bottom;elbow=vertical;curved=0;rounded=0;endArrow=open;endSize=6;endFill=0;fontSize=11;labelBackgroundColor=default;" value="Trykker på &quot;Annuller&quot;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="125" y="540" as="sourcePoint"/>
+                        <mxPoint x="435" y="540" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="c6" parent="1" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=0;strokeColor=none;fillColor=none;fontSize=11;labelBackgroundColor=default;" value="Luk dialog – ingen forespørgsel sendes" vertex="1">
+                    <mxGeometry height="22" width="247" x="454" y="574" as="geometry"/>
+                </mxCell>
+                <mxCell id="c7" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fillColor=none;width=50;height=19;" value="&lt;b&gt;opt&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="124" width="415" x="70" y="480" as="geometry"/>
+                </mxCell>
+                <mxCell id="c8" parent="1" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=0;strokeColor=none;fillColor=none;fontSize=11;labelBackgroundColor=default;" value="[Peer annullerer]" vertex="1">
+                    <mxGeometry height="20" width="119" x="74" y="501" as="geometry"/>
+                </mxCell>
+                <mxCell id="c9" edge="1" parent="1" style="html=1;verticalAlign=bottom;elbow=vertical;curved=0;rounded=0;endArrow=open;endSize=6;endFill=0;fontSize=11;labelBackgroundColor=default;" value="Bekræfter i dialogen">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="125" y="630" as="sourcePoint"/>
+                        <mxPoint x="435" y="630" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="c10" edge="1" parent="1" style="html=1;verticalAlign=bottom;elbow=vertical;curved=0;rounded=0;endArrow=block;endSize=6;endFill=1;fontSize=11;labelBackgroundColor=default;" value="Sender tilbagetrækning (DELETE /tasks/{taskId}/applications/{id})">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="445" y="675" as="sourcePoint"/>
+                        <mxPoint x="895" y="675" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="c11" edge="1" parent="1" style="html=1;verticalAlign=bottom;elbow=vertical;rounded=0;endArrow=open;endFill=0;dashed=1;fontSize=11;labelBackgroundColor=default;" value="Returnér 401">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="895" y="764" as="sourcePoint"/>
+                        <mxPoint x="445" y="764" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="c12" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fillColor=none;width=50;height=19;" value="&lt;b&gt;ext&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="84" width="555" x="390" y="704" as="geometry"/>
+                </mxCell>
+                <mxCell id="c13" parent="1" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=0;strokeColor=none;fillColor=none;fontSize=11;labelBackgroundColor=default;" value="[Bruger er ikke logget ind]" vertex="1">
+                    <mxGeometry height="20" width="180" x="394" y="725" as="geometry"/>
+                </mxCell>
+                <mxCell id="c14" edge="1" parent="1" style="html=1;verticalAlign=bottom;elbow=vertical;rounded=0;endArrow=open;endFill=0;dashed=1;fontSize=11;labelBackgroundColor=default;" value="Returnér 403">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="895" y="858" as="sourcePoint"/>
+                        <mxPoint x="445" y="858" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="c15" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fillColor=none;width=50;height=19;" value="&lt;b&gt;ext&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="84" width="555" x="390" y="798" as="geometry"/>
+                </mxCell>
+                <mxCell id="c16" parent="1" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=0;strokeColor=none;fillColor=none;fontSize=11;labelBackgroundColor=default;" value="[Bruger er ikke Peer]" vertex="1">
+                    <mxGeometry height="20" width="144" x="394" y="819" as="geometry"/>
+                </mxCell>
+                <mxCell id="c17" edge="1" parent="1" style="html=1;verticalAlign=bottom;elbow=vertical;rounded=0;endArrow=open;endFill=0;dashed=1;fontSize=11;labelBackgroundColor=default;" value="Returnér 404">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="895" y="952" as="sourcePoint"/>
+                        <mxPoint x="445" y="952" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="c18" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fillColor=none;width=50;height=19;" value="&lt;b&gt;ext&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="84" width="555" x="390" y="892" as="geometry"/>
+                </mxCell>
+                <mxCell id="c19" parent="1" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=0;strokeColor=none;fillColor=none;fontSize=11;labelBackgroundColor=default;" value="[Application findes ikke eller tilhører en anden]" vertex="1">
+                    <mxGeometry height="20" width="314" x="394" y="913" as="geometry"/>
+                </mxCell>
+                <mxCell id="c20" edge="1" parent="1" style="html=1;verticalAlign=bottom;elbow=vertical;rounded=0;endArrow=open;endFill=0;dashed=1;fontSize=11;labelBackgroundColor=default;" value="Returnér 409">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="895" y="1046" as="sourcePoint"/>
+                        <mxPoint x="445" y="1046" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="c21" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fillColor=none;width=50;height=19;" value="&lt;b&gt;ext&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="84" width="555" x="390" y="986" as="geometry"/>
+                </mxCell>
+                <mxCell id="c22" parent="1" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=0;strokeColor=none;fillColor=none;fontSize=11;labelBackgroundColor=default;" value="[Task er DRAFT, COMPLETED eller CANCELLED]" vertex="1">
+                    <mxGeometry height="20" width="272" x="394" y="1007" as="geometry"/>
+                </mxCell>
+                <mxCell id="c23" edge="1" parent="1" style="html=1;verticalAlign=bottom;elbow=vertical;rounded=0;endArrow=open;endFill=0;dashed=1;fontSize=11;labelBackgroundColor=default;" value="Returnér 409">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="895" y="1140" as="sourcePoint"/>
+                        <mxPoint x="445" y="1140" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="c24" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fillColor=none;width=50;height=19;" value="&lt;b&gt;ext&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="84" width="555" x="390" y="1080" as="geometry"/>
+                </mxCell>
+                <mxCell id="c25" parent="1" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=0;strokeColor=none;fillColor=none;fontSize=11;labelBackgroundColor=default;" value="[Application er allerede REJECTED eller WITHDRAWN]" vertex="1">
+                    <mxGeometry height="20" width="321" x="394" y="1101" as="geometry"/>
+                </mxCell>
+                <mxCell id="c26" edge="1" parent="1" style="html=1;verticalAlign=bottom;elbow=vertical;rounded=0;endArrow=open;endFill=0;dashed=1;fontSize=11;labelBackgroundColor=default;" value="Returnér 204">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="895" y="1190" as="sourcePoint"/>
+                        <mxPoint x="445" y="1190" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="c27" parent="1" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=0;strokeColor=none;fillColor=none;fontSize=11;labelBackgroundColor=default;" value="Luk dialog og vis fejlbesked (tekst efter status)" vertex="1">
+                    <mxGeometry height="22" width="314" x="454" y="1268" as="geometry"/>
+                </mxCell>
+                <mxCell id="c28" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fillColor=none;width=50;height=19;" value="&lt;b&gt;ext&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="73" width="520" x="390" y="1219" as="geometry"/>
+                </mxCell>
+                <mxCell id="c29" parent="1" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=0;strokeColor=none;fillColor=none;fontSize=11;labelBackgroundColor=default;" value="[Svaret er en fejl (401, 403, 404 eller 409)]" vertex="1">
+                    <mxGeometry height="20" width="290" x="394" y="1240" as="geometry"/>
+                </mxCell>
+                <mxCell id="c30" parent="1" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=0;strokeColor=none;fillColor=none;fontSize=11;labelBackgroundColor=default;" value="Luk dialog og vis &quot;Din anmodning er trukket tilbage&quot; / &quot;Du har forladt opgaven&quot;" vertex="1">
+                    <mxGeometry height="22" width="497" x="454" y="1307" as="geometry"/>
+                </mxCell>
+                <mxCell id="c31" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fillColor=none;width=50;height=19;" value="&lt;b&gt;ref&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="50" width="555" x="390" y="1336" as="geometry"/>
+                </mxCell>
+                <mxCell id="c32" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=0;strokeColor=none;fillColor=none;fontSize=11;" value="Genindlæs Task og egne Applications (GET /tasks/{id}, GET /applications/mine) – se sd US-5" vertex="1">
+                    <mxGeometry height="38" width="495" x="444" y="1342" as="geometry"/>
+                </mxCell>
+                <mxCell id="c33" parent="1" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=0;strokeColor=none;fillColor=none;fontSize=11;labelBackgroundColor=default;" value="Vis Task details: &quot;Du har trukket din anmodning tilbage...&quot;; &quot;Træk tilbage&quot; og &quot;Tilbyd hjælp&quot; skjules" vertex="1">
+                    <mxGeometry height="22" width="632" x="454" y="1403" as="geometry"/>
+                </mxCell>
+                <mxCell id="c40" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=240;height=30;" value="&lt;b&gt;sd US-6:&lt;/b&gt; Withdraw Application" vertex="1">
+                    <mxGeometry height="1240" width="1075" y="244" as="geometry"/>
+                </mxCell>
+                <mxCell id="c41" parent="1" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=0;strokeColor=none;fillColor=none;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;[PRE]: Systemet er startet, Peer er logget ind og står på Task details for en Task, Peeren har ansøgt til (Application er PENDING eller ACCEPTED)&lt;/font&gt;" vertex="1">
+                    <mxGeometry height="36" width="1800" x="10" y="196" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="fe-us6-p2" name="2 - klasser">
+        <mxGraphModel dx="1199" dy="904" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="c2" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=330;height=20;align=left;" value="&lt;b&gt;cd US-6-C: &lt;/b&gt;Withdraw Application" vertex="1">
+                    <mxGeometry height="350" width="1140" x="20" y="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="c3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;View&amp;gt;&amp;gt;&lt;/i&gt;&lt;/span&gt;&lt;div&gt;TaskDetailsComponent&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="50" width="260" x="40" y="85" as="geometry"/>
+                </mxCell>
+                <mxCell id="c4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;View&amp;gt;&amp;gt;&lt;/i&gt;&lt;/span&gt;&lt;div&gt;DialogComponent&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="50" width="260" x="320" y="85" as="geometry"/>
+                </mxCell>
+                <mxCell id="c5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;View&amp;gt;&amp;gt;&lt;/i&gt;&lt;/span&gt;&lt;div&gt;ButtonComponent&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="50" width="260" x="600" y="85" as="geometry"/>
+                </mxCell>
+                <mxCell id="c6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;View&amp;gt;&amp;gt;&lt;/i&gt;&lt;/span&gt;&lt;div&gt;AlertComponent&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="50" width="260" x="880" y="85" as="geometry"/>
+                </mxCell>
+                <mxCell id="c7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;ApiService&amp;gt;&amp;gt;&lt;/i&gt;&lt;/span&gt;&lt;div&gt;ApplicationsApiService&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="50" width="260" x="40" y="165" as="geometry"/>
+                </mxCell>
+                <mxCell id="c8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;ApiService&amp;gt;&amp;gt;&lt;/i&gt;&lt;/span&gt;&lt;div&gt;TasksApiService&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="50" width="260" x="320" y="165" as="geometry"/>
+                </mxCell>
+                <mxCell id="c9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interceptor&amp;gt;&amp;gt;&lt;/i&gt;&lt;/span&gt;&lt;div&gt;authInterceptor&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="50" width="260" x="600" y="165" as="geometry"/>
+                </mxCell>
+                <mxCell id="c10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Mapper&amp;gt;&amp;gt;&lt;/i&gt;&lt;/span&gt;&lt;div&gt;task.mapper (toParticipationStatus)&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="50" width="260" x="40" y="245" as="geometry"/>
+                </mxCell>
+                <mxCell id="c11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Function&amp;gt;&amp;gt;&lt;/i&gt;&lt;/span&gt;&lt;div&gt;taskErrorMessage&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="50" width="260" x="320" y="245" as="geometry"/>
+                </mxCell>
+                <mxCell id="c12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;DTO&amp;gt;&amp;gt;&lt;/i&gt;&lt;/span&gt;&lt;div&gt;TaskApplicationResponse&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="50" width="260" x="40" y="325" as="geometry"/>
+                </mxCell>
+                <mxCell id="c13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;DTO&amp;gt;&amp;gt;&lt;/i&gt;&lt;/span&gt;&lt;div&gt;TaskResponse&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="50" width="260" x="320" y="325" as="geometry"/>
+                </mxCell>
+                <mxCell id="c14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Model&amp;gt;&amp;gt;&lt;/i&gt;&lt;/span&gt;&lt;div&gt;ParticipationStatus&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="50" width="260" x="600" y="325" as="geometry"/>
+                </mxCell>
+                <mxCell id="c15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Model&amp;gt;&amp;gt;&lt;/i&gt;&lt;/span&gt;&lt;div&gt;ApplicationStatus&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="50" width="260" x="880" y="325" as="geometry"/>
+                </mxCell>
+                <mxCell id="c16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;verticalAlign=top;spacingLeft=6;spacingTop=4;" value="Withdraw er ny i Client: knappen ligger på Task details, vises kun for en Peer med en PENDING eller ACCEPTED Application, og kræver bekræftelse i en dialog." vertex="1">
+                    <mxGeometry height="64" width="1140" x="20" y="410" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="fe-us6-p3" name="3 - sekvens m. klasser">
+        <mxGraphModel dx="2032" dy="1532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="c29" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;fillColor=#f8cecc;strokeColor=#b85450;" value="" vertex="1">
+                    <mxGeometry height="1176" width="20" x="100" y="215" as="geometry"/>
+                </mxCell>
+                <mxCell id="c30" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=0;strokeColor=none;fillColor=none;" value="&lt;b&gt;Peer&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="30" width="120" x="50" y="181" as="geometry"/>
+                </mxCell>
+                <mxCell id="c31" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=11;size=50;" value="&amp;lt;&amp;lt;View&amp;gt;&amp;gt;&lt;br&gt;: TaskDetailsComponent" vertex="1">
+                    <mxGeometry height="1206" width="230" x="285" y="185" as="geometry"/>
+                </mxCell>
+                <mxCell id="c32" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=11;size=62;" value="&amp;lt;&amp;lt;View&amp;gt;&amp;gt;&lt;br&gt;: DialogComponent&lt;br&gt;(bekræft tilbagetrækning)" vertex="1">
+                    <mxGeometry height="1206" width="230" x="585" y="185" as="geometry"/>
+                </mxCell>
+                <mxCell id="c33" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=11;size=50;" value="&amp;lt;&amp;lt;ApiService&amp;gt;&amp;gt;&lt;br&gt;: ApplicationsApiService" vertex="1">
+                    <mxGeometry height="1206" width="240" x="880" y="185" as="geometry"/>
+                </mxCell>
+                <mxCell id="c34" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=11;size=50;" value="&amp;lt;&amp;lt;ApiService&amp;gt;&amp;gt;&lt;br&gt;: TasksApiService" vertex="1">
+                    <mxGeometry height="1206" width="210" x="1185" y="185" as="geometry"/>
+                </mxCell>
+                <mxCell id="c35" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=11;size=50;" value="&amp;lt;&amp;lt;Mapper&amp;gt;&amp;gt;&lt;br&gt;: task.mapper" vertex="1">
+                    <mxGeometry height="1206" width="170" x="1455" y="185" as="geometry"/>
+                </mxCell>
+                <mxCell id="c36" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=11;size=62;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&amp;lt;&amp;lt;Boundary&amp;gt;&amp;gt;&lt;br&gt;: Server&lt;br&gt;(Echo API)" vertex="1">
+                    <mxGeometry height="1206" width="200" x="1700" y="185" as="geometry"/>
+                </mxCell>
+                <mxCell id="c37" parent="1" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="" vertex="1">
+                    <mxGeometry height="1039" width="10" x="395" y="316" as="geometry"/>
+                </mxCell>
+                <mxCell id="c38" parent="1" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="" vertex="1">
+                    <mxGeometry height="263" width="10" x="695" y="468" as="geometry"/>
+                </mxCell>
+                <mxCell id="c39" parent="1" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="" vertex="1">
+                    <mxGeometry height="336" width="10" x="995" y="782" as="geometry"/>
+                </mxCell>
+                <mxCell id="c40" parent="1" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="" vertex="1">
+                    <mxGeometry height="385" width="10" x="1795" y="827" as="geometry"/>
+                </mxCell>
+                <mxCell id="c41" parent="1" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="" vertex="1">
+                    <mxGeometry height="73" width="10" x="1535" y="1237" as="geometry"/>
+                </mxCell>
+                <mxCell id="c2" parent="1" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=0;strokeColor=none;fillColor=none;fontSize=11;labelBackgroundColor=default;" value="Forudsætning: loadParticipation() har sat myApplication og participation (&quot;requested&quot; eller &quot;accepted&quot;)" vertex="1">
+                    <mxGeometry height="22" width="644" x="414" y="319" as="geometry"/>
+                </mxCell>
+                <mxCell id="c3" parent="1" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=0;strokeColor=none;fillColor=none;fontSize=11;labelBackgroundColor=default;" value="canWithdraw() = isPeer &amp;amp;&amp;amp; !isPoster &amp;amp;&amp;amp; participation er &quot;requested&quot; eller &quot;accepted&quot;" vertex="1">
+                    <mxGeometry height="22" width="528" x="414" y="353" as="geometry"/>
+                </mxCell>
+                <mxCell id="c4" edge="1" parent="1" style="html=1;verticalAlign=bottom;elbow=vertical;curved=0;rounded=0;endArrow=open;endSize=6;endFill=0;fontSize=11;labelBackgroundColor=default;" value="Trykker på &quot;Træk anmodning tilbage&quot; (requested) eller &quot;Forlad opgave&quot; (accepted)">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="115" y="398" as="sourcePoint"/>
+                        <mxPoint x="395" y="398" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="c5" parent="1" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=0;strokeColor=none;fillColor=none;fontSize=11;labelBackgroundColor=default;" value="withdrawDialogOpen.set(true)" vertex="1">
+                    <mxGeometry height="22" width="186" x="414" y="437" as="geometry"/>
+                </mxCell>
+                <mxCell id="c6" edge="1" parent="1" style="html=1;verticalAlign=bottom;elbow=vertical;curved=0;rounded=0;endArrow=block;endSize=6;endFill=1;fontSize=11;labelBackgroundColor=default;" value="[(open)] = true; withdrawLabel(), withdrawWarning()">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="405" y="482" as="sourcePoint"/>
+                        <mxPoint x="695" y="482" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="c7" edge="1" parent="1" style="html=1;verticalAlign=bottom;elbow=vertical;curved=0;rounded=0;endArrow=open;endSize=6;endFill=0;fontSize=11;labelBackgroundColor=default;" value="Trykker på &quot;Annuller&quot;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="115" y="571" as="sourcePoint"/>
+                        <mxPoint x="695" y="571" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="c8" edge="1" parent="1" style="html=1;verticalAlign=bottom;elbow=vertical;curved=0;rounded=0;endArrow=block;endSize=6;endFill=1;fontSize=11;labelBackgroundColor=default;" value="withdrawDialogOpen.set(false) (ingen forespørgsel)">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="695" y="616" as="sourcePoint"/>
+                        <mxPoint x="405" y="616" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="c9" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fillColor=none;width=50;height=19;" value="&lt;b&gt;opt&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="135" width="685" x="60" y="511" as="geometry"/>
+                </mxCell>
+                <mxCell id="c10" parent="1" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=0;strokeColor=none;fillColor=none;fontSize=11;labelBackgroundColor=default;" value="[Peer annullerer]" vertex="1">
+                    <mxGeometry height="20" width="119" x="64" y="532" as="geometry"/>
+                </mxCell>
+                <mxCell id="c11" edge="1" parent="1" style="html=1;verticalAlign=bottom;elbow=vertical;curved=0;rounded=0;endArrow=open;endSize=6;endFill=0;fontSize=11;labelBackgroundColor=default;" value="Trykker på bekræftelsesknappen">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="115" y="672" as="sourcePoint"/>
+                        <mxPoint x="695" y="672" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="c12" edge="1" parent="1" style="html=1;verticalAlign=bottom;elbow=vertical;curved=0;rounded=0;endArrow=block;endSize=6;endFill=1;fontSize=11;labelBackgroundColor=default;" value="(clicked) =&amp;gt; confirmWithdraw()">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="695" y="717" as="sourcePoint"/>
+                        <mxPoint x="405" y="717" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="c13" parent="1" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=0;strokeColor=none;fillColor=none;fontSize=11;labelBackgroundColor=default;" value="withdrawing.set(true); applyError.set(&quot;&quot;); actionSuccess.set(&quot;&quot;)" vertex="1">
+                    <mxGeometry height="22" width="406" x="414" y="751" as="geometry"/>
+                </mxCell>
+                <mxCell id="c14" edge="1" parent="1" style="html=1;verticalAlign=bottom;elbow=vertical;curved=0;rounded=0;endArrow=block;endSize=6;endFill=1;fontSize=11;labelBackgroundColor=default;" value="withdrawApplication(taskId, myApplication().id)">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="405" y="796" as="sourcePoint"/>
+                        <mxPoint x="995" y="796" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="c15" edge="1" parent="1" style="html=1;verticalAlign=bottom;elbow=vertical;curved=0;rounded=0;endArrow=block;endSize=6;endFill=1;fontSize=11;labelBackgroundColor=default;" value="DELETE /tasks/{taskId}/applications/{id} (+ Bearer-token via authInterceptor)">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1005" y="841" as="sourcePoint"/>
+                        <mxPoint x="1795" y="841" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="c16" edge="1" parent="1" style="html=1;verticalAlign=bottom;elbow=vertical;rounded=0;endArrow=open;endFill=0;dashed=1;fontSize=11;labelBackgroundColor=default;" value="401 / 403 / 404 / 409">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1795" y="930" as="sourcePoint"/>
+                        <mxPoint x="1005" y="930" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="c17" edge="1" parent="1" style="html=1;verticalAlign=bottom;elbow=vertical;rounded=0;endArrow=open;endFill=0;dashed=1;fontSize=11;labelBackgroundColor=default;" value="error">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="995" y="975" as="sourcePoint"/>
+                        <mxPoint x="405" y="975" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="c18" parent="1" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=0;strokeColor=none;fillColor=none;fontSize=11;labelBackgroundColor=default;" value="withdrawing.set(false); withdrawDialogOpen.set(false); applyError.set(taskErrorMessage(error, fallback, { 404, 409 }))" vertex="1">
+                    <mxGeometry height="22" width="735" x="414" y="1009" as="geometry"/>
+                </mxCell>
+                <mxCell id="c19" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fillColor=none;width=50;height=19;" value="&lt;b&gt;ext&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="163" width="1495" x="350" y="870" as="geometry"/>
+                </mxCell>
+                <mxCell id="c20" parent="1" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=0;strokeColor=none;fillColor=none;fontSize=11;labelBackgroundColor=default;" value="[Svaret er en fejl (401, 403, 404 eller 409)]" vertex="1">
+                    <mxGeometry height="20" width="290" x="354" y="891" as="geometry"/>
+                </mxCell>
+                <mxCell id="c21" edge="1" parent="1" style="html=1;verticalAlign=bottom;elbow=vertical;rounded=0;endArrow=open;endFill=0;dashed=1;fontSize=11;labelBackgroundColor=default;" value="204 NoContent">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1795" y="1059" as="sourcePoint"/>
+                        <mxPoint x="1005" y="1059" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="c22" edge="1" parent="1" style="html=1;verticalAlign=bottom;elbow=vertical;rounded=0;endArrow=open;endFill=0;dashed=1;fontSize=11;labelBackgroundColor=default;" value="next (Observable&amp;lt;void&amp;gt;)">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="995" y="1104" as="sourcePoint"/>
+                        <mxPoint x="405" y="1104" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="c23" parent="1" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=0;strokeColor=none;fillColor=none;fontSize=11;labelBackgroundColor=default;" value="withdrawing.set(false); withdrawDialogOpen.set(false); actionSuccess.set(&quot;Din anmodning er trukket tilbage&quot; / &quot;Du har forladt opgaven&quot;); loadTask()" vertex="1">
+                    <mxGeometry height="22" width="912" x="414" y="1138" as="geometry"/>
+                </mxCell>
+                <mxCell id="c24" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fillColor=none;width=50;height=19;" value="&lt;b&gt;ref&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="50" width="1495" x="350" y="1173" as="geometry"/>
+                </mxCell>
+                <mxCell id="c25" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=0;strokeColor=none;fillColor=none;fontSize=11;" value="loadTask(): getTask(id) =&amp;gt; GET /tasks/{id}; loadParticipation(): getMyApplications() =&amp;gt; GET /applications/mine – se sd US-5, Trin 2" vertex="1">
+                    <mxGeometry height="38" width="1435" x="404" y="1179" as="geometry"/>
+                </mxCell>
+                <mxCell id="c26" edge="1" parent="1" style="html=1;verticalAlign=bottom;elbow=vertical;curved=0;rounded=0;endArrow=block;endSize=6;endFill=1;fontSize=11;labelBackgroundColor=default;" value="toParticipationStatus(application)">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="405" y="1251" as="sourcePoint"/>
+                        <mxPoint x="1535" y="1251" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="c27" edge="1" parent="1" style="html=1;verticalAlign=bottom;elbow=vertical;rounded=0;endArrow=open;endFill=0;dashed=1;fontSize=11;labelBackgroundColor=default;" value="ParticipationStatus &quot;withdrawn&quot;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1535" y="1296" as="sourcePoint"/>
+                        <mxPoint x="405" y="1296" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="c28" parent="1" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=0;strokeColor=none;fillColor=none;fontSize=11;labelBackgroundColor=default;" value="participation.set(&quot;withdrawn&quot;) =&amp;gt; alert &quot;Du har trukket din anmodning tilbage...&quot;; canWithdraw() og canOfferHelp() er false" vertex="1">
+                    <mxGeometry height="22" width="766" x="414" y="1330" as="geometry"/>
+                </mxCell>
+                <mxCell id="c42" parent="1" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=0;strokeColor=none;fillColor=none;" value="&lt;font style=&quot;font-size: 32px;&quot;&gt;Sekvensdiagram m. klasser (Client CPU)&lt;/font&gt;" vertex="1">
+                    <mxGeometry height="50" width="1200" x="40" y="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="c43" parent="1" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=0;strokeColor=none;fillColor=none;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;[PRE]: Systemet er startet, Peer er logget ind og står på Task details for en Task, Peeren har ansøgt til&lt;/font&gt;" vertex="1">
+                    <mxGeometry height="36" width="1600" x="40" y="78" as="geometry"/>
+                </mxCell>
+                <mxCell id="c44" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=240;height=30;" value="&lt;b&gt;sd US-6:&lt;/b&gt; Withdraw Application" vertex="1">
+                    <mxGeometry height="1281" width="1950" x="40" y="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="c45" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;verticalAlign=top;spacingLeft=6;spacingTop=4;" value="Bemærk: Server er en ekstern deltager her (se BE-diagrammerne). Tilbagetrækning findes kun på Task details (ikke fra &quot;Mine bidrag&quot;). Efter tilbagetrækning kan Peeren ikke ansøge igen, så dialogen advarer først." vertex="1">
+                    <mxGeometry height="56" width="900" x="40" y="1451" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
